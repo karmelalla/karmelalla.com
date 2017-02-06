@@ -3,13 +3,14 @@ layout: page
 title: About
 permalink: /about/
 ---
+Этот блог появился в первую очередь для меня самой. Как практика - помнить и осознавать себя, каждый бесценный день своей жизни. 
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Во-вторых, для родных. Чтобы они могли лучше следить за происходящим. Хоть немного прочувствовать наши впечатления и переживания. 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+Ну и конечно, для друзей и всех тех, кому будет интересно следить за нашими сказочными приключениями. 
+Пожалуйста, не судите строго. Это всего лишь мои заметки. Если вам понравится - я буду рада. 
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Читайте с удовольствием.
+ 
+ 
+
