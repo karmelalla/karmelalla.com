@@ -17,7 +17,3 @@ categories: jekyll update
 
 ![Pier and seugull](https://cnt-01.content-na.drive.amazonaws.com/cdproxy/templink/W0i-QvhTJk7qVhPGSlntfPhedh1Rgzp9veE5N8m1GVEpX92IB?viewBox=2880%2C2160)
  
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

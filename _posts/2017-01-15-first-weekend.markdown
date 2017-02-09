@@ -31,6 +31,8 @@ categories: jekyll update
 
 ![embarcaderro foggy](https://cnt-00.content-na.drive.amazonaws.com/cdproxy/templink/D0eS8-9VuiFwKw3UaXTgFWzaKuI6yTr79XmPtXyxJhApX92IB?viewBox=2880%2C1740)
 
+![embarcaderro](https://content-na.drive.amazonaws.com/cdproxy/templink/iYho8UCAE5UB2tKEnesxQFVKYpW7IDYGq-5OUztVCEwpX92IB?viewBox=2880%2C1920)
+
 ![buena vista view](https://cnt-00.content-na.drive.amazonaws.com/cdproxy/templink/DzLHMqu4m3JSLGUkoVPNkHDfoInwXHx40Qp4FOd3Io8pX92IB?viewBox=2880%2C2160)
 
 ![Transamerica in fog](https://content-na.drive.amazonaws.com/cdproxy/templink/PTsq7VZMEcK3Of01VC6pTmS2nF_QsOgiF9GxaFaEduUpX92IB?viewBox=4928%2C1464)
@@ -42,7 +44,4 @@ categories: jekyll update
 ![lighthouse](https://cnt-01.content-na.drive.amazonaws.com/cdproxy/templink/mlviwW0XY_EEoD1idzb5zMiNCiVDfk1wvirBT2tgQMQpX92IB?viewBox=2880%2C3840)
 
 
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+ 
