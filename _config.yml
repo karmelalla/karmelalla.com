@@ -32,4 +32,4 @@ exclude:
   - Gemfile.lock
 excerpt_separator: "<!--separate-->"
 disqus:
-  shortname: lostdream
+  shortname: lostdream-ru
