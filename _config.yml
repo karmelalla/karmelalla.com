@@ -31,3 +31,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
 excerpt_separator: "<!--separate-->"
+disqus:
+  shortname: lostdream
