@@ -33,4 +33,4 @@ exclude:
 excerpt_separator: "<!--separate-->"
 disqus:
   shortname: lostdream-ru
-domain: "http://lostdream.ru"
+domain: "http://www.lostdream.ru"
