@@ -17,5 +17,6 @@ comments: true
 
 
 
-![Pier and seugull](https://cnt-01.content-na.drive.amazonaws.com/cdproxy/templink/W0i-QvhTJk7qVhPGSlntfPhedh1Rgzp9veE5N8m1GVEpX92IB?viewBox=2880%2C2160)
+!["Pier and Seagul"](/assets/images/posts/2017-01-13-first-day-in-California/seagull-on-a-pier.jpeg)
+
  
