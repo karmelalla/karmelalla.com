@@ -16,9 +16,4 @@ layout: default
   {% endif %}
 </article>
 
-{% assign image_folder = page.path | replace_first: '_', '/assets/images/' | replace_first: '.markdown', '/' %}
-{% for image in page.images %}
-  <a href="{{image_folder}}{{image}}" class="fancybox" rel="gallery">
-    <img src="{{image_folder}}small-{{image}}" style="margin: 15px;" />
-  </a>
-{% endfor %}
+{% include gallery.html %}
