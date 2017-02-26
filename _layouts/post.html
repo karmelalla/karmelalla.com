@@ -10,10 +10,12 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
+ 
+  {% include gallery.html %}
+ 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
 </article>
 
-{% include gallery.html %}
+
