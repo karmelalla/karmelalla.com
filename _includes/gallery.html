@@ -1,0 +1,6 @@
+{% assign image_folder = page.path | replace_first: '_', '/assets/images/' | replace: '.markdown', '/' %}
+{% for image in page.images %}
+  <a href="{{image_folder}}{{image}}" class="fancybox" rel="gallery">
+    <img src="{{image_folder}}{{image | replace: '.', '-small.'}}" style="margin: 15px;" />
+  </a>
+{% endfor %}
