@@ -5,8 +5,11 @@ date:   2017-01-15 21:25:24 -0800
 categories: jekyll update
 comments: true
 images:
+  - bakers-beach-us.jpeg
+  - buena-vista.jpeg
+  - sunset-ocean-beach.jpeg
   - serfing-ocean-beach.jpeg
-  - walking-at-beale.jpeg
+  - light-house-ocean-beach.jpeg
 ---
 Итак, выходные прошли прекрасно. Можно сказать, что есть полное ощущение отпуска. И только иногда вспоминаешь, что не нужно торопиться. Что во все эти места можно еще будет вернуться столько раз, сколько захочется. И что билета обратно нет.
 
@@ -39,15 +42,6 @@ images:
 После уютного и домашнего завтрака в Crossroads, мы решили не задерживаться и направились прямиком к Ocean beach, чтобы продолжить наше вчерашнее приключение. Да, за воскресенье мы не обошли такое уж огромное количество мест, но это был очень душевный, спокойныи и одновременно удивительный день. Мы прошли пешком от самого большого пляжа в городе до другого, пляжа с прекрасным видом на мост  Golden Gate - Bakers beach. Мы прошли через развалины старых бань, Cliff house, парк Lands End. И все это сопровождалось звуками волн, пением птиц и ярко светящим  солнцем.
 Пикник с закатом на  Baker beach прекрасно закончил наши первые выходные в этом прекрасном, но еще немного чужом для нас городе.
 
-![on Baker beach](/assets/images/posts/2017-01-15-first-weekend/bakers-beach-us.jpeg)
-
-![buena vista view](/assets/images/posts/2017-01-15-first-weekend/buena-vista.jpeg)
-
-![sunset at Ocean beach](/assets/images/posts/2017-01-15-first-weekend/sunset-ocean-beach.jpeg)
-
-![serfing](/assets/images/posts/2017-01-15-first-weekend/serfing-ocean-beach.jpeg)
-
-![lighthouse](/assets/images/posts/2017-01-15-first-weekend/light-house-ocean-beach.jpeg)
 
 
 
