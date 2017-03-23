@@ -5,24 +5,25 @@ date:   2017-01-30 21:25:24 -0800
 categories: jekyll update
 comments: true
 images:
-  -IMG-8422.JPG
-  -IMG-8428.JPG
-  -IMG-8433.JPG
-  -IMG-8438.JPG
-  -IMG-8449.JPG
-  -IMG-8461.JPG
-  -IMG-8464.JPG
-  -IMG-8472.JPG
-  -IMG-8475.JPG
-  -IMG-8489.JPG
-  -IMG-8493.JPG
-  -IMG-8501.JPG
-  -IMG-8506.JPG
-  -IMG-8509.JPG
-  -IMG-8520.JPG
-  -IMG-8525.JPG
-  -IMG-8527.JPG
-  -IMG-8532.JPG
+  - IMG-8422.JPG
+  - IMG-8428.JPG
+  - IMG-8433.JPG
+  - IMG-8438.JPG
+  - IMG-8449.JPG
+  - IMG-8461.JPG
+  - IMG-8464.JPG
+  - IMG-8472.JPG
+  - IMG-8475.JPG
+  - IMG-8489.JPG
+  - IMG-8493.JPG
+  - IMG-8501.JPG
+  - IMG-8506.JPG
+  - IMG-8509.JPG
+  - IMG-8520.JPG
+  - IMG-8525.JPG
+  - IMG-8527.JPG
+  - IMG-8532.JPG
+  - IMG-8533.JPG
 ---
 
 Вы наверное хотите узнать, что за планы у нас такие были в пятницу. Так вот, теперь со спокойной душой могу рассказать. Мы подписали договор на аренду!  <!--separate--> 
