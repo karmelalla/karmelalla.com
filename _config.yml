@@ -35,4 +35,3 @@ disqus:
   shortname: lostdream-ru
 domain: "http://www.lostdream.ru"
 paginate: 10
-paginate_path: "/page:num"
