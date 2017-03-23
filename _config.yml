@@ -21,12 +21,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: karmelalla
 instagram_username: karmelalla
-
 # Build settings
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -34,3 +34,5 @@ excerpt_separator: "<!--separate-->"
 disqus:
   shortname: lostdream-ru
 domain: "http://www.lostdream.ru"
+paginate: 10
+paginate_path: "/page:num"
