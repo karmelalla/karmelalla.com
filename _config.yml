@@ -25,7 +25,6 @@ instagram_username: karmelalla
 markdown: kramdown
 theme: minima
 gems:
-  - jekyll-feed
   - jekyll-paginate
 exclude:
   - Gemfile
@@ -35,3 +34,4 @@ disqus:
   shortname: lostdream-ru
 domain: "http://www.lostdream.ru"
 paginate: 10
+image_width: 300 
