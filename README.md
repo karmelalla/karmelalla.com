@@ -20,5 +20,6 @@ Also you can change width in ```_config.yml``` in your project folder. By defaul
 ```
 ...
 image_width: 300 
+image_quality: 85
 ```
 

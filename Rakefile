@@ -3,29 +3,32 @@ require 'mini_magick'
 
 desc 'Resize images in post'
 task :resize, [:post, :width] do |_, args|
-  config_width = YAML.load_file('_config.yml')['image_width']
-  args.with_defaults(width: config_width || 300)
-
-  puts 'images:'
-  user_width = args[:width].to_i
+  config = YAML.load_file('_config.yml')
+  args.with_defaults(width: config['image_width'] || 300)
+  image_width = args[:width].to_i
+  image_quality = config['image_quality'] || 85
   folder = "assets/images/posts/#{args[:post]}"
   path = "#{folder}/*.{jpg,png,gif,jpeg,JPG,JPEG}"
+
+  puts "Processing images with width: #{image_width}px and quality: #{image_quality} \n\n"
+  puts 'images:'
+  
   Dir.glob(path) do |image_path|
     image_name = File.basename(image_path)
     next if image_name.include?('-small.')
     puts "  - #{image_name}"
 
     image = MiniMagick::Image.open(image_path)
-    image.quality(88)
+    image.quality(image_quality)
     image.write(image_path)
 
     image = MiniMagick::Image.open(image_path)
     ratio = image.width / image.height.to_f
     if image.width > image.height
-      height = (user_width / ratio).round
-      width = user_width
+      height = (image_width / ratio).round
+      width = image_width
     else
-      height = (user_width * ratio).round
+      height = (image_width * ratio).round
       width = (height * ratio).round
     end
     image.resize "#{width}x#{height}"
@@ -33,5 +36,5 @@ task :resize, [:post, :width] do |_, args|
     image.write("#{folder}/#{small_image_name}")
   end
 
-  puts "\nAll images in #{folder} were resized."
+  puts "\nAll images in folder \"#{folder}\" were resized."
 end
