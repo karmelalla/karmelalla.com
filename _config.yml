@@ -32,6 +32,6 @@ exclude:
 excerpt_separator: "<!--separate-->"
 disqus:
   shortname: lostdream-ru
-domain: "http://www.lostdream.ru"
+domain: "http://karmelalla.com"
 paginate: 10
 image_width: 300 
