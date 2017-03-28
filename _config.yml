@@ -25,7 +25,6 @@ instagram_username: karmelalla
 markdown: kramdown
 theme: minima
 gems:
-  - jekyll-feed
   - jekyll-paginate
 exclude:
   - Gemfile
