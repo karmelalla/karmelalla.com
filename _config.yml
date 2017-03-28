@@ -35,4 +35,4 @@ disqus:
   shortname: lostdream-ru
 domain: "http://www.lostdream.ru"
 paginate: 10
-image_width: 500 
+image_width: 300 
