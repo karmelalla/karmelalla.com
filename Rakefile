@@ -3,8 +3,8 @@ require 'mini_magick'
 
 desc 'Resize images in post'
 task :resize, [:post, :width] do |_, args|
-  config_with = YAML.load_file('_config.yml')['image_width']
-  args.with_defaults(width: config_with || 300)
+  config_width = YAML.load_file('_config.yml')['image_width']
+  args.with_defaults(width: config_width || 300)
 
   user_width = args[:width].to_i
   folder = "assets/images/posts/#{args[:post]}"
