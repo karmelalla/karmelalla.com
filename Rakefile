@@ -1,11 +1,13 @@
+require 'yaml'
 require 'mini_magick'
 
 desc 'Resize images in post'
 task :resize, [:post, :width] do |_, args|
-  args.with_defaults(width: 300)
+  config_with = YAML.load_file('_config.yml')['image_width']
+  args.with_defaults(width: config_with || 300)
 
   user_width = args[:width].to_i
-  folder = "#{Dir.pwd}/assets/images/posts/#{args[:post]}"
+  folder = "assets/images/posts/#{args[:post]}"
   path = "#{folder}/*.{jpg,png,gif,jpeg,JPG,JPEG}"
   Dir.glob(path) do |image_path|
     image_name = File.basename(image_path)
