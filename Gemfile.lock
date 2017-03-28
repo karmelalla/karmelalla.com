@@ -6,7 +6,7 @@ GEM
     colorator (1.1.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
-    jekyll (3.4.0)
+    jekyll (3.4.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -28,7 +28,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    mini_magick (4.6.1)
+    mini_magick (4.7.0)
     minima (2.1.0)
       jekyll (~> 3.3)
     pathutil (0.14.0)
@@ -46,10 +46,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 3.4.0)
+  jekyll
   jekyll-paginate
   mini_magick
-  minima (~> 2.0)
+  minima
   rake
   tzinfo-data
 
