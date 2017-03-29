@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Into the Woods, первый танец Дины и все новые впечатления"
-date:   2017-03-27 13:25:24 -0800
+date:   2017-03-28 13:25:24 -0800
 categories: jekyll update
 comments: true
 ---
