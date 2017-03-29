@@ -5,8 +5,9 @@ date:   2017-02-06 21:25:24 -0800
 categories: jekyll update
 comments: true
 images:
-  - serfing-ocean-beach.jpeg
-  - walking-at-beale.jpeg
+  - 2017-02-04_13-10-41_734.jpeg
+  - 2017-02-05_13-00-40_000.jpeg
+  - 2017-02-05_13-36-01_748.jpeg
 ---
 
 Хорошие были выходные.
