@@ -10,7 +10,7 @@ task :resize, [:post, :width] do |_, args|
   folder = "assets/images/posts/#{args[:post]}"
   path = "#{folder}/*.{jpg,png,gif,jpeg,JPG,JPEG}"
 
-  puts "Processing images with width: #{image_width}px and quality: #{image_quality} \n\n"
+  puts "Processing images with width: #{image_width}px and quality: #{image_quality}% \n\n"
   puts 'images:'
   
   Dir.glob(path) do |image_path|
@@ -38,3 +38,5 @@ task :resize, [:post, :width] do |_, args|
 
   puts "\nAll images in folder \"#{folder}\" were resized."
 end
+  validates_presence_of :name, :email, :subject, :body, :current_emotion
+  
