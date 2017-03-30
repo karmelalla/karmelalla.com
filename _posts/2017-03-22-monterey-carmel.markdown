@@ -5,8 +5,42 @@ date:   2017-03-21 21:25:24 -0800
 categories: jekyll update
 comments: true
 images:
-  - serfing-ocean-beach.jpeg
-  - walking-at-beale.jpeg
+  - IMG_9084.JPG
+  - IMG_9095.JPG
+  - IMG_9104.JPG
+  - IMG_9118.JPG
+  - IMG_9121.JPG
+  - IMG_9125.JPG
+  - IMG_9134.JPG
+  - IMG_9138.JPG
+  - IMG_9163.JPG
+  - IMG_9173.JPG
+  - IMG_9178.JPG
+  - IMG_9189.JPG
+  - IMG_9196.JPG
+  - IMG_9202.JPG
+  - IMG_9210.JPG
+  - IMG_9213.JPG
+  - IMG_9217.JPG
+  - IMG_9220.JPG
+  - IMG_9224.JPG
+  - IMG_9230.JPG
+  - IMG_9234.JPG
+  - IMG_9239.JPG
+  - IMG_9246.JPG
+  - IMG_9253.JPG
+  - IMG_9256.JPG
+  - IMG_9269.JPG
+  - IMG_9273.JPG
+  - IMG_9277.JPG
+  - IMG_9278.JPG
+  - IMG_9283.JPG
+  - IMG_9292.JPG
+  - IMG_9299.JPG
+  - IMG_9301.JPG
+  - IMG_9302.JPG
+  - IMG_9307.JPG
+
 ---
 
 Можете меня поздравить! Это первый пост, который я пишу напрямую в блоге. Никаких больше тебе doc файлов, все по-взрослому. Markdown и все тут. 
