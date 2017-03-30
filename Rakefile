@@ -38,5 +38,3 @@ task :resize, [:post, :width] do |_, args|
 
   puts "\nAll images in folder \"#{folder}\" were resized."
 end
-  validates_presence_of :name, :email, :subject, :body, :current_emotion
-  
