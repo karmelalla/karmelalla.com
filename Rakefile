@@ -2,11 +2,11 @@ require 'yaml'
 require 'mini_magick'
 
 desc 'Resize images in post'
-task :resize, [:post, :width] do |_, args|
+task :resize, [:post, :width, :quality] do |_, args|
   config = YAML.load_file('_config.yml')
-  args.with_defaults(width: config['image_width'] || 300)
+  args.with_defaults(width: config['image_width'] || 300, quality: config['image_quality'] || 80)
   image_width = args[:width].to_i
-  image_quality = config['image_quality'] || 85
+  image_quality = args[:quality].to_i
   folder = "assets/images/posts/#{args[:post]}"
   path = "#{folder}/*.{jpg,png,gif,jpeg,JPG,JPEG}"
 
