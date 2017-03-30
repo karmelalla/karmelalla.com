@@ -5,8 +5,21 @@ date:   2017-03-13 21:25:24 -0800
 categories: jekyll update
 comments: true
 images:
-  - serfing-ocean-beach.jpeg
-  - walking-at-beale.jpeg
+  - IMG_8979.JPG
+  - IMG_8982.JPG
+  - IMG_8986.JPG
+  - IMG_9001.JPG
+  - IMG_9006.JPG
+  - IMG_9007.JPG
+  - IMG_9009.JPG
+  - IMG_9030.JPG
+  - IMG_9036.JPG
+  - IMG_9050.JPG
+  - IMG_9053.JPG
+  - IMG_9063.JPG
+  - sausalito.jpg
+  - IMG_9078.JPG
+
 ---
   Как я и обещала, я возвращаюсь в колею. Всего два дня- и вот новый пост. “Почему”-спросите вы, да потому что выходные были потрясающие! 
 В субботу мы совершили настоящее восхождение! Переехав через Golden Gate Bridge на машине мы начали наш поход. Если честно, ощущение того, что мы забрались очень высоко пришло только, когда мы оказались на самой вершине. <!--separate-->
