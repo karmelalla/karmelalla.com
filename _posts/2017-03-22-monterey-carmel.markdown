@@ -18,6 +18,7 @@ images:
   - IMG_9178.JPG
   - IMG_9189.JPG
   - IMG_9196.JPG
+  - 2017-03-18_19-19-18_817.jpeg
   - IMG_9202.JPG
   - IMG_9210.JPG
   - IMG_9213.JPG
