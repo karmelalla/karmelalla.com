@@ -41,3 +41,6 @@ mail_closing: "Пожалуйста, оставляйте свои коммен�
 paginate: 10
 image_width: 300 
 image_quality: 80
+
+timezone: "America/Los_Angeles"
+
