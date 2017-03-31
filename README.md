@@ -23,3 +23,9 @@ image_width: 300
 image_quality: 85
 ```
 
+### Send email:
+
+```
+$ jekyll mail # send last post
+$ jekyll mail 2017-03-17-5years # send post by name
+```
