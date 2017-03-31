@@ -36,3 +36,4 @@ domain: "http://karmelalla.com"
 paginate: 10
 image_width: 300 
 image_quality: 85
+timezone: "America/Los_Angeles"
