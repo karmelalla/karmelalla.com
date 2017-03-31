@@ -1,10 +1,11 @@
 GIT
   remote: git@github.com:kisakov/jekyll-email.git
-  revision: 881b0bd181ccb977bce7eebf065a4588681a560a
+  revision: 6105248859d3c3124f73d1e67e0e9b4c3fe50643
   specs:
-    jekyll-email (0.3.0)
-      byebug
+    jekyll-email (0.4.0)
       dotenv
+      jekyll (~> 3.3)
+      letter_opener
       mail
 
 GEM
@@ -12,7 +13,6 @@ GEM
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
-    byebug (9.0.6)
     colorator (1.1.0)
     dotenv (2.2.0)
     ffi (1.9.18)
@@ -34,6 +34,10 @@ GEM
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    letter_opener (1.4.1)
+      launchy (~> 2.2)
     liquid (3.0.6)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
