@@ -29,4 +29,6 @@ image_quality: 85
 $ jekyll mail # send last post
 $ jekyll mail 2017-03-17-5years # send post by name
 $ jekyll mail --test # Open email for preview without sending
+$ jekyll mail -preview # Open email for preview without sending
+$ jekyll mail --recipients "karmelalla@gmail.com, isakov90@gmail.com" # Send an email only to specific recipients
 ```
