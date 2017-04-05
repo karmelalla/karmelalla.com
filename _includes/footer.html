@@ -22,15 +22,15 @@
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
+          {% if site.facebook_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {% include icon-facebook.html username=site.facebook_username %}
           </li>
           {% endif %}
 
-          {% if site.twitter_username %}
+          {% if site.instagram_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% include icon-instagram.html username=site.instagram_username %}
           </li>
           {% endif %}
         </ul>
@@ -44,3 +44,12 @@
   </div>
 
 </footer>
+
+<script>
+  $(document).ready(function() {
+    $('.fancybox').fancybox({
+        padding : 0,
+        openEffect  : 'elastic'
+    });
+  });
+</script>

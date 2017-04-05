@@ -1,0 +1,33 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+---
+
+<ul class="post-list">
+  {% for post in paginator.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+      {{ post.excerpt }}
+      <div style="margin-top: -15px; text-align: right;">
+        <a style="font-size: 15px; font-style: italic;" class="post-link" href="{{ post.url | relative_url }}">читать далее...</a>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Назад.</a>
+  {% endif %}
+  <span class="page_number ">страница: {{ paginator.page }} из {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Вперед.</a>
+  {% endif %}
+</div>
+

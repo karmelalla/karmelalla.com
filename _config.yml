@@ -19,18 +19,28 @@ description: > # this means to ignore newlines until "baseurl:"
     Спасибо за уделенное время. Надеюсь, вам понравилось! =)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
+facebook_username: karmelalla
+instagram_username: karmelalla
 # Build settings
 markdown: kramdown
 theme: minima
 gems:
-  - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
 excerpt_separator: "<!--separate-->"
 disqus:
   shortname: lostdream-ru
-domain: "http://www.lostdream.ru"
+domain: "http://karmelalla.com"
+mail_subject: "Новый пост на karmelalla.com:"
+mail_intro: "Привет! <br><br>На моем сайте вышел новый пост:"
+mail_read_more: "читать далее..."
+mail_closing: "Пожалуйста, оставляйте свои комментарии или ставьте сердечко под постом. Мне будет очень приятно! <br><br>Алла"
+
+paginate: 10
+image_width: 300 
+image_quality: 80
+
+timezone: "America/Los_Angeles"
+
