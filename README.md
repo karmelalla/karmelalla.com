@@ -32,3 +32,6 @@ $ jekyll mail --test # Open email for preview without sending
 $ jekyll mail -preview # Open email for preview without sending
 $ jekyll mail --recipients "karmelalla@gmail.com, isakov90@gmail.com" # Send an email only to specific recipients
 ```
+### Image in the carousel. Ex.:
+
+{% image /assets/images/posts/2017-03-31-friends/2017-03-11_14-56-40_993.jpg %}
