@@ -2,7 +2,7 @@
 layout: post
 title:  "Три дня-это бесконечность..."
 date:   2017-01-25 21:25:24 -0800
-categories: jekyll update
+
 comments: true
 images:
   - IMG_8630.JPG

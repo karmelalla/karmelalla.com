@@ -2,7 +2,7 @@
 layout: post
 title:  "Динина победа на соревнованиях и неповторимый Baker beach"
 date:   2017-02-06 21:25:24 -0800
-categories: jekyll update
+
 comments: true
 images:
   - 2017-02-04_13-10-41_734.jpeg

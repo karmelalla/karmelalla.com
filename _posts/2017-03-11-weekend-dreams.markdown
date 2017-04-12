@@ -2,7 +2,7 @@
 layout: post
 title:  "Весна не только в душе, но и на улице"
 date:   2017-03-11 21:25:24 -0800
-categories: jekyll update
+
 comments: true
 images:
   - FullSizeRender 5.jpg

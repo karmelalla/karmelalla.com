@@ -2,7 +2,7 @@
 layout: post
 title:  "Пять лет вместе. Это много или мало?"
 date:   2017-03-17 21:25:24 -0800
-categories: jekyll update
+
 comments: true
 ---
 
