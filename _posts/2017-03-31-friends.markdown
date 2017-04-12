@@ -4,6 +4,7 @@ title:  "Друзья, спасибо, что вы есть!"
 date:   2017-03-31 09:25:24 -0800
 categories: jekyll update
 comments: true
+
 ---
 
 Дорогой мой друг!
