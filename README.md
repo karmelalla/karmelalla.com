@@ -2,16 +2,15 @@
 
 ### Resize with jekyll gem:
 
-* go to the project folder and install gems
+go to the project folder and install gems
 ```
 $ cd [project_name]
 $ bundle install
 ```
 
-* run rake command:
 ```
-$ rake resize 2017-01-15-first-weekend # 1st argument is path
-$ rake resize 2017-01-15-first-weekend 300 90 # 1st argument is path and 2nd is image width 3rd is quality
+$ jekyll resize 2017-01-15-first-weekend # 1st argument is path
+$ jekyll resize 2017-01-15-first-weekend 300 90 # 1st argument is path and 2nd is image width 3rd is quality
 ```
 
 Also you can change width and quality in ```_config.yml``` in your project folder. By default it's:
