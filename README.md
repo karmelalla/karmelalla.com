@@ -21,6 +21,12 @@ Also you can change width in ```_config.yml``` in your project folder. By defaul
 ...
 image_width: 300 
 image_quality: 85
+
+
+### Resize with jekyll gem
+
+$ jekyll resize 2017-04-12-los-angeles-p2 # 1st argument is path and 2nd is image width 3rd is quality
+
 ```
 
 ### Send email:
