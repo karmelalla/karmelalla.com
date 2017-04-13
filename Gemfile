@@ -21,11 +21,10 @@ gem "minima"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-email', git: 'git@github.com:kisakov/jekyll-email.git'
+  gem 'jekyll-image-resizer', path: "/Users/kisakov/projects/jekyll-image-resizer"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "jekyll-paginate"
-gem "rake"
-gem "mini_magick"
