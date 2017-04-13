@@ -1,0 +1,12 @@
+{% assign image_folder = page.path | replace_first: '_', '/assets/images/' | replace: '.markdown', '/' %}
+{% if include.small %}
+  {% assign small_image = include.src | replace: '.', '-small.' %}
+  {% assign style = "margin: 10px;" %}
+{% else %}
+  {% assign small_image = include.src %}
+  {% assign style = "" %}
+{% endif %}
+
+<a href="{{image_folder}}{{include.src}}" class="fancybox" rel="gallery">
+  <img src="{{image_folder}}{{small_image}}" style="{{style}}" />
+</a>

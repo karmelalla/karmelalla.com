@@ -2,7 +2,6 @@
 layout: post
 title:  "Начинать новую жизнь надо с длинных выходных."
 date:   2017-01-15 21:25:24 -0800
-categories: jekyll update
 comments: true
 images:
   - bakers-beach-us.jpeg
