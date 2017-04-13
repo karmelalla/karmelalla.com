@@ -8,8 +8,9 @@ GIT
       letter_opener
       mail
 
-PATH
-  remote: /Users/kisakov/projects/jekyll-image-resizer
+GIT
+  remote: git@github.com:kisakov/jekyll-image-resizer.git
+  revision: 445addeaa5226c498a1cf48333867243387a566f
   specs:
     jekyll-image-resizer (0.1.0)
       jekyll (~> 3.3)

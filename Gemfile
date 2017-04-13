@@ -21,7 +21,7 @@ gem "minima"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-email', git: 'git@github.com:kisakov/jekyll-email.git'
-  gem 'jekyll-image-resizer', path: "/Users/kisakov/projects/jekyll-image-resizer"
+  gem 'jekyll-image-resizer', git: 'git@github.com:kisakov/jekyll-image-resizer.git'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
