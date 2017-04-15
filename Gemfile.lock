@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:kisakov/jekyll-email.git
-  revision: e91914e2e66db555a598e82ece3ff8557f94eb49
+  revision: 6a96b7aee64d5129910e1567f54ecc0f39c8c4f7
   specs:
     jekyll-email (0.5.1)
       dotenv
@@ -10,9 +10,9 @@ GIT
 
 GIT
   remote: git@github.com:kisakov/jekyll-image-resizer.git
-  revision: 445addeaa5226c498a1cf48333867243387a566f
+  revision: 674b1d4ce604c07d69abbbfd0f88a16b5b034e62
   specs:
-    jekyll-image-resizer (0.1.0)
+    jekyll-image-resizer (0.1.1)
       jekyll (~> 3.3)
       mini_magick
 
@@ -57,7 +57,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_magick (4.7.0)
-    minima (2.1.0)
+    minima (2.1.1)
       jekyll (~> 3.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
