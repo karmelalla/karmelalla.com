@@ -4,8 +4,8 @@ title:  "Город Ангелов, часть вторая"
 date:   2017-04-14 12:00:24 -0800
 comments: true
 images:
-  - IMG_9645_1.JPG
-  - michael_jackson_star.JPG
+  - IMG_9640.JPG
+  - michael_jackson.JPG
   - IMG_9936.JPG
   - IMG_9939.JPG
   - IMG_9942.JPG
