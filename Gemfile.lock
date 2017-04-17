@@ -1,8 +1,8 @@
 GIT
   remote: git@github.com:kisakov/jekyll-email.git
-  revision: 6a96b7aee64d5129910e1567f54ecc0f39c8c4f7
+  revision: cd25b199e3d3ee3d9fdcf11e3b39560a6a1d93b8
   specs:
-    jekyll-email (0.5.1)
+    jekyll-email (0.5.3)
       dotenv
       jekyll (~> 3.3)
       letter_opener
