@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Первая неделя-подводим итоги."
+title:  "Первая неделя-подводим итоги"
 date:   2017-01-22 21:25:24 -0800
-categories: jekyll update
+
 comments: true
 ---
 

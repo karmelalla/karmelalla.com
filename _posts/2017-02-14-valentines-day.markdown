@@ -2,7 +2,7 @@
 layout: post
 title:  "День Святого Валентина или розовое безумие в городе"
 date:   2017-02-14 21:25:24 -0800
-categories: jekyll update
+
 comments: true
 ---
 

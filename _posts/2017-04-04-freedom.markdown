@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Этот вкус свободы."
+title:  "Этот вкус свободы"
 date:   2017-04-04 13:25:24 -0800
-categories: jekyll update
+
 comments: true
 images:
   - IMG_9423.JPG

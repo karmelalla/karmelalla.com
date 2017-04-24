@@ -1,27 +1,26 @@
 ## karmelalla readme:
 
-### Resize Instruction:
+### Resize with jekyll gem:
 
-* open terminal config ```$ zshconfig```
-* paste in the end ```unsetopt nomatch```
-* restart terminal window
-* go to the project folder and install gems
+go to the project folder and install gems
 ```
 $ cd [project_name]
 $ bundle install
 ```
-* run rake command:
+
 ```
-$ rake resize[2017-01-15-first-weekend] # 1st argument is path
-$ rake resize[2017-01-15-first-weekend,100] # 1st argument is path and 2nd is image width 
+$ jekyll resize 2017-01-15-first-weekend # 1st argument is path
+$ jekyll resize 2017-01-15-first-weekend 300 90 # 1st argument is path and 2nd is image width 3rd is quality
 ```
 
-Also you can change width in ```_config.yml``` in your project folder. By default it's: 
+Also you can change width and quality in ```_config.yml``` in your project folder. By default it's:
+
+```yml
+image_width: 2048
+image_small_width: 300
+image_quality: 90
 ```
-...
-image_width: 300 
-image_quality: 85
-```
+
 
 ### Send email:
 

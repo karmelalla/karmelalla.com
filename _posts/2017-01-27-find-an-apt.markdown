@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Поиски квартиры. На пути к успеху."
+title:  "Поиски квартиры, на пути к успеху."
 date:   2017-01-27 21:25:24 -0800
-categories: jekyll update
+
 comments: true
 ---
 
