@@ -5,9 +5,9 @@
 layout: home
 ---
 
-<ul class="post-list">
+<div class="post-list">
   {% for post in paginator.posts %}
-    <li>
+    <div class="post">
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
       <h2>
@@ -17,9 +17,13 @@ layout: home
       <div style="margin-top: -15px; text-align: right;">
         <a style="font-size: 15px; font-style: italic;" class="post-link" href="{{ post.url | relative_url }}">читать далее...</a>
       </div>
-    </li>
+
+      <div class="top-left-img"></div>
+      <div class="bottom-right-img"></div>
+    </div>
   {% endfor %}
-</ul>
+</div>
+
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}

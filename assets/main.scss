@@ -2,7 +2,51 @@
 ---
 @import "minima";
 
-header {
-    background-image: url(/assets/images/posts/2017-01-18-first-week/walk.jpeg);
-    height: 200px;
+body {
 }
+
+.post {
+  position: relative;
+
+  .top-left-img, .bottom-right-img {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+  }
+
+  .top-left-img {
+    background-image: url(/assets/images/prame11.png);
+    left: 0;
+    top: 0;
+  }
+
+  .bottom-right-img {
+    background-image: url(/assets/images/prame22.png);
+    right: 0;
+    bottom: 0;
+  }
+}
+
+header {
+
+    background-image: url(/assets/images/golden_gate.jpg);
+    background-repeat: no-repeat; 
+    background-size:contain;
+    background-position:center; 
+
+  .wrapper {
+
+    .site-title, .page-link {
+      color: #fff;
+    }
+  }
+}
+
+div {
+  border: 1px solid #000;
+
+  &.wrapper {
+    padding-right: 60px;
+  }
+}
+
