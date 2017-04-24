@@ -36,17 +36,17 @@ header {
     background-position:center; 
     height: 163px;
     .site-title, .page-link {
-    color: #ff6600;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-style: italic;
-    // text-align: right;
-    // text-decoration: underline;
-    // text-shadow: 3px 2px;
-    }
+      color: #ff6600;
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      font-style: italic;
+      // text-align: right;
+      // text-decoration: underline;
+      // text-shadow: 3px 2px;
+      }
     .site-title {
-    font-weight: bold;
-    font-size: 210%;
-    }
+      font-weight: bold;
+      font-size: 210%;
+      }
     .page-link {
     text-decoration: underline;
     }
@@ -60,12 +60,13 @@ footer {
     background-size:contain;
     background-position:center; 
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    }
+    
   
-   .heading {
-    text-align: center;
-
-   }
+   .footer-heading {
+      text-align: center;
+    }
+  }
+}
   // .footer-col-wrapper{
 
   //  .p{
