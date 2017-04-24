@@ -15,13 +15,13 @@ body {
   }
 
   .top-left-img {
-    background-image: url(/assets/images/prame11.png);
+    background-image: url(/assets/images/frame11.png);
     left: 0;
     top: 0;
   }
 
   .bottom-right-img {
-    background-image: url(/assets/images/prame22.png);
+    background-image: url(/assets/images/frame22.png);
     right: 0;
     bottom: 0;
   }
@@ -60,21 +60,22 @@ footer {
     background-size:contain;
     background-position:center; 
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    
+    font-style: italic;
   
-   .footer-heading {
+   .footer-heading, .contact-list {
       text-align: center;
+      
+    }
+    .contact-list, .site-email {
+      color: white;
+    }
+
+    .footer-col {
+      color: white;
     }
   }
 }
-  // .footer-col-wrapper{
-
-  //  .p{
-
-  //  } 
-
-  }
-}
+  
 
 div {
   // border: 1px solid #000;
