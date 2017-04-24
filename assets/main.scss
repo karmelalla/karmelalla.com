@@ -29,9 +29,7 @@ body {
 
 header {
 
-
   .wrapper {
-
     background-image: url(/assets/images/golden_gate.jpg);
     background-repeat: no-repeat; 
     background-size:contain;
@@ -39,24 +37,46 @@ header {
     height: 163px;
     .site-title, .page-link {
     color: #ff6600;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
     // text-align: right;
     // text-decoration: underline;
     // text-shadow: 3px 2px;
     }
     .site-title {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-style: italic;
     font-weight: bold;
     font-size: 210%;
     }
     .page-link {
-
+    text-decoration: underline;
     }
   }
 }
 
+footer {
+  .wrapper {
+    background-image: url(/assets/images/tiburon.jpg);
+    background-repeat: no-repeat; 
+    background-size:contain;
+    background-position:center; 
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+  
+   .heading {
+    text-align: center;
+
+   }
+  // .footer-col-wrapper{
+
+  //  .p{
+
+  //  } 
+
+  }
+}
+
 div {
-  border: 1px solid #000;
+  // border: 1px solid #000;
 
   &.wrapper {
     padding-right: 60px;
