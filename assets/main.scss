@@ -7,6 +7,8 @@ body {
 
 .post {
   position: relative;
+  border-style: double;
+  border-width: 3px;    
 
   .top-left-img, .bottom-right-img {
     position: absolute;
@@ -62,17 +64,17 @@ footer {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-style: italic;
   
-   .footer-heading, .contact-list {
+   .footer-heading, .contact-list, .footer-col  {
       text-align: center;
+      color: white;
+      
       
     }
     .contact-list, .site-email {
       color: white;
     }
 
-    .footer-col {
-      color: white;
-    }
+
   }
 }
   
