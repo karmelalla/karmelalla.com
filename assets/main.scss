@@ -8,23 +8,31 @@ body {
 .post {
   position: relative;
   border-style: double;
-  border-width: 3px;    
+  border-width: 3px;
+  border-radius: 10px;
 
   .top-left-img, .bottom-right-img {
     position: absolute;
     width: 100px;
     height: 50px;
+
+    .post-link
+    {
+      margin-right: 200px;
+    }
+
+
   }
 
   .top-left-img {
     background-image: url(/assets/images/frame11.png);
-    left: 0;
+    right: 0;
     top: 0;
   }
 
   .bottom-right-img {
     background-image: url(/assets/images/frame22.png);
-    right: 0;
+    left: 0;
     bottom: 0;
   }
 }
