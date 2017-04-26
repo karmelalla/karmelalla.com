@@ -7,17 +7,16 @@ body {
 
 .post {
   position: relative;
-  border-style: double;
-  border-width: 3px;
-  border-radius: 10px;
+  // border-style: double;
+  // border-width: 3px;
+  // border-radius: 10px;
 
   .top-left-img, .bottom-right-img {
     position: absolute;
     width: 100px;
     height: 50px;
 
-    .post-link
-    {
+    .post-link {
       margin-right: 200px;
     }
 
@@ -37,61 +36,69 @@ body {
   }
 }
 
-header {
+.wrapper {
+  .post {
+    padding: 10px 20px;
+    margin: 20px 0px;
+  }
+}
 
+
+header, footer {
+  &.site-header, &.site-footer {
+    border: 0;
+  }
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-style: italic;
   .wrapper {
-    background-image: url(/assets/images/golden_gate.jpg);
+    border-radius: 5px;
     background-repeat: no-repeat; 
-    background-size:contain;
     background-position:center; 
+    padding: 0;
+  }
+}
+
+header {
+  .wrapper {
+    background-image: url(/assets/images/golden_gate_v2.jpg);
     height: 163px;
     .site-title, .page-link {
+      padding: 0 20px;
       color: #ff6600;
-      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-      font-style: italic;
       // text-align: right;
       // text-decoration: underline;
       // text-shadow: 3px 2px;
-      }
+    }
     .site-title {
       font-weight: bold;
       font-size: 210%;
-      }
+    }
     .page-link {
-    text-decoration: underline;
+      text-decoration: underline;
     }
   }
 }
 
+.pagination {
+  margin-top: 30px;
+}
+
 footer {
+  &.site-footer {
+    padding: 0;
+  }
+
   .wrapper {
     background-image: url(/assets/images/tiburon.jpg);
-    background-repeat: no-repeat; 
-    background-size:contain;
-    background-position:center; 
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-style: italic;
-  
+    
    .footer-heading, .contact-list, .footer-col  {
       text-align: center;
       color: white;
-      
-      
     }
     .contact-list, .site-email {
       color: white;
     }
-
-
   }
 }
   
-
-div {
-  // border: 1px solid #000;
-
-  &.wrapper {
-    padding-right: 60px;
-  }
-}
 
