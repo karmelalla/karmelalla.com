@@ -2,7 +2,7 @@
 layout: post
 title:  "Первая неделя жизни и не дома, и не в отпуске?!"
 date:   2017-01-18 21:25:24 -0800
-
+categories: jekyll update
 comments: true
 ---
 
