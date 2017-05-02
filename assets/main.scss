@@ -56,7 +56,7 @@ header, footer {
     background-position:center; 
     padding: 0;
   }
-  
+
 }
 
 header {
@@ -76,6 +76,12 @@ header {
     }
     .page-link {
       text-decoration: underline;
+    }
+    .site-nav{
+      background: transparent;
+      border: none;
+       position: relative;
+       bottom: -40%;
     }
   }
 }
