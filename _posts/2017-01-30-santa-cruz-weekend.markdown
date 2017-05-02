@@ -2,7 +2,7 @@
 layout: post
 title:  "Выходные в Санта Крузе и самая лучшая квартира у Pier 39"
 date:   2017-01-30 21:25:24 -0800
-
+categories: jekyll update
 comments: true
 images:
   - IMG-8422.JPG

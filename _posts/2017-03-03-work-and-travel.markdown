@@ -2,7 +2,7 @@
 layout: post
 title:  "Work and travel"
 date:   2017-03-03 21:25:24 -0800
-
+categories: jekyll update
 comments: true
 ---
 

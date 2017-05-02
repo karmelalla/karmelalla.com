@@ -2,7 +2,7 @@
 layout: post
 title:  "“Первый” день в Калифорнии"
 date:   2017-01-13 21:25:24 -0800
-
+categories: jekyll update
 comments: true
 ---
 

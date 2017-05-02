@@ -2,7 +2,7 @@
 layout: post
 title:  "Фасоль, black eyed peas и новая работа"
 date:   2017-02-02 21:25:24 -0800
-
+categories: jekyll update
 comments: true
 ---
 
