@@ -104,8 +104,13 @@ footer {
       text-align: center;
       color: white;
     }
-    .contact-list, .site-email {
+    .site-email {
       color: white;
+    }
+    .contact-list {
+      a:link{
+        color: white;
+      }
     }
   }
 }
