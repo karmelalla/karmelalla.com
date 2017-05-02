@@ -51,11 +51,12 @@ header, footer {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-style: italic;
   .wrapper {
-    border-radius: 5px;
+    // border-radius: 5px;
     background-repeat: no-repeat; 
     background-position:center; 
     padding: 0;
   }
+  
 }
 
 header {
@@ -90,7 +91,7 @@ footer {
 
   .wrapper {
     background-image: url(/assets/images/tiburon.jpg);
-    
+    height: 120px;
    .footer-heading, .contact-list, .footer-col  {
       text-align: center;
       color: white;
