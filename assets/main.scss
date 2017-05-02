@@ -13,8 +13,8 @@ body {
 
   .top-left-img, .bottom-right-img {
     position: absolute;
-    width: 100px;
-    height: 50px;
+    width: 270px;
+    height: 80px;
 
     .post-link {
       margin-right: 200px;
@@ -24,14 +24,14 @@ body {
   }
 
   .top-left-img {
-    background-image: url(/assets/images/frame11.png);
-    right: 0;
+    background-image: url(/assets/images/frame_1.png);
+    left: 0;
     top: 0;
   }
 
   .bottom-right-img {
-    background-image: url(/assets/images/frame22.png);
-    left: 0;
+    background-image: url(/assets/images/frame2.png);
+    right: 0;
     bottom: 0;
   }
 }
