@@ -24,14 +24,14 @@ body {
   }
 
   .top-left-img {
-    background-image: url(/assets/images/frame_1.png);
+    background-image: url(/assets/images/frame_13.png);
     left: 0;
     top: 0;
     z-index: -9999;
   }
 
   .bottom-right-img {
-    background-image: url(/assets/images/frame2.png);
+    background-image: url(/assets/images/frame_23.png);
     right: 0;
     bottom: 0;
     z-index: -9999;
@@ -98,8 +98,8 @@ footer {
   }
 
   .wrapper {
-    background-image: url(/assets/images/tiburon.jpg);
-    height: 120px;
+    background-image: url(/assets/images/tiburon_v2.jpg);
+    height: 163px;
    .footer-heading, .contact-list, .footer-col  {
       text-align: center;
       color: white;
