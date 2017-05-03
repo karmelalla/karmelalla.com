@@ -8,7 +8,7 @@
   <meta name="author" content="Алла Исакова,Алла Гуревич,Alla Isakova,Alla Gurevich">
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}{{ "now" | date: "%Y%m%d%H%M%S" | prepend: "?" }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>

@@ -8,46 +8,40 @@ body {
   font-size: 17px;
 }
 
-.post {
-  position: relative;
-  // border-style: double;
-  // border-width: 3px;
-  // border-radius: 10px;
-  font-family: $font-text;
-  .top-left-img, .bottom-right-img {
-    position: absolute;
-    width: 270px;
-    height: 80px;
-
-    .post-link {
-      margin-right: 200px;
-    }
-
-
-  }
-
-  .top-left-img {
-    background-image: url(/assets/images/frame_13.png);
-    left: 0;
-    top: 0;
-    z-index: -9999;
-  }
-
-  .bottom-right-img {
-    background-image: url(/assets/images/frame_23.png);
-    right: 0;
-    bottom: 0;
-    z-index: -9999;
-  }
+.page-content {
+  padding-top: 10px;
 }
 
 .wrapper {
   .post {
     padding: 10px 20px;
     margin: 20px 0px;
+    position: relative;
+    // border-style: double;
+    // border-width: 3px;
+    // border-radius: 10px;
+    font-family: $font-text;
+    .top-left-img, .bottom-right-img {
+      position: absolute;
+      width: 270px;
+      height: 80px;
+      z-index: -1;
+    }
+    a.post-link {
+      font-style: italic;
+    }
+    .top-left-img {
+      background-image: url(/assets/images/frame_13.png);
+      left: 0;
+      top: 0;
+    }
+    .bottom-right-img {
+      background-image: url(/assets/images/frame_23.png);
+      right: 0;
+      bottom: 0;
+    }
   }
 }
-
 
 header, footer {
   &.site-header, &.site-footer {
@@ -61,7 +55,6 @@ header, footer {
     background-position:center; 
     padding: 0;
   }
-
 }
 
 header {
@@ -86,7 +79,6 @@ header {
       background: transparent;
       border: none;
       position: relative;
-       
     }
   }
 }
@@ -101,9 +93,6 @@ footer {
   &.site-footer {
     padding: 0;
   }
-  // .footer-col.footer-col-2 {
-  //   right: 0%
-  // }
   .wrapper {
     background-image: url(/assets/images/tiburon_v2.jpg);
     height: 163px;
