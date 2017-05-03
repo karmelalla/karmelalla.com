@@ -1,0 +1,138 @@
+---
+---
+@import "minima";
+
+$font-text: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+body {
+  font-size: 17px;
+}
+
+.post {
+  position: relative;
+  // border-style: double;
+  // border-width: 3px;
+  // border-radius: 10px;
+  font-family: $font-text;
+  .top-left-img, .bottom-right-img {
+    position: absolute;
+    width: 270px;
+    height: 80px;
+
+    .post-link {
+      margin-right: 200px;
+    }
+
+
+  }
+
+  .top-left-img {
+    background-image: url(/assets/images/frame_13.png);
+    left: 0;
+    top: 0;
+    z-index: -9999;
+  }
+
+  .bottom-right-img {
+    background-image: url(/assets/images/frame_23.png);
+    right: 0;
+    bottom: 0;
+    z-index: -9999;
+  }
+}
+
+.wrapper {
+  .post {
+    padding: 10px 20px;
+    margin: 20px 0px;
+  }
+}
+
+
+header, footer {
+  &.site-header, &.site-footer {
+    border: 0;
+  }
+  font-family: $font-text;
+  font-style: italic;
+  .wrapper {
+    // border-radius: 5px;
+    background-repeat: no-repeat; 
+    background-position:center; 
+    padding: 0;
+  }
+
+}
+
+header {
+  .wrapper {
+    background-image: url(/assets/images/golden_gate_v2.jpg);
+    height: 163px;
+    .site-title, .page-link {
+      padding: 0 20px;
+      color: #ff6600;
+      // text-align: right;
+      // text-decoration: underline;
+      // text-shadow: 3px 2px;
+    }
+    .site-title {
+      font-weight: bold;
+      font-size: 210%;
+    }
+    .page-link {
+      text-decoration: underline;
+    }
+    .site-nav{
+      background: transparent;
+      border: none;
+      position: relative;
+       
+    }
+  }
+}
+
+.pagination {
+  font-family: $font-text;
+  margin-top: 30px;
+  font-style: italic;
+}
+
+footer {
+  &.site-footer {
+    padding: 0;
+  }
+  // .footer-col.footer-col-2 {
+  //   right: 0%
+  // }
+  .wrapper {
+    background-image: url(/assets/images/tiburon_v2.jpg);
+    height: 163px;
+    .footer-col-wrapper {
+      margin-left: 0;
+    }
+    .footer-heading {
+      padding-top: 5px;
+      margin-bottom: 5px;
+    }
+    .footer-heading, .contact-list, .footer-col, .footer-col-3 {
+      text-align: center;
+      color: white;
+
+      a {
+        color: white;
+        text-decoration: underline;
+      }
+    }
+    .footer-col-wrapper {
+      .footer-col-1 {
+        margin-bottom: 0;
+      }
+      .footer-col-3 {
+        float: right;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+  
+
