@@ -2,7 +2,10 @@
 ---
 @import "minima";
 
+$font-text: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
 body {
+  font-size: 17px;
 }
 
 .post {
@@ -10,7 +13,7 @@ body {
   // border-style: double;
   // border-width: 3px;
   // border-radius: 10px;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: $font-text;
   .top-left-img, .bottom-right-img {
     position: absolute;
     width: 270px;
@@ -50,7 +53,7 @@ header, footer {
   &.site-header, &.site-footer {
     border: 0;
   }
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: $font-text;
   font-style: italic;
   .wrapper {
     // border-radius: 5px;
@@ -89,7 +92,9 @@ header {
 }
 
 .pagination {
+  font-family: $font-text;
   margin-top: 30px;
+  font-style: italic;
 }
 
 footer {
@@ -102,17 +107,29 @@ footer {
   .wrapper {
     background-image: url(/assets/images/tiburon_v2.jpg);
     height: 163px;
-   .footer-heading, .contact-list, .footer-col  {
+    .footer-col-wrapper {
+      margin-left: 0;
+    }
+    .footer-heading {
+      padding-top: 5px;
+      margin-bottom: 5px;
+    }
+    .footer-heading, .contact-list, .footer-col, .footer-col-3 {
       text-align: center;
       color: white;
-    }
-    .site-email {
-      color: white;
-    }
-    .contact-list {
-      a:link{
+
+      a {
         color: white;
         text-decoration: underline;
+      }
+    }
+    .footer-col-wrapper {
+      .footer-col-1 {
+        margin-bottom: 0;
+      }
+      .footer-col-3 {
+        float: right;
+        margin-bottom: 0;
       }
     }
   }
