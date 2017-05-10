@@ -25,12 +25,12 @@ body {
     // border-style: double;
     // border-width: 3px;
     // border-radius: 10px;
-    .top-left-img, .bottom-right-img {
-      position: absolute;
-      width: 270px;
-      height: 80px;
-      z-index: -1;
-    }
+    // .top-left-img, .bottom-right-img {
+    //   position: absolute;
+    //   width: 270px;
+    //   height: 80px;
+    //   z-index: -1;
+    // }
     .read-more {
       margin-top: -15px;
       text-align: right;
@@ -41,16 +41,16 @@ body {
     a.post-link {
       font-style: italic;
     }
-    .top-left-img {
-      background-image: url(/assets/images/frame_13.png);
-      left: 0;
-      top: 0;
-    }
-    .bottom-right-img {
-      background-image: url(/assets/images/frame_23.png);
-      right: 0;
-      bottom: 0;
-    }
+    // .top-left-img {
+    //   background-image: url(/assets/images/frame_13.png);
+    //   left: 0;
+    //   top: 0;
+    // }
+    // .bottom-right-img {
+    //   background-image: url(/assets/images/frame_23.png);
+    //   right: 0;
+    //   bottom: 0;
+    // }
   }
 }
 
