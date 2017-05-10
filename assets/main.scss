@@ -30,8 +30,11 @@ body {
     img {
       @include border-shadow;
     }
-    a:not(.post-link){
+    a:not(.post-link, .fancybox) {
       text-decoration: underline;
+    }
+    a.fancybox:hover {
+      text-decoration: none;
     }
     // border-style: double;
     // border-width: 3px;
