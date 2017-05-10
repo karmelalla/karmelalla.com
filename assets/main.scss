@@ -22,9 +22,11 @@ body {
     margin: 20px 0px;
     position: relative;
     background-color: white;
+    box-shadow: 0 0 10px rgba(0, 78, 102, 0.6);
+    border-radius: 5px;
     // border-style: double;
     // border-width: 3px;
-    // border-radius: 10px;
+
     // .top-left-img, .bottom-right-img {
     //   position: absolute;
     //   width: 270px;
@@ -60,7 +62,8 @@ header, footer {
   }
   font-style: italic;
   .wrapper {
-    // border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
     background-repeat: no-repeat; 
     background-position:center; 
     padding: 0;
