@@ -4,6 +4,11 @@
 
 $font-text: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
+@mixin border-shadow {
+  box-shadow: 0 0 10px rgba(0, 78, 102, 0.6);
+  border-radius: 5px;
+}
+
 body {
   font-size: 17px;
   font-family: $font-text;
@@ -21,10 +26,9 @@ body {
     margin: 20px 0px;
     position: relative;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 78, 102, 0.6);
-    border-radius: 5px;
+    @include border-shadow;
     img {
-      border-radius: 5px;
+      @include border-shadow;
     }
     a:not(.post-link){
       text-decoration: underline;
@@ -66,8 +70,8 @@ header, footer {
   }
   font-style: italic;
   .wrapper {
-    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    border-radius: 5px;
     background-repeat: no-repeat; 
     background-position:center; 
     padding: 0;
