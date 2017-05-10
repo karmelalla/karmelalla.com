@@ -7,9 +7,8 @@ $font-text: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 body {
   font-size: 17px;
   font-family: $font-text;
-  background-color:  #e6ffff;
+  // background-color:  #e6ffff;
   background-color:   #e6f9ff;
-
 }
 
 .page-content {
@@ -24,9 +23,11 @@ body {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 78, 102, 0.6);
     border-radius: 5px;
+    img {
+      border-radius: 5px;
+    }
     // border-style: double;
     // border-width: 3px;
-
     // .top-left-img, .bottom-right-img {
     //   position: absolute;
     //   width: 270px;
@@ -115,22 +116,18 @@ footer {
       padding-top: 5px;
       margin-bottom: 5px;
     }
-    .footer-heading, .contact-list, .footer-col, .footer-col-3 {
+    .footer-heading, .contact-list, .footer-col {
       text-align: center;
       color: white;
-
+      margin-bottom: 0;
       a {
         color: white;
         text-decoration: underline;
       }
     }
     .footer-col-wrapper {
-      .footer-col-1 {
-        margin-bottom: 0;
-      }
       .footer-col-3 {
         float: right;
-        margin-bottom: 0;
       }
     }
   }
