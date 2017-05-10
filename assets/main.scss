@@ -6,6 +6,9 @@ $font-text: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 body {
   font-size: 17px;
+  font-family: $font-text;
+  // background-color:  #e6ffff;
+  background-color:   #e6f9ff;
 }
 
 .page-content {
@@ -17,29 +20,40 @@ body {
     padding: 10px 20px;
     margin: 20px 0px;
     position: relative;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 78, 102, 0.6);
+    border-radius: 5px;
+    img {
+      border-radius: 5px;
+    }
     // border-style: double;
     // border-width: 3px;
-    // border-radius: 10px;
-    font-family: $font-text;
-    .top-left-img, .bottom-right-img {
-      position: absolute;
-      width: 270px;
-      height: 80px;
-      z-index: -1;
+    // .top-left-img, .bottom-right-img {
+    //   position: absolute;
+    //   width: 270px;
+    //   height: 80px;
+    //   z-index: -1;
+    // }
+    .read-more {
+      margin-top: -15px;
+      text-align: right;
+      a {
+        font-size: 18px;
+      }
     }
     a.post-link {
       font-style: italic;
     }
-    .top-left-img {
-      background-image: url(/assets/images/frame_13.png);
-      left: 0;
-      top: 0;
-    }
-    .bottom-right-img {
-      background-image: url(/assets/images/frame_23.png);
-      right: 0;
-      bottom: 0;
-    }
+    // .top-left-img {
+    //   background-image: url(/assets/images/frame_13.png);
+    //   left: 0;
+    //   top: 0;
+    // }
+    // .bottom-right-img {
+    //   background-image: url(/assets/images/frame_23.png);
+    //   right: 0;
+    //   bottom: 0;
+    // }
   }
 }
 
@@ -47,10 +61,10 @@ header, footer {
   &.site-header, &.site-footer {
     border: 0;
   }
-  font-family: $font-text;
   font-style: italic;
   .wrapper {
-    // border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
     background-repeat: no-repeat; 
     background-position:center; 
     padding: 0;
@@ -84,7 +98,6 @@ header {
 }
 
 .pagination {
-  font-family: $font-text;
   margin-top: 30px;
   font-style: italic;
 }
@@ -103,22 +116,18 @@ footer {
       padding-top: 5px;
       margin-bottom: 5px;
     }
-    .footer-heading, .contact-list, .footer-col, .footer-col-3 {
+    .footer-heading, .contact-list, .footer-col {
       text-align: center;
       color: white;
-
+      margin-bottom: 0;
       a {
         color: white;
         text-decoration: underline;
       }
     }
     .footer-col-wrapper {
-      .footer-col-1 {
-        margin-bottom: 0;
-      }
       .footer-col-3 {
         float: right;
-        margin-bottom: 0;
       }
     }
   }
