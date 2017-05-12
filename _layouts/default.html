@@ -6,11 +6,6 @@
   <body>
 
     {% include header.html %}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-
         <div class="subscribe">
           <form action="https://getsimpleform.com/messages?form_api_token=25d273b74e476783ccbc1ae150032b7d" method="post">
             <li class="contact-li">
@@ -21,6 +16,12 @@
         </form>
         </div>
       </div>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+
+
     </main>
 
     {% include footer.html %}

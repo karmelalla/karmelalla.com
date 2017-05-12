@@ -17,20 +17,7 @@ body {
 }
 
 .page-content {
-  padding-top: 10px;
-
-  .subscribe {
-    list-style-type: none; 
-    position: fixed;
-    right: 10px;  
-    top: 50%;  
-    padding: 10px; 
-    margin: 10px;
-    // background: #ffe;   
-    // border: 1px solid #333; 
-  }
-
-
+  padding-top: 5px;
 }
 
 .wrapper {
@@ -155,5 +142,23 @@ footer {
     }
   }
 }
+
+.subscribe {
+    list-style-type: none; 
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    max-width: calc(800px - (30px * 2));
+    @include border-shadow;
+    // position: relative;
+    // right: 10px;  
+    // top: 50%;  
+    // padding: 10px; 
+    // margin: 10px;
+    background: white;  
+    .contact-li{
+    text-align: center;
+    } 
+  }
   
 
