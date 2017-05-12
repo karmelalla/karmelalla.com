@@ -10,6 +10,16 @@
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
+
+        <div class="subscribe">
+          <form action="https://getsimpleform.com/messages?form_api_token=25d273b74e476783ccbc1ae150032b7d" method="post">
+            <li class="contact-li">
+                <input type="email" placeholder="Your email" id="email"/>
+                <input type="submit" value="Subscribe" id="submit"/>
+                <!-- <input type="hidden" name='redirect_to' value="/path/to/thank-you.html"/>  -->
+            </li>
+        </form>
+        </div>
       </div>
     </main>
 
@@ -19,6 +29,10 @@
       {% include analytics.html %}
     {% endif %}
 
+
+
+
   </body>
+
 
 </html>

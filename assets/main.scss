@@ -18,6 +18,19 @@ body {
 
 .page-content {
   padding-top: 10px;
+
+  .subscribe {
+    list-style-type: none; 
+    position: fixed;
+    right: 10px;  
+    top: 50%;  
+    padding: 10px; 
+    margin: 10px;
+    // background: #ffe;   
+    // border: 1px solid #333; 
+  }
+
+
 }
 
 .wrapper {
