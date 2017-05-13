@@ -144,21 +144,24 @@ footer {
 }
 
 .subscribe {
-    list-style-type: none; 
-    position: relative;
-    margin: auto;
-    margin-top: 10px;
-    max-width: calc(800px - (30px * 2));
-    @include border-shadow;
-    // position: relative;
-    // right: 10px;  
-    // top: 50%;  
-    // padding: 10px; 
-    // margin: 10px;
-    background: white;  
-    .contact-li{
+  list-style-type: none; 
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+  max-width: calc(800px - (30px * 2));
+  @include border-shadow;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  // position: relative;
+  // right: 10px;  
+  // top: 50%;  
+  // padding: 10px; 
+  // margin: 10px;
+  background: white;  
+  .contact-li{
     text-align: center;
-    } 
-  }
+  } 
+}
   
 

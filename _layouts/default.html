@@ -6,25 +6,13 @@
   <body>
 
     {% include header.html %}
-        <div class="subscribe">
-          <form action="https://formspree.io/karmelalla@gmail.com" method="post">
-            <li class="contact-li">
-                <input type="email" placeholder="Ваш email" name="_replyto"/>
-                <input type="submit" value="Подписаться" id="submit"/>
-                <!-- <input type="hidden" name='redirect_to' value="/path/to/thank-you.html"/>  -->
-            </li>
-        </form>
-        </div>
-      </div>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    {% include subscribe.html %}
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
-
-
+      </div>
     </main>
 
     {% include footer.html %}
@@ -33,10 +21,5 @@
       {% include analytics.html %}
     {% endif %}
 
-
-
-
   </body>
-
-
 </html>
