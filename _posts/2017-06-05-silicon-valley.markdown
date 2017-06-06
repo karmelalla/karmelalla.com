@@ -26,7 +26,7 @@ comments: true
 
 Зачем люди едут/живут в Долине? 
 
-{% include image src="Silicon-Valley.jpg" %}
+{% include image src="valley.jpg" %}
 <sub> <sup>*фото из интернета*
 
 Самый главный ответ - РАБОТАТЬ! 
