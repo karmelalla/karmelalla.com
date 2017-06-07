@@ -1,5 +1,5 @@
 {% assign image_folder = post.path | replace_first: '_', '/assets/images/' | replace: '.markdown', '/' %}
 
-<a href="{{post.url | relative_url}}">
+<a class="thumbnail" href="{{post.url | relative_url}}">
   <img src="{{image_folder}}{{include.src}}">
 </a>
