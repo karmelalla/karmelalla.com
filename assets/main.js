@@ -2,14 +2,15 @@ $(document).ready(function() {
   var $name = $(".subscribe input[name='name']");
   var $email = $(".subscribe input[name='email']");
 
-  $(".subscribe #submit").click(function() {
+  var $subscribeForm = $('.subscribe form');
+
+  $subscribeForm.on('submit', function(event){
+    event.preventDefault();
+    
     $.ajax({
       dataType: 'jsonp',
       url: "https://getsimpleform.com/messages/ajax?form_api_token=25d273b74e476783ccbc1ae150032b7d",
-      data: {
-        name: $name.val(),
-        email: $email.val(),
-      }
+      data: $subscribeForm.serialize(),
     }).done(function() {
       show_message();
       $name.val("");
