@@ -11,9 +11,17 @@ $(document).ready(function() {
         email: $email.val(),
       }
     }).done(function() {
+      var name = $name.val() ? $name.val() + ", " : "";
+
+      swal({
+        title: "Cпасибо, " + name + "что подписались на рассылку!",
+        text: "Вам придет письмо на " + $email.val() + ", когда выйдет новый пост.",
+        timer: 4000,
+        showConfirmButton: true
+      });
+
       $name.val("");
       $email.val("");
-      alert("Спасибо, что подписались на рассылку!");
     });
   });
 });
