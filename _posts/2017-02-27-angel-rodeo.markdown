@@ -4,6 +4,8 @@ title:  "Коротко о том, что не успела рассказать
 date:   2017-02-28 21:25:24 -0800
 categories: jekyll update
 comments: true
+thumbnail: IMG_8833.JPG
+
 images:
   - 2017-02-21_17-48-09_188.jpeg
   - 2017-02-21_19-28-20_984.jpeg
@@ -22,6 +24,7 @@ images:
   - IMG_8832.JPG
   - IMG_8833.JPG
   - IMG_8851.JPG
+  
 ---
 
 Две недели? Их как не было. Не знаю даже, что и рассказать. 
