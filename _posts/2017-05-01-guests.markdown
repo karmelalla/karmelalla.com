@@ -3,6 +3,7 @@ layout: post
 title:  "Гости, приезжайте еще!"
 date:   2017-05-01 12:00:24 -0800
 comments: true
+thumbnail: IMG_9813.JPG
 images:
   - IMG_9800.JPG
   - IMG_9804.JPG
@@ -19,6 +20,7 @@ images:
   - IMG_99021.JPG
   - IMG_99171.JPG
   - IMG_9915.JPG
+
 
 ---
 

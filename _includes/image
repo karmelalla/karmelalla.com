@@ -8,5 +8,5 @@
 {% endif %}
 
 <a href="{{image_folder}}{{include.src}}" class="fancybox" rel="gallery">
-  <img src="{{image_folder}}{{small_image}}" style="{{style}}" />
+  <img src="{{image_folder}}{{small_image}}" style="{{style}}">
 </a>

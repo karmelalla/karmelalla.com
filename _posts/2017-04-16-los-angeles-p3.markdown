@@ -3,6 +3,7 @@ layout: post
 title:  "Город Ангелов, часть последняя"
 date:   2017-04-16 12:00:24 -0800
 comments: true
+thumbnail: IMG_0133.JPG
 images:
   - IMG_0070.JPG
   - IMG_0077.JPG

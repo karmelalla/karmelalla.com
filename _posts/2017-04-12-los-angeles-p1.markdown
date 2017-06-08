@@ -3,6 +3,7 @@ layout: post
 title:  "Город Ангелов, часть первая"
 date:   2017-04-12 13:25:24 -0800
 comments: true
+thumbnail: IMG_9906.JPG
 images:
   - IMG_9785.JPG
   - IMG_9791.JPG
