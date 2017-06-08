@@ -4,6 +4,7 @@ title:  "Этот вкус свободы"
 date:   2017-04-04 13:25:24 -0800
 categories: jekyll update
 comments: true
+thumbnail: IMG_9873.jpg
 images:
   - IMG_9423.JPG
   - IMG_9426.JPG
