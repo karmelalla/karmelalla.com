@@ -31,7 +31,7 @@ $(document).ready(function() {
     });
   }
 
-  function fail_message() 
+  function fail_message() {
     swal({
       title: "Ошибка! Попробуйте подписаться позже.",
       text: "",
