@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.6/css/jquery.fancybox.min.css" type="text/css" media="screen" />
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.6/js/jquery.fancybox.min.js"></script>
   <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" sizes="32x32">
+  
+  <script type="text/javascript" src="{{ "/assets/main.js" | relative_url }}{{ "now" | date: "%Y%m%d%H%M%S" | prepend: "?" }}">
+  
   {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}
