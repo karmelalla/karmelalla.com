@@ -3,6 +3,7 @@ layout: post
 title:  "Город Ангелов, часть вторая"
 date:   2017-04-14 12:00:24 -0800
 comments: true
+thumbnail: IMG_9942.JPG
 images:
   - IMG_9640.JPG
   - michael_jackson.JPG
