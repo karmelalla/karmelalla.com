@@ -11,17 +11,20 @@ $(document).ready(function() {
         email: $email.val(),
       }
     }).done(function() {
-      var name = $name.val() ? $name.val() + ", " : "";
-
-      swal({
-        title: "Cпасибо, " + name + "что подписались на рассылку!",
-        text: "Вам придет письмо на " + $email.val() + ", когда выйдет новый пост.",
-        timer: 4000,
-        showConfirmButton: true
-      });
-
+      show_message();
       $name.val("");
       $email.val("");
     });
   });
+
+  function show_message() {
+    var name = $name.val() ? $name.val() + ", " : "";
+
+    swal({
+      title: "Cпасибо, " + name + "что подписались на рассылку!",
+      text: "Вам придет письмо на " + $email.val() + ", когда выйдет новый пост.",
+      timer: 4000,
+      showConfirmButton: true
+    });
+  }
 });
