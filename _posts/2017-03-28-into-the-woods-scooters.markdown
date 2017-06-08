@@ -4,6 +4,7 @@ title:  "Into the Woods, первый танец Дины и все новые �
 date:   2017-03-28 13:25:24 -0800
 categories: jekyll update
 comments: true
+thumbnail: into-the-woods-tickets.jpg
 images:
   - 2017-03-21_17-41-14_392.jpeg
   - into-the-woods-tickets.jpg
