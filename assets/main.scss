@@ -87,7 +87,7 @@ header {
     background-image: url(/assets/images/golden_gate_v2.jpg);
     height: 163px;
     .site-title, .page-link {
-      padding: 0 20px;
+      padding: 0;
       color: #ff6600;
       // text-align: right;
       // text-decoration: underline;
@@ -103,7 +103,8 @@ header {
     .site-nav{
       background: transparent;
       border: none;
-      position: relative;
+      padding: 0 20px;
+      position: static;
     }
   }
 }
