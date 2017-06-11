@@ -4,6 +4,7 @@ title: "Форт Росс, гора Тамалпаис и все новые пр
 date:   2017-05-09 12:00:24 -0800
 comments: true
 thumbnail: IMG_0197.JPG
+tags: San-Francisco
 images:
 
   - IMG_0201.JPG

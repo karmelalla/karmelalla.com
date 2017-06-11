@@ -46,3 +46,5 @@ image_quality: 90
 
 timezone: "America/Los_Angeles"
 
+tag_page_layout: tag_page
+tag_page_dir: tag
