@@ -7,7 +7,7 @@
     src: url(/assets/palatino_linotype.ttf);
 }
 
-$font-text: "Palatino_Linotype", "Book Antiqua", Palatino, serif;
+$font-text: Palatino, "Palatino_Linotype", "Book Antiqua", serif;
 
 @mixin border-shadow {
   box-shadow: 0 0 10px rgba(0, 78, 102, 0.6);
