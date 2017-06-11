@@ -1,3 +1,9 @@
-{% for image in page.images %}
+{% if post %}
+  {% assign images = post.images %}
+{% else %}
+  {% assign images = page.images %}
+{% endif %}
+
+{% for image in images %}
   {% include image src=image small=true %}
 {% endfor %}
