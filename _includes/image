@@ -1,4 +1,4 @@
-{% assign image_folder = page.path | replace_first: '_', '/assets/images/' | replace: '.markdown' | replace: '.md', '/' %}
+{% assign image_folder = page.path | replace_first: '_', '/assets/images/' | replace: '.markdown', '/' | replace: '.md', '/' | replace: 'drafts', 'posts' %}
 {% if include.small %}
   {% assign small_image = include.src | replace: '.', '-small.' %}
   {% assign style = "margin: 10px;" %}
