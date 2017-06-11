@@ -1,0 +1,25 @@
+---
+layout: home
+title: Фотогалерея
+permalink: /gallery/
+---
+
+<div class="post-list">
+  {% for post in site.posts %}
+    {% if post.images %}
+        <div class="post">
+          <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+
+          <h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+
+          {% include gallery.html %}
+
+          <div class="read-more">
+              <a class="post-link" href="{{ post.url | relative_url }}">Перейти в статью</a>
+          </div>
+        </div>
+    {% endif %}
+  {% endfor %}
+</div>
