@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Наш день в Долине
+title: Наш день в Долине
 date:   2017-06-12 11:25:24 -0800
 comments: true
 original-date: 2017-05-05
