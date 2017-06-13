@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Наш день в Долине
-date:   2017-06-10 11:25:24 -0800
+date:   2017-06-12 11:25:24 -0800
 comments: true
 original-date: 2017-05-05
 thumbnail: IMG_0378.JPG
@@ -18,7 +18,6 @@ images:
   - IMG_0427.JPG
   - IMG_0431.JPG
   - IMG_0443.JPG
-
   - IMG_0447.JPG
   - IMG_0451.JPG
   - IMG_0464.JPG
