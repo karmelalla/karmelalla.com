@@ -4,7 +4,7 @@ title: День рождения
 date: 2017-06-13 11:25:24 -0800
 comments: true
 original-date: 2017-06-13
-thumbnail: alla-home.JPG
+thumbnail: alla-home.jpg
 images:
   - img_0898.jpg
   - img_0906.jpg
