@@ -17,7 +17,7 @@ Also you can change width and quality in ```_config.yml``` in your project folde
 
 ```yml
 image_width: 2048
-image_small_width: 300
+image_small_height: 200
 image_quality: 90
 ```
 
