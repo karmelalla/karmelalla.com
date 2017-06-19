@@ -6,22 +6,21 @@ comments: true
 original-date: 2017-06-13
 thumbnail: alla-home.jpg
 images:
+  - IMG_0898.JPG
+  - IMG_0906.JPG
+  - IMG_0892.JPG
+  - IMG_0891.JPG
+  - IMG_0911.JPG
+  - IMG_0909.JPG
   - alla-home.jpg
   - IMG_0876.JPG
-  - IMG_0891.JPG
   - IMG_0896.JPG
-  - IMG_0898.JPG
   - IMG_0900 2.JPG
-  - IMG_0892.JPG
-  - IMG_0906.JPG
   - IMG_0909 2.JPG
-  - IMG_0909.JPG
-  - IMG_0911.JPG
   - IMG_0914 2.JPG
-  - IMG_0929.JPG
   - IMG_9090.JPG
   - IMG_9102.JPG
-
+  - IMG_0929.JPG
 ---
 
 На прошлой неделе у меня был День рождения. Я считаю важным, чтобы и здесь осталась память об этом дне. 
