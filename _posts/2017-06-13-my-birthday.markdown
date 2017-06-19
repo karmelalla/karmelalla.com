@@ -4,23 +4,23 @@ title: День рождения
 date:   2017-06-13 11:25:24 -0800
 comments: true
 original-date: 2017-06-13
-thumbnail: alla-home.jpg
+thumbnail: alla-home.JPG
 images:
-  - img_0898.jpg
-  - img_0906.jpg
-  - img_0892.jpg
-  - img_0891.jpg
-  - img_0911.jpg
-  - img_0909.jpg
-  - alla-home.jpg
-  - img_0876.jpg
-  - img_0896.jpg
-  - img_0900 2.jpg
-  - img_0909 2.jpg
-  - img_0914 2.jpg
-  - img_9090.jpg
-  - img_9102.jpg
-  - img_0929.jpg
+  - IMG_0898.JPG
+  - IMG_0906.JPG
+  - IMG_0892.JPG
+  - IMG_0891.JPG
+  - IMG_0911.JPG
+  - IMG_0909.JPG
+  - alla-home.JPG
+  - IMG_0876.JPG
+  - IMG_0896.JPG
+  - IMG_0900 2.JPG
+  - IMG_0909 2.JPG
+  - IMG_0914 2.JPG
+  - IMG_9090.JPG
+  - IMG_9102.JPG
+  - IMG_0929.JPG
 ---
 
 На прошлой неделе у меня был День рождения. Я считаю важным, чтобы и здесь осталась память об этом дне. 
