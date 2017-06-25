@@ -43,6 +43,7 @@ paginate: 7
 image_width: 2048
 image_small_height: 200
 image_quality: 90
+watermark: 'assets/images/watermark_karmelalla.png'
 
 timezone: "America/Los_Angeles"
 
