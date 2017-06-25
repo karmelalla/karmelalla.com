@@ -22,7 +22,6 @@ image_small_height: 200
 image_quality: 90
 ```
 
-
 ### Send email:
 
 ```
