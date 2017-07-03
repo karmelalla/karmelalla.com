@@ -39,8 +39,6 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
-    jekyll-tagging (1.1.0)
-      nuggets
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -61,7 +59,6 @@ GEM
     mini_magick (4.7.2)
     minima (2.1.1)
       jekyll (~> 3.3)
-    nuggets (1.5.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -80,7 +77,6 @@ DEPENDENCIES
   jekyll-email!
   jekyll-image-resizer!
   jekyll-paginate
-  jekyll-tagging
   minima
   tzinfo-data
 

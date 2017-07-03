@@ -56,6 +56,19 @@ body {
     .go-to-post {
       margin-top: 0;
     }
+
+    // a.post-link {
+    // }
+    // .top-left-img {
+    //   background-image: url(/assets/images/frame_13.png);
+    //   left: 0;
+    //   top: 0;
+    // }
+    // .bottom-right-img {
+    //   background-image: url(/assets/images/frame_23.png);
+    //   right: 0;
+    //   bottom: 0;
+    // }
   }
 }
 
@@ -80,6 +93,9 @@ header {
     .site-title, .page-link {
       padding: 0;
       color: #ff6600;
+      // text-align: right;
+      // text-decoration: underline;
+      // text-shadow: 3px 2px;
     }
     .site-title {
       padding: 0 20px;
@@ -155,5 +171,8 @@ footer {
 .thumbnail {
   img {
     margin-bottom: 10px;
+    // margin-right: 10px;
+    // float: left;
+    // width: 50%; 
   }
 }

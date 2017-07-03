@@ -4,14 +4,29 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-<!-- {% include tag_cloud.html %} -->
 
 <div class="post-list">
   {% for post in paginator.posts %}
-    {% include post.html %}
+    <div class="post">
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+      {% if post.thumbnail %}
+        {% include thumbnail src=post.thumbnail %}
+      {% endif %}
+      {{ post.excerpt }}
+      
+      <div class="read-more">
+        <a class="post-link" href="{{ post.url | relative_url }}">читать далее...</a>
+      </div>
+
+     <!--  <div class="top-left-img"></div>
+      <div class="bottom-right-img"></div> -->
+    </div>
   {% endfor %}
 </div>
-
 
 <!-- Pagination links -->
 <div class="pagination">
