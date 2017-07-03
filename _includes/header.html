@@ -8,7 +8,7 @@
         {% assign pages = site.pages | reverse %}
 
         {% for my_page in pages %}
-          {% if my_page.title and (my_page.url) != "/subscription/" %}
+          {% if my_page.title and (my_page.url) != "/subscribe/" %}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           {% endif %}
         {% endfor %}
