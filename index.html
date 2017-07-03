@@ -19,7 +19,9 @@ layout: home
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">назад</a>
   {% endif %}
-  <span class="page_number ">страница: {{ paginator.page }} из {{ paginator.total_pages }}</span>
+  <span class="page_number ">
+    страница: {{ paginator.page }} из  <a href="{{ site.paginate_path | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a>
+  </span>
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">вперед</a>
   {% endif %}

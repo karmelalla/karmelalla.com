@@ -2,7 +2,12 @@
 ---
 @import "minima";
 
-$font-text: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+@font-face {
+    font-family: Palatino_Linotype;
+    src: url(/assets/palatino_linotype.ttf);
+}
+
+$font-text: Palatino, "Palatino_Linotype", "Book Antiqua", serif;
 
 @mixin border-shadow {
   box-shadow: 0 0 10px rgba(0, 78, 102, 0.6);
@@ -37,34 +42,20 @@ body {
     a.fancybox:hover {
       text-decoration: none;
     }
-    // border-style: double;
-    // border-width: 3px;
-    // .top-left-img, .bottom-right-img {
-    //   position: absolute;
-    //   width: 270px;
-    //   height: 80px;
-    //   z-index: -1;
-    // }
+    .post-title {
+      font-size: 210%;
+    }
     .read-more {
       margin-top: -15px;
       text-align: right;
+      font-style: italic;
       a {
         font-size: 18px;
       }
     }
-    a.post-link {
-      font-style: italic;
+    .go-to-post {
+      margin-top: 0;
     }
-    // .top-left-img {
-    //   background-image: url(/assets/images/frame_13.png);
-    //   left: 0;
-    //   top: 0;
-    // }
-    // .bottom-right-img {
-    //   background-image: url(/assets/images/frame_23.png);
-    //   right: 0;
-    //   bottom: 0;
-    // }
   }
 }
 
@@ -89,9 +80,6 @@ header {
     .site-title, .page-link {
       padding: 0;
       color: #ff6600;
-      // text-align: right;
-      // text-decoration: underline;
-      // text-shadow: 3px 2px;
     }
     .site-title {
       padding: 0 20px;
@@ -106,6 +94,7 @@ header {
       border: none;
       padding: 0 20px;
       position: static;
+      font-size: 19px;
     }
   }
 }
@@ -153,8 +142,7 @@ footer {
   margin-top: 10px;
   max-width: calc(800px - (30px * 2));
   @include border-shadow;
-  font-size: 14px;
-  font-style: italic;
+  font-size: 15px;
   font-weight: bold;
   background: white;  
   text-align: center;
@@ -167,8 +155,5 @@ footer {
 .thumbnail {
   img {
     margin-bottom: 10px;
-    // margin-right: 10px;
-    // float: left;
-    // width: 50%; 
   }
 }
