@@ -9,7 +9,28 @@ layout: home
 
 <div class="post-list">
   {% for post in paginator.posts %}
+<<<<<<< HEAD
     {% include post.html %}
+=======
+    <div class="post">
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+      {% if post.thumbnail %}
+        {% include thumbnail src=post.thumbnail %}
+      {% endif %}
+      {{ post.excerpt }}
+      
+      <div class="read-more">
+        <a class="post-link" href="{{ post.url | relative_url }}">читать далее...</a>
+      </div>
+
+     <!--  <div class="top-left-img"></div>
+      <div class="bottom-right-img"></div> -->
+    </div>
+>>>>>>> master
   {% endfor %}
 </div>
 
@@ -19,7 +40,9 @@ layout: home
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">назад</a>
   {% endif %}
-  <span class="page_number ">страница: {{ paginator.page }} из {{ paginator.total_pages }}</span>
+  <span class="page_number ">
+    страница: {{ paginator.page }} из  <a href="{{ site.paginate_path | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a>
+  </span>
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">вперед</a>
   {% endif %}
