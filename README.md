@@ -9,9 +9,11 @@ $ bundle install
 ```
 
 ```
+$ jekyll photo 2017-01-15-first-weekend # 1st argument is path -both resize and watermark
+$ jekyll image 2017-01-15-first-weekend # 1st argument is path -both resize and watermark
 $ jekyll resize 2017-01-15-first-weekend # 1st argument is path
-$ jekyll resize 2017-01-15-first-weekend 300 90 # 1st argument is path and 2nd is image width 3rd is quality
-$ jekyll watermark # if no argument - from latest folder or add name or a key word of a folder (if no resize or for old posts)
+$ jekyll resize 2017-01-15-first-weekend 200 90 # 1st argument is path, 2nd is image small height and 3rd it's quality
+$ jekyll watermark 2017-01-15-first-weekend
 ```
 
 Also you can change width and quality in ```_config.yml``` in your project folder. By default it's:
