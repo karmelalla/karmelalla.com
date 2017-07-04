@@ -56,19 +56,6 @@ body {
     .go-to-post {
       margin-top: 0;
     }
-
-    // a.post-link {
-    // }
-    // .top-left-img {
-    //   background-image: url(/assets/images/frame_13.png);
-    //   left: 0;
-    //   top: 0;
-    // }
-    // .bottom-right-img {
-    //   background-image: url(/assets/images/frame_23.png);
-    //   right: 0;
-    //   bottom: 0;
-    // }
   }
 }
 
@@ -93,9 +80,6 @@ header {
     .site-title, .page-link {
       padding: 0;
       color: #ff6600;
-      // text-align: right;
-      // text-decoration: underline;
-      // text-shadow: 3px 2px;
     }
     .site-title {
       padding: 0 20px;
@@ -168,11 +152,30 @@ footer {
   }
 }
   
+.subscribe-page {
+  font-size: 19px;
+
+  input {
+    font-size: 19px;
+    display: block;
+    margin: 10px 0;
+  }
+
+  #submit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+  }
+}
+
 .thumbnail {
   img {
     margin-bottom: 10px;
-    // margin-right: 10px;
-    // float: left;
-    // width: 50%; 
+
   }
 }
