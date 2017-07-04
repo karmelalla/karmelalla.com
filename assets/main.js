@@ -1,6 +1,7 @@
 $(document).ready(function() {
   gallery();
-  subscribe();
+  subscribe('.subscribe', false);
+  subscribe('.subscribe-page', true);
 });
 
 function gallery() {
@@ -10,11 +11,11 @@ function gallery() {
   });
 }
 
-function subscribe() {
-  var $name = $(".subscribe input[name='name']");
-  var $email = $(".subscribe input[name='email']");
+function subscribe(selector, redirect) {
+  var $name = $(selector + " input[name='name']");
+  var $email = $(selector + " input[name='email']");
 
-  var $subscribeForm = $('.subscribe form');
+  var $subscribeForm = $(selector + " form");
 
   $subscribeForm.on('submit', function(event){
     event.preventDefault();
@@ -24,7 +25,7 @@ function subscribe() {
       url: "https://getsimpleform.com/messages/ajax?form_api_token=25d273b74e476783ccbc1ae150032b7d",
       data: $subscribeForm.serialize(),
     }).done(function() {
-      doneMessage($name, $email);
+      doneMessage($name, $email, redirect);
       $name.val("");
       $email.val("");
     }).fail(function() {
@@ -33,14 +34,22 @@ function subscribe() {
   });
 }
 
-function doneMessage($name, $email) {
+function doneMessage($name, $email, redirect) {
   var name = $name.val() ? $name.val() + ", " : "";
 
   swal({
     title: "Cпасибо, " + name + "что подписались на рассылку!",
     text: "Вам придет письмо на " + $email.val() + ", когда выйдет новый пост.",
     timer: 4000,
-    showConfirmButton: true
+    showConfirmButton: true,
+    type: "success"
+  },
+  function(){
+    swal.close();
+    
+    if(redirect) {
+      window.location = location.protocol + "//" + location.host;
+    }
   });
 }
 
