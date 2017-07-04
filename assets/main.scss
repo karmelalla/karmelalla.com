@@ -155,21 +155,24 @@ footer {
 .subscribe-page {
   font-size: 19px;
 
+
   input {
-    font-size: 19px;
+    font-size: 17px;
     display: block;
     margin: 10px 0;
+    border-radius: 5px;
+    font-style: italic;
   }
 
   #submit {
-    background-color: #4CAF50; /* Green */
+    background-color: #66dbff; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 26px;
+    font-size: 20px;
   }
 }
 
