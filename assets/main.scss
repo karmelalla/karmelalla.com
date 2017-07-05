@@ -56,6 +56,17 @@ body {
     .go-to-post {
       margin-top: 0;
     }
+    table {
+      border-collapse: collapse;
+      width: 70%;
+
+
+      &, th, td {
+       border: 1px solid #dddddd;
+       text-align: left;
+       padding: 4px;
+      }
+    }
   }
 }
 
@@ -181,6 +192,5 @@ footer {
 .thumbnail {
   img {
     margin-bottom: 10px;
-
   }
 }
