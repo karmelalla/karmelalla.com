@@ -6,7 +6,7 @@ permalink: /gallery/
 
 <div class="post-list">
   {% for post in site.posts %}
-    {% if post.images %}
+    {% if post.images and post.hidden == nil or post.hidden == false %}
         <div class="post">
           <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
 
