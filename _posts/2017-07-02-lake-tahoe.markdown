@@ -4,6 +4,7 @@ title: Озеро Тахо, мы еще вернемся!
 date: 2017-07-02 11:25:24 -0800
 comments: true
 original-date: 2017-06-26
+permalink: /2017/07/02/lake-tahoe.html
 thumbnail: img_1076.jpg
 images:
   - img_0923.jpg
