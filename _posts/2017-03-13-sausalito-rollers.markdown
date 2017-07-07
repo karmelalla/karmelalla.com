@@ -4,6 +4,7 @@ title:  "Sausalito, роллеры и много-много солнца"
 date:   2017-03-13 21:25:24 -0800
 categories: jekyll update
 comments: true
+permalink: /jekyll/update/2017/03/13/sausalito-rollers.html
 thumbnail: sausalito.jpg
 images:
   - IMG_8979.JPG

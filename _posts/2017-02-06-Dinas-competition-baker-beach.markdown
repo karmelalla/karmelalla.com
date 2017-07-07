@@ -4,6 +4,7 @@ title:  "Динина победа на соревнованиях и непов
 date:   2017-02-06 21:25:24 -0800
 categories: jekyll update
 comments: true
+permalink: /jekyll/update/2017/02/06/Dinas-competition-baker-beach.html
 thumbnail: 2017-02-05_13-36-01_748.jpeg
 images:
   - 2017-02-04_13-10-41_734.jpeg

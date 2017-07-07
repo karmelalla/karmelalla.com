@@ -4,6 +4,7 @@ title:  "Выходные в Санта Крузе и самая лучшая к
 date:   2017-01-30 21:25:24 -0800
 categories: jekyll update
 comments: true
+permalink: /jekyll/update/2017/01/30/santa-cruz-weekend.html
 thumbnail: IMG-8501.JPG
 images:
   - IMG-8422.JPG

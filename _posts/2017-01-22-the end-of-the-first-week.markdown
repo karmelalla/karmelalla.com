@@ -3,6 +3,7 @@ layout: post
 title:  "Первая неделя-подводим итоги"
 date:   2017-01-22 21:25:24 -0800
 comments: true
+permalink: /2017/01/22/the-end-of-the-first-week.html
 
 ---
 

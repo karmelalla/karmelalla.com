@@ -4,6 +4,7 @@ title:  "“Первый” день в Калифорнии"
 date:   2017-01-13 21:25:24 -0800
 categories: jekyll update
 comments: true
+permalink: /jekyll/update/2017/01/13/first-day-in-California.html
 thumbnail: seagull-on-a-pier.jpeg
 
 ---
