@@ -3,6 +3,7 @@ layout: post
 title:  "Город Ангелов, часть первая"
 date:   2017-04-12 13:25:24 -0800
 comments: true
+permalink: /2017/04/12/los-angeles-p1.html
 thumbnail: IMG_9906.JPG
 images:
   - IMG_9785.JPG

@@ -4,6 +4,7 @@ title:  "Начинать новую жизнь надо с длинных вы�
 date:   2017-01-15 21:25:24 -0800
 comments: true
 categories: jekyll update
+permalink: /jekyll/update/2017/01/15/first-weekend.html
 thumbnail: foggy-pier.jpeg
 images:
   - bakers-beach-us.jpeg

@@ -4,8 +4,8 @@ title:  "Коротко о том, что не успела рассказать
 date:   2017-02-28 21:25:24 -0800
 categories: jekyll update
 comments: true
+permalink: /jekyll/update/2017/02/28/angel-rodeo.html
 thumbnail: IMG_8833.JPG
-
 images:
   - 2017-02-21_17-48-09_188.jpeg
   - 2017-02-21_19-28-20_984.jpeg

@@ -47,3 +47,5 @@ watermark: 'assets/images/watermark_karmelalla.png'
 
 timezone: "America/Los_Angeles"
 
+permalink: /:categories/:title
+

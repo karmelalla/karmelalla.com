@@ -3,6 +3,7 @@ layout: post
 title:  "Гости, приезжайте еще!"
 date:   2017-05-01 12:00:24 -0800
 comments: true
+permalink: /2017/05/01/guests.html
 thumbnail: IMG_9813.JPG
 images:
   - IMG_9800.JPG

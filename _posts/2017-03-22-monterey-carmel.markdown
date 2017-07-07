@@ -4,6 +4,7 @@ title:  "Monterey, Carmel by the sea и много-много океана"
 date:   2017-03-21 21:25:24 -0800
 categories: jekyll update
 comments: true
+permalink: /jekyll/update/2017/03/21/monterey-carmel.html
 thumbnail: IMG_9125.JPG
 images:
   - IMG_9084.JPG

@@ -4,6 +4,7 @@ title:  "Первая неделя жизни и не дома, и не в от�
 date:   2017-01-18 21:25:24 -0800
 categories: jekyll update
 comments: true
+permalink: /jekyll/update/2017/01/18/first-week.html
 thumbnail: walk.jpeg
 
 ---

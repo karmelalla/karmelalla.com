@@ -4,6 +4,7 @@ title:  "Три дня-это бесконечность..."
 date:   2017-01-25 21:25:24 -0800
 categories: jekyll update
 comments: true
+permalink: /jekyll/update/2017/01/25/three-days-infinity.html
 images:
   - IMG_8630.JPG
 ---
