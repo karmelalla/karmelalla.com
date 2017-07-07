@@ -3,6 +3,7 @@ layout: post
 title: "Что такое Силиконовая долина и чем в ней можно заняться?"
 date: 2017-06-05 12:00:24 -0800
 comments: true
+permalink: /2017/06/05/silicon-valley.html
 thumbnail: google.jpg
 
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Форт Росс, гора Тамалпаис и все новые приключения"
 date:   2017-05-09 12:00:24 -0800
 comments: true
+permalink: /2017/05/09/fort-ross-tamalpais.html
 thumbnail: IMG_0197.JPG
 images:
 

@@ -4,8 +4,8 @@ title: Наш день в Долине
 date:   2017-06-12 11:25:24 -0800
 comments: true
 original-date: 2017-05-05
+permalink: /2017/06/12/a-day-in-the-valley.html
 thumbnail: IMG_0378.JPG
-
 images:
 
   - IMG_0378.JPG
