@@ -3,11 +3,13 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+title: Посты о еде
+permalink: /cooking/
 ---
 
 <div class="post-list">
-  {% for post in paginator.posts %}
-    {% unless post.categories contains "cooking" %}
+  {% for post in site.posts %}
+    {% if post.categories contains "cooking" %}
       <div class="post">
         <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
 
@@ -26,21 +28,8 @@ layout: home
        <!--  <div class="top-left-img"></div>
         <div class="bottom-right-img"></div> -->
       </div>
-    {% endunless %}
+    {% endif %}
   {% endfor %}
-</div>
-
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">назад</a>
-  {% endif %}
-  <span class="page_number ">
-    страница: {{ paginator.page }} из  <a href="{{ site.paginate_path | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a>
-  </span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">вперед</a>
-  {% endif %}
 </div>
 
 
