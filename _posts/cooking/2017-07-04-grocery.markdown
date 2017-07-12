@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Пост о еде"
+title:  "Сыроедческий кокосовый торт"
 categories: cooking
 hidden: true
 date: 2017-07-04 11:25:24 -0800
