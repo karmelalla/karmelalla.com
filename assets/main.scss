@@ -202,7 +202,8 @@ footer {
   font-family: $font-text !important;
 }
 
-.fancybox-title-over-wrap {
-  width: 100%;
+.fancybox-title.fancybox-title-inside-wrap {
   text-align: center;
+  padding: 10px 0;
+  /* background: rgba(0,0,0,.5); */
 }

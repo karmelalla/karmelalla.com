@@ -10,7 +10,7 @@ function gallery() {
       openEffect: 'elastic',
       helpers: {
         title: {
-          type: 'over'
+          type: 'inside'
         }
       }
   });
