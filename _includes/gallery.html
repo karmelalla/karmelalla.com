@@ -1,9 +1,17 @@
 {% if post %}
-  {% assign images = post.images %}
+{% assign images = post.images %}
 {% else %}
-  {% assign images = page.images %}
+{% assign images = page.images %}
 {% endif %}
 
 {% for image in images %}
-  {% include image src=image small=true %}
+  {% assign attrs = image | split: "|" %}
+  {% assign source = attrs.first | strip %}
+  {% if attrs.size == 2 %}
+    {% assign title = attrs.last | strip %}
+  {% else %}
+    {% assign title = nil %}
+  {% endif %}
+
+  {% include image src=source small=true title=title %}
 {% endfor %}
