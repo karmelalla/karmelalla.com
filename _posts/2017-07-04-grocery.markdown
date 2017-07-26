@@ -4,7 +4,6 @@ title: Что мы едим в Америке?
 date: 2017-07-04 11:25:24 -0800
 comments: true
 original-date: 2017-07-04
-hidden: true
 thumbnail: img_1296.jpg
 images:
   - img_1296.jpg
