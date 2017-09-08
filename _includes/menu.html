@@ -1,0 +1,16 @@
+<nav class="subscribe menu">
+  {% assign pages = site.pages | reverse %}
+  {% for my_page in pages %}
+    {% if my_page.title and (my_page.url) != "/subscribe/" %}
+      {% if my_page.url == page.url %}
+        {% assign text_decoration = "text-decoration: underline" %}
+      {% else %}
+        {% assign text_decoration = "" %}
+      {% endif %}
+
+      <a class="page-link" href="{{ my_page.url | relative_url }}" style="{{text_decoration}}">
+        {{ my_page.title | escape }}
+      </a>
+    {% endif %}
+  {% endfor %}
+</nav>
