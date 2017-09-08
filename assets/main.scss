@@ -157,6 +157,9 @@ nav.menu {
     color: #f60;
     margin: 0 auto;
   }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 .subscribe {
@@ -205,4 +208,15 @@ nav.menu {
   img {
     margin-bottom: 10px;
   }
+}
+
+.fancybox-title {
+  font-size: 100% !important;
+  font-family: $font-text !important;
+}
+
+.fancybox-title.fancybox-title-inside-wrap {
+  text-align: center;
+  padding: 10px 0;
+  /* background: rgba(0,0,0,.5); */
 }

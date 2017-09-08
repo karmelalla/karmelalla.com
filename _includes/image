@@ -11,6 +11,6 @@
   {% assign style = "" %}
 {% endif %}
 
-<a href="{{image_folder}}{{include.src}}" class="fancybox" rel="gallery">
+<a href="{{image_folder}}{{include.src}}" class="fancybox" rel="gallery" title="{{include.title}}">
   <img src="{{image_folder}}{{small_image}}" style="{{style}}">
 </a>

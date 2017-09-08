@@ -6,8 +6,13 @@ $(document).ready(function() {
 
 function gallery() {
   $('.fancybox').fancybox({
-      padding : 0,
-      openEffect  : 'elastic'
+      padding: 0,
+      openEffect: 'elastic',
+      helpers: {
+        title: {
+          type: 'inside'
+        }
+      }
   });
 }
 
