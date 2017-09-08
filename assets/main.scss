@@ -3,8 +3,8 @@
 @import "minima";
 
 @font-face {
-    font-family: Palatino_Linotype;
-    src: url(/assets/palatino_linotype.ttf);
+  font-family: Palatino_Linotype;
+  src: url(/assets/palatino_linotype.ttf);
 }
 
 $font-text: Palatino, "Palatino_Linotype", "Book Antiqua", serif;
@@ -27,12 +27,14 @@ body {
 
 .wrapper {
   padding: 0;
+
   .post {
     padding: 10px 20px;
-    margin: 20px 0px;
+    margin: 10px 0;
     position: relative;
     background-color: white;
     @include border-shadow;
+
     img {
       @include border-shadow;
     }
@@ -49,6 +51,7 @@ body {
       margin-top: -15px;
       text-align: right;
       font-style: italic;
+
       a {
         font-size: 18px;
       }
@@ -62,9 +65,8 @@ body {
       margin-right: auto;
       width: 60%;
 
-
       &, th, td {
-       border: 1px solid #dddddd;
+       border: 1px solid #ddd;
        text-align: left;
        padding: 4px;
       }
@@ -73,10 +75,11 @@ body {
 }
 
 header, footer {
+  font-style: italic;
+
   &.site-header, &.site-footer {
     border: 0;
   }
-  font-style: italic;
   .wrapper {
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
     border-radius: 5px;
@@ -90,9 +93,11 @@ header {
   .wrapper {
     background-image: url(/assets/images/golden_gate_v2.jpg);
     height: 163px;
+    border-radius: 5px 5px 0 0;
+
     .site-title, .page-link {
       padding: 0;
-      color: #ff6600;
+      color: #f60;
     }
     .site-title {
       padding: 0 20px;
@@ -101,13 +106,6 @@ header {
     }
     .page-link {
       text-decoration: underline;
-    }
-    .site-nav{
-      background: transparent;
-      border: none;
-      padding: 0 20px;
-      position: static;
-      font-size: 19px;
     }
   }
 }
@@ -148,6 +146,19 @@ footer {
   }
 }
 
+nav.menu {
+  border-radius: 0 0 5px 5px;
+  font-size: 19px;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: #f60;
+    margin: 0 auto;
+  }
+}
+
 .subscribe {
   position: relative;
   margin: auto;
@@ -167,7 +178,6 @@ footer {
   
 .subscribe-page {
   font-size: 19px;
-
 
   input {
     font-size: 17px;
