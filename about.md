@@ -30,7 +30,7 @@ permalink: /about/
 
 <u>Статистика сайта:</u>
 <ul>
-  <li>Количество историй: {{stories_counter}}</li>
-  <li>Количество рецептов: {{cooking_counter}}</li> 
-  <li>Количество фотографий: {{images_counter}}</li>
+  <li>Количество <a href="/">историй</a>: {{stories_counter}}</li>
+  <li>Количество <a href="/cooking/">рецептов</a>: {{cooking_counter}}</li> 
+  <li>Количество <a href="/gallery/">фотографий</a>: {{images_counter}}</li>
 </ul>
