@@ -12,5 +12,25 @@ permalink: /about/
 
 Пожалуйста, подписывайтесь <a href="http://karmelalla.com/subscribe/" target="_blank"> по этой ссылке </a> и читайте с удовольствием.
  
- 
+{% assign cooking_counter = 0 %}
+{% assign stories_counter = 0 %}
+{% assign images_counter = 0 %}
 
+{% for post in site.posts %}
+  {% if post.categories contains "cooking" %}
+    {% assign cooking_counter = cooking_counter | plus: 1 %}
+  {% else %}
+    {% assign stories_counter = stories_counter | plus: 1 %}
+  {% endif %}
+  
+  {% for image in post.images %}
+    {% assign images_counter = images_counter | plus: 1 %}
+  {% endfor %}
+{% endfor %}
+
+<u>Статистика сайта:</u>
+<ul>
+  <li>Количество историй: {{stories_counter}}</li>
+  <li>Количество рецептов: {{cooking_counter}}</li> 
+  <li>Количество фотографий: {{images_counter}}</li>
+</ul>
