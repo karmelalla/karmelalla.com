@@ -2,7 +2,7 @@
   {% assign pages = site.pages | reverse %}
   {% for my_page in pages %}
     {% if my_page.title and (my_page.url) != "/subscribe/" %}
-      {% if my_page.url == page.url %}
+      {% if page.url contains my_page.url %}
         {% assign text_decoration = "text-decoration: underline" %}
       {% else %}
         {% assign text_decoration = "" %}
