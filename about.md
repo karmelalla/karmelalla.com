@@ -28,6 +28,9 @@ permalink: /about/
   {% endfor %}
 {% endfor %}
 
-Количество историй: {{stories_counter}} <br>
-Количество рецептов: {{cooking_counter}} <br>
-Количество фотографий: {{images_counter}}
+<u>Статистика сайта:</u>
+<ul>
+  <li>Количество историй: {{stories_counter}}</li>
+  <li>Количество рецептов: {{cooking_counter}}</li> 
+  <li>Количество фотографий: {{images_counter}}</li>
+</ul>
