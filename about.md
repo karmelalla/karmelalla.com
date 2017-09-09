@@ -11,8 +11,7 @@ permalink: /about/
 Пожалуйста, не судите строго. Это всего лишь мои заметки. Если вам понравится - я буду рада. 
 
 Пожалуйста, подписывайтесь <a href="http://karmelalla.com/subscribe/" target="_blank"> по этой ссылке </a> и читайте с удовольствием.
- 
-<<<<<<< Updated upstream
+
 {% assign cooking_counter = 0 %}
 {% assign stories_counter = 0 %}
 {% assign images_counter = 0 %}
@@ -28,9 +27,6 @@ permalink: /about/
     {% assign images_counter = images_counter | plus: 1 %}
   {% endfor %}
 {% endfor %}
-=======
-*Количество постов: {{site.posts.size}}*
->>>>>>> Stashed changes
 
 <u>Статистика сайта:</u>
 <ul>
