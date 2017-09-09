@@ -6,30 +6,30 @@ comments: true
 original-date: 2017-07-28
 thumbnail: thumbnail-piter.jpg
 images:
-  - img_1315.jpg
-  - img_1305.jpg
-  - img_1307.jpg
-  - img_1327.jpg
-  - fullsizerender 2.jpg
-  - img_1338.jpg
-  - img_1365.jpg
+  - img_1315.jpg | Лемболовское озеро
+  - img_1305.jpg | Лемболовское озеро
+  - img_1307.jpg | Лемболовское озеро
+  - img_1327.jpg | Лемболовское озеро
+  - fullsizerender 2.jpg | Лемболовское озеро
+  - img_1338.jpg | Лемболовское озеро
+  - img_1365.jpg | Прогулки по Фонтанке
   - img_1356.jpg
   - img_1405.jpg
   - img_1408.jpg
   - img_1515.jpg
   - img_1438.jpg
   - img_1488.jpg
-  - isaac_cath.jpg
-  - img_1469.jpg
-  - img_1475.jpg
-  - img_1477.jpg
-  - img_1479.jpg
-  - img_1483.jpg
-  - img_1493.jpg
-  - img_1500.jpg
-  - img_1518.jpg
-  - img_1525.jpg
-  - img_1537.jpg
+  - isaac_cath.jpg | Исакиевский собор
+  - img_1469.jpg | Великий Новгород
+  - img_1475.jpg | Великий Новгород
+  - img_1477.jpg | Великий Новгород
+  - img_1479.jpg | Великий Новгород
+  - img_1483.jpg | Великий Новгород
+  - img_1493.jpg | Великий Новгород
+  - img_1500.jpg | Великий Новгород
+  - img_1518.jpg | Великий Новгород
+  - img_1525.jpg | Великий Новгород
+  - img_1537.jpg | Великий Новгород
   - img_1546.jpg
   - img_1557.jpg
   - img_1559.jpg
@@ -38,7 +38,7 @@ images:
   - img_1580.jpg
   - img_1582.jpg
   - img_1587.jpg
-  - img_1624.jpg
+  - img_1624.jpg | Veeam team
   - img_1589.jpg
   - img_1595.jpg
   - img_1599.jpg
