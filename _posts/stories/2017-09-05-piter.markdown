@@ -19,7 +19,7 @@ images:
   - img_1515.jpg
   - img_1438.jpg
   - img_1488.jpg
-  - isaac_cath.jpg | Исакиевский собор
+  - isaac_cath.jpg | Исаакиевский собор
   - img_1469.jpg | Великий Новгород
   - img_1475.jpg | Великий Новгород
   - img_1477.jpg | Великий Новгород

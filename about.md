@@ -29,8 +29,6 @@ permalink: /about/
 {% endfor %}
 
 <u>Статистика сайта:</u>
-<ul>
-  <li>Количество <a href="/">историй</a>: {{stories_counter}}</li>
-  <li>Количество <a href="/cooking/">рецептов</a>: {{cooking_counter}}</li> 
-  <li>Количество <a href="/gallery/">фотографий</a>: {{images_counter}}</li>
-</ul>
+  * Количество [историй](/): {{stories_counter}}
+  * Количество [рецептов](/cooking/): {{cooking_counter}} 
+  * Количество [фотографий](/gallery/): {{images_counter}}
