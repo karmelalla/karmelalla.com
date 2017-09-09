@@ -38,6 +38,6 @@ comments: true
 
 Приятного аппетита!
 
-<!-- {% include image src="blueberry.jpg" %} -->
+{% include image src="spring-roll.JPG" %}
 
  
