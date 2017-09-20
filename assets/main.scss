@@ -220,3 +220,12 @@ nav.menu {
   padding: 10px 0;
   /* background: rgba(0,0,0,.5); */
 }
+
+@media print {
+  header {
+    height: 40px;
+  }
+  .subscribe, nav.menu, footer {
+    display: none;
+  }
+}
