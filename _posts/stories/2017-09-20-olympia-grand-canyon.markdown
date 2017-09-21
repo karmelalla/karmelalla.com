@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Лас Вегас, Олимпия и потрясающий Гранд Каньон
-date: 2017-09-19 00:25:24 -0800
+date: 2017-09-20 00:25:24 -0800
 comments: true
 original-date: 2017-09-20
 thumbnail: thumbnail-piter.jpg
