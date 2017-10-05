@@ -5,7 +5,7 @@ date: 2017-10-03 00:25:24 -0800
 comments: true
 hidden: true
 original-date: 2017-09-20
-thumbnail: thumbnail-vegas.JPG
+thumbnail: thumbnail-olympia.jpg
 images:
   - img_3021.jpg
   - img_3015.jpg | По дороге на Олимпию
