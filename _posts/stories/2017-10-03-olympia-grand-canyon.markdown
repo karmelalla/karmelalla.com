@@ -3,7 +3,6 @@ layout: post
 title: Лас Вегас, Олимпия и потрясающий Гранд Каньон
 date: 2017-10-03 00:25:24 -0800
 comments: true
-hidden: true
 original-date: 2017-09-20
 thumbnail: thumbnail-olympia.jpg
 images:
