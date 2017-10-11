@@ -1,4 +1,12 @@
 <nav class="subscribe menu">
+  {% assign stories_text_decoration = "text-decoration: underline" %}
+  {% for my_page in site.pages %}
+    {% if my_page.title and page.url contains my_page.url and my_page.url != "/" %}
+      {% assign stories_text_decoration = "" %}
+    {% endif %}
+  {% endfor %}
+  <a class="page-link" href="/" style="{{stories_text_decoration}}">Истории</a>
+
   {% assign pages = site.pages | reverse %}
   {% for my_page in pages %}
     {% if my_page.title and (my_page.url) != "/subscribe/" %}
