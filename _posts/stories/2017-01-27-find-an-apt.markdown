@@ -17,4 +17,4 @@ permalink: /jekyll/update/2017/01/27/find-an-apt.html
 
 А что было дальше вы узнаете в следующей сказке...
 
-![Yerba Buena](/assets/images/posts/2017-01-27-find-an-apt/yerba-buena-font.jpeg)
+![Yerba Buena](/assets/images/posts/stories/2017-01-27-find-an-apt/yerba-buena-font.jpeg)

@@ -220,3 +220,17 @@ nav.menu {
   padding: 10px 0;
   /* background: rgba(0,0,0,.5); */
 }
+
+@media print {
+  header {
+    height: 40px;
+
+    .wrapper a.site-title {
+      padding: 0;
+      font-size: 100%;
+    }
+  }
+  .subscribe, nav.menu, footer, #disqus_thread {
+    display: none;
+  }
+}

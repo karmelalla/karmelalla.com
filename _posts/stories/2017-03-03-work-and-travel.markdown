@@ -16,4 +16,4 @@ permalink: /jekyll/update/2017/03/03/work-and-travel.html
 
 Завтра мы поедем в [Форт Росс](https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D1%82-%D0%A0%D0%BE%D1%81%D1%81  "Fort Ross wikipedia"). Говорят, что кроме исторической составляющей там еще и фантастические виды на океан. Съездим и вам расскажем. Вечером поедем к Лене, а потом встречать Антона (моего коллегу) в аэропорт. Он нам везет целый чемодан посылок. В общем после выходных ждите отчета. А я побежала! 
 
-![scooter](/assets/images/posts/2017-03-03-work-and-travel/scooter.jpg)
+![scooter](/assets/images/posts/stories/2017-03-03-work-and-travel/scooter.jpg)
