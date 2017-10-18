@@ -14,6 +14,7 @@ $font-text: Palatino, "Palatino_Linotype", "Book Antiqua", serif;
   border-radius: 5px;
 }
 
+aside, footer, header, menu, nav { 
     display: block;
 }
 
@@ -21,12 +22,16 @@ $font-text: Palatino, "Palatino_Linotype", "Book Antiqua", serif;
 body {
   font-size: 17px;
   font-family: $font-text;
+  width: 1000px;
+  margin: 0 auto;
   // background-color:  #e6ffff;
   background-color: #e6f9ff;
 }
 
 .page-content {
+  width: 700px;
   padding-top: 5px;
+  float: left;
 }
 
 .wrapper {
@@ -34,9 +39,10 @@ body {
 
   .post {
     padding: 10px 20px;
-    margin: 10px 0;
+    margin: 10px auto;
     position: relative;
     background-color: white;
+
     @include border-shadow;
 
     img {
@@ -56,7 +62,7 @@ body {
       text-align: right;
       font-style: italic;
 
-      a {
+     a {
         font-size: 18px;
       }
     }
@@ -80,6 +86,7 @@ body {
 
 header, footer {
   font-style: italic;
+  clear:both;
 
   &.site-header, &.site-footer {
     border: 0;
@@ -229,6 +236,17 @@ nav.menu {
 #sidebar {
   width: 280px;
   float: right;
+  padding: 5px 0;
+  margin: 10px 10px;
+
+}
+
+.tags_widget, .gallery_widget, .instagram_widget{
+  background-color: white;
+  @include border-shadow;
+}
+
+
 @media print {
   header {
     height: 40px;
@@ -242,3 +260,6 @@ nav.menu {
     display: none;
   }
 }
+
+
+
