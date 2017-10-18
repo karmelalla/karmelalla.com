@@ -11,8 +11,6 @@
 
   #sidebar {
     width: 30%;
-  }
-  #sidebar .widget {
     padding: 8% 7%;
     margin-bottom: 10px;
   }
@@ -25,25 +23,10 @@
     height: auto;
   }
 
-  #searchform {
-    position: absolute;
-    top: 5px;
-    right: 0;
-  }
-
-  #main-nav {
+  .menu, .subscribe {
     position: static;
   }
 
-  #site-logo {
-    margin: 15px 100px 5px 0;
-    position: static;
-  }
-
-  #site-description {
-    margin: 0 0 15px;
-    position: static;
-  }
 
   .page-content {
     width: auto;
