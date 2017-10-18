@@ -14,6 +14,10 @@ $font-text: Palatino, "Palatino_Linotype", "Book Antiqua", serif;
   border-radius: 5px;
 }
 
+    display: block;
+}
+
+
 body {
   font-size: 17px;
   font-family: $font-text;
@@ -221,6 +225,10 @@ nav.menu {
   /* background: rgba(0,0,0,.5); */
 }
 
+
+#sidebar {
+  width: 280px;
+  float: right;
 @media print {
   header {
     height: 40px;
