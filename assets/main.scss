@@ -210,6 +210,25 @@ nav.menu {
   }
 }
 
+.clear {
+  clear: both;
+}
+
+.cooking {
+  .thumbnail {
+    img {
+      float: left;
+      width: 50%;
+      margin: 10px;
+    }
+  }
+
+  .intro {
+    padding-top: 5px;
+    text-align: justify;
+  }
+}
+
 .fancybox-title {
   font-size: 100% !important;
   font-family: $font-text !important;
