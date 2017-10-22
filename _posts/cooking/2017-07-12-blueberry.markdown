@@ -5,6 +5,7 @@ categories: cooking
 hidden: true
 date: 2017-07-12 07:25:24 -0800
 comments: true 
+thumbnail: blueberry.jpg
 ---
 
 Лидер рейтинга моих тортов - черничный чизкейк! Самый нежный, ароматный и просто таящий во рту.
