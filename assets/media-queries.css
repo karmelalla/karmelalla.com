@@ -1,17 +1,15 @@
 @media screen and (max-width: 980px) {
 
   body {
-    width: 95%;
+    width: 98%;
   }
 
   .page-content {
-    width: 60%;
-    padding: 3% 4%;
+    width: 68%;
   }
 
   #sidebar {
     width: 30%;
-    padding: 8% 7%;
     margin-bottom: 10px;
   }
 
@@ -27,30 +25,35 @@
     position: static;
   }
 
-
   .page-content {
     width: auto;
     float: none;
-    margin: 20px 0;
   }
 
   #sidebar {
     width: 100%;
     float: none;
-    margin: 0;
+    margin: 10px 0;
   }
 
 }
 
 @media screen and (max-width: 480px) {
 
-  html {
-    -webkit-text-size-adjust: none;
+  nav.menu {
+    font-size: 90%;
   }
 
-  #main-nav a {
-    font-size: 90%;
-    padding: 10px 8px;
+  a.post-link {
+   font-size: 80%;
+  }
+
+  .wrapper .post .post-title {
+    font-size: 150%;
+  }
+
+  header .wrapper .site-title {
+    font-size: 130%;
   }
 
 }
@@ -58,7 +61,5 @@
 img {
   max-width: 100%;
   height: auto;
-  width: auto\9; /* ie8 */
 }
 
-<meta name="viewport" content="width=device-width; initial-scale=1.0">
