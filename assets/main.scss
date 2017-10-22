@@ -41,10 +41,10 @@ body {
   max-width: 100%;
 
   .post {
-    padding: 10px 20px;
+    padding: 10px 15px;
     margin: 10px auto;
     position: relative;
-    background-color: white;
+    background-color: #fff;
 
     @include border-shadow;
 
@@ -58,7 +58,7 @@ body {
       text-decoration: none;
     }
     .post-title {
-      font-size: 210%;
+      font-size: 180%;
     }
     .read-more {
       margin-top: -15px;
@@ -83,6 +83,10 @@ body {
        text-align: left;
        padding: 4px;
       }
+    }
+    .gallery-small-image {
+      margin-right: 10px;
+      margin-bottom: 13px;
     }
   }
 }
@@ -115,7 +119,7 @@ header {
     .site-title {
       padding: 0 20px;
       font-weight: bold;
-      font-size: 210%;
+      font-size: 200%;
     }
     .page-link {
       text-decoration: underline;
@@ -124,7 +128,8 @@ header {
 }
 
 .pagination {
-  margin-top: 30px;
+  margin: 20px 0;
+  font-size: 20px;
   font-style: italic;
 }
 
@@ -146,10 +151,10 @@ footer {
     }
     .footer-heading, .contact-list, .footer-col {
       text-align: center;
-      color: white;
+      color: #fff;
       margin-bottom: 0;
       a {
-        color: white;
+        color: #fff;
         text-decoration: underline;
       }
     }
@@ -184,9 +189,9 @@ nav.menu {
   margin-top: 10px;
   max-width: 100%;
   @include border-shadow;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
-  background: white;
+  background: #fff;
   text-align: center;
 
   input {
@@ -208,7 +213,7 @@ nav.menu {
   #submit {
     background-color: #00b0e6;
     border: none;
-    color: white;
+    color: #fff;
     padding: 10px 36px;
     text-align: center;
     text-decoration: none;
@@ -245,6 +250,37 @@ nav.menu {
   section {
     background-color: #fff;
     @include border-shadow;
+
+    &.instagram-widget {
+      h4 {
+        text-align: center;
+        padding: 5px 0 0;
+        margin: 0;
+      }
+
+      .instagram-wrapper {
+        position:relative;
+
+        .ratio {
+          display: block;
+          width: 100%;
+          height: auto;
+          border-radius: 5px;
+        }
+
+        .lightwidget-widget, .instagram-link {
+          border: none;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 97%;
+          height: 97%;
+          margin: auto;
+        }
+      }
+    }
   }
 }
 
