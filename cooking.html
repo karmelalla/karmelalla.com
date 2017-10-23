@@ -6,8 +6,6 @@ layout: home
 title: Рецепты
 permalink: /cooking/
 ---
-<link rel="stylesheet" href="{{ "/assets/cooking.css" | relative_url }}{{ "now" | date: "%Y%m%d%H%M%S" | prepend: "?" }}">
-
 <div class="post-list">
   {% for post in site.posts %}
     {% if post.categories contains "cooking" %}
