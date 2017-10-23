@@ -7,8 +7,11 @@
   <meta name="keywords" content="karmelalla,usa,blog,америка,блог,сша,переезд,английский,Сан Франциско,San Francisco">
   <meta name="author" content="Алла Исакова,Алла Гуревич,Alla Isakova,Alla Gurevich">
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}{{ "now" | date: "%Y%m%d%H%M%S" | prepend: "?" }}">
+  <link rel="stylesheet" href="{{ "/assets/media-queries.css" | relative_url }}{{ "now" | date: "%Y%m%d%H%M%S" | prepend: "?" }}" type="text/css">
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>

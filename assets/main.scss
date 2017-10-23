@@ -8,31 +8,45 @@
 }
 
 $font-text: Palatino, "Palatino_Linotype", "Book Antiqua", serif;
+$link-color: #f60;
 
 @mixin border-shadow {
   box-shadow: 0 0 10px rgba(0, 78, 102, 0.6);
   border-radius: 5px;
 }
 
+aside, footer, header, menu, nav {
+  display: block;
+}
+
 body {
   font-size: 17px;
   font-family: $font-text;
+  width: 980px;
+  margin: 8px auto;
   // background-color:  #e6ffff;
   background-color: #e6f9ff;
 }
 
 .page-content {
+  width: 685px;
+  padding: 0;
   padding-top: 5px;
+  float: left;
 }
 
 .wrapper {
   padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
 
   .post {
-    padding: 10px 20px;
-    margin: 10px 0;
+    padding: 10px 15px;
+    margin: 10px auto;
     position: relative;
-    background-color: white;
+    background-color: #fff;
+
     @include border-shadow;
 
     img {
@@ -45,14 +59,14 @@ body {
       text-decoration: none;
     }
     .post-title {
-      font-size: 210%;
+      font-size: 180%;
     }
     .read-more {
       margin-top: -15px;
       text-align: right;
       font-style: italic;
 
-      a {
+     a {
         font-size: 18px;
       }
     }
@@ -71,77 +85,45 @@ body {
        padding: 4px;
       }
     }
+    .gallery-small-image {
+      margin-right: 10px;
+      margin-bottom: 13px;
+    }
   }
 }
 
 header, footer {
-  font-style: italic;
-
   &.site-header, &.site-footer {
     border: 0;
   }
   .wrapper {
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
     border-radius: 5px;
-    background-repeat: no-repeat; 
-    background-position:center; 
+    background-repeat: no-repeat;
+    background-position:center;
     padding: 0;
   }
 }
 
 header {
+  font-style: italic;
+
   .wrapper {
-    background-image: url(/assets/images/golden_gate_v2.jpg);
+    background-image: url(/assets/images/golden-gate.jpg);
     height: 163px;
     border-radius: 5px 5px 0 0;
 
     .site-title, .page-link {
       padding: 0;
-      color: #f60;
+      color: $link-color;
     }
     .site-title {
       padding: 0 20px;
       font-weight: bold;
-      font-size: 210%;
+      font-size: 200%;
     }
     .page-link {
       text-decoration: underline;
-    }
-  }
-}
-
-.pagination {
-  margin-top: 30px;
-  font-style: italic;
-}
-
-footer {
-  &.site-footer {
-    padding: 0;
-  }
-  .wrapper {
-    background-image: url(/assets/images/tiburon_v2.jpg);
-    height: 163px;
-    .footer-col-wrapper {
-      margin-left: 0;
-    }
-    .footer-heading {
-      padding-top: 5px;
-      margin-bottom: 5px;
-    }
-    .footer-heading, .contact-list, .footer-col {
-      text-align: center;
-      color: white;
-      margin-bottom: 0;
-      a {
-        color: white;
-        text-decoration: underline;
-      }
-    }
-    .footer-col-wrapper {
-      .footer-col-3 {
-        float: right;
-      }
     }
   }
 }
@@ -154,7 +136,7 @@ nav.menu {
   justify-content: space-between;
 
   a {
-    color: #f60;
+    color: $link-color;
     margin: 0 auto;
   }
   a:hover {
@@ -167,18 +149,18 @@ nav.menu {
   margin: auto;
   padding: 2px 0;
   margin-top: 10px;
-  max-width: calc(800px - (30px * 2));
+  max-width: 100%;
   @include border-shadow;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
-  background: white;  
+  background: #fff;
   text-align: center;
 
   input {
     margin-left: 3px;
   }
 }
-  
+
 .subscribe-page {
   font-size: 19px;
 
@@ -191,9 +173,9 @@ nav.menu {
   }
 
   #submit {
-    background-color: #00b0e6; 
+    background-color: #00b0e6;
     border: none;
-    color: white;
+    color: #fff;
     padding: 10px 36px;
     text-align: center;
     text-decoration: none;
@@ -237,6 +219,99 @@ nav.menu {
   text-align: center;
   padding: 10px 0;
   /* background: rgba(0,0,0,.5); */
+}
+
+#sidebar {
+  width: 280px;
+  float: right;
+  padding: 5px 0;
+  margin: 10px 0;
+
+  section {
+    background-color: #fff;
+    @include border-shadow;
+
+    &.instagram-widget {
+      h4 {
+        text-align: center;
+        padding: 5px 0 0;
+        margin: 0;
+      }
+
+      .instagram-wrapper {
+        position:relative;
+
+        .ratio {
+          display: block;
+          width: 100%;
+          height: auto;
+          border-radius: 5px;
+        }
+
+        .lightwidget-widget, .instagram-link {
+          border: none;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 97%;
+          height: 97%;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+.pagination {
+  margin: 20px 0;
+  font-size: 20px;
+  font-style: italic;
+}
+
+footer {
+  clear: both;
+
+  &.site-footer {
+    padding: 0;
+  }
+  .wrapper {
+    background-image: url(/assets/images/yosemite-sunset.jpg);
+    height: 163px;
+    .footer-col-wrapper {
+      margin-left: 0;
+    }
+    .footer-heading {
+      padding-top: 5px;
+      margin-bottom: 5px;
+      font-size: 130%;
+    }
+    .footer-heading, .contact-list, .footer-col {
+      text-align: center;
+      color: $link-color;
+      margin-bottom: 0;
+      a {
+        color: $link-color;
+        text-decoration: underline;
+      }
+    }
+    .footer-col-wrapper {
+      font-size: 110%;
+
+      .footer-col-1, .footer-col-3 {
+        width: calc(45% - (30px / 2));
+      }
+      .footer-col-3 {
+        float: right;
+      }
+    }
+  }
+}
+
+.icon {
+  height: 20px;
+  margin: 0 4px 4px;
 }
 
 @media print {

@@ -16,12 +16,18 @@
 author: Alla Isakova
 title: Fairy tales of San Francisco &hearts;
 email: karmelalla@gmail.com
-# description: > # this means to ignore newlines until "baseurl:"
-#     Спасибо за уделенное время. Надеюсь, вам понравилось! =)
+paginate: 7
+timezone: "America/Los_Angeles"
+permalink: /:categories/:title
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+lang: "ru"
+excerpt_separator: "<!--separate-->"
 facebook_username: karmelalla
 instagram_username: karmelalla
+disqus:
+  shortname: lostdream-ru
+
 # Build settings
 markdown: kramdown
 theme: minima
@@ -30,22 +36,16 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-excerpt_separator: "<!--separate-->"
-disqus:
-  shortname: lostdream-ru
+
+# Email settings
 domain: "http://karmelalla.com"
 mail_subject: "Новый пост на karmelalla.com:"
 mail_intro: "Привет! <br><br>На моем сайте вышел новый пост:"
 mail_read_more: "читать далее..."
 mail_closing: "Пожалуйста, оставляйте свои комментарии или ставьте сердечко под постом. Мне будет очень приятно! <br><br>Алла"
 
-paginate: 7
+# Image settings
 image_width: 2048
 image_small_height: 200
 image_quality: 90
 watermark: 'assets/images/watermark_karmelalla.png'
-
-timezone: "America/Los_Angeles"
-
-permalink: /:categories/:title
-
