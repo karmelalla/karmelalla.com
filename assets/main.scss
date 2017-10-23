@@ -299,12 +299,11 @@ footer {
     .footer-col-wrapper {
       font-size: 110%;
 
-      .footer-col-1 {
+      .footer-col-1, .footer-col-3 {
         width: calc(45% - (30px / 2));
       }
       .footer-col-3 {
         float: right;
-        width: calc(45% - (30px / 2));
       }
     }
   }

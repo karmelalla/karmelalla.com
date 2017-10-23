@@ -50,10 +50,7 @@
     .footer-col-wrapper {
       font-size: 80%;
 
-      .footer-col-1 {
-        width: calc(100% - (30px / 2));
-      }
-      .footer-col-3 {
+      .footer-col-1, .footer-col-3 {
         width: calc(100% - (30px / 2));
       }
     }
