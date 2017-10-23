@@ -39,6 +39,27 @@
     margin: 10px 0;
   }
 
+  footer {
+  
+  .wrapper {
+    
+    .footer-heading {
+      font-size: 110%;
+    }
+    
+    .footer-col-wrapper {
+      font-size: 80%;
+
+      .footer-col-1 {
+        width: calc(100% - (30px / 2));
+      }
+      .footer-col-3 {
+        width: calc(100% - (30px / 2));
+      }
+    }
+  }
+}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -57,24 +78,6 @@
 
   header .wrapper .site-title {
     font-size: 130%;
-  }
-
-  footer {
-    
-    .wrapper {
-      
-      .footer-heading {
-        font-size: 90%;
-      }
-      
-      .footer-col-wrapper {
-        font-size: 70%;
-
-        .footer-col-1 {
-          width: calc(30% - (30px / 2));
-        }
-      }
-    }
   }
 }
 

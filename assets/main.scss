@@ -289,10 +289,10 @@ footer {
     }
     .footer-heading, .contact-list, .footer-col {
       text-align: center;
-      color: #fff;
+      color: $link-color;
       margin-bottom: 0;
       a {
-        color: #fff;
+        color: $link-color;
         text-decoration: underline;
       }
     }
@@ -300,7 +300,7 @@ footer {
       font-size: 110%;
 
       .footer-col-1 {
-        width: calc(20% - (30px / 2));
+        width: calc(45% - (30px / 2));
       }
       .footer-col-3 {
         float: right;
