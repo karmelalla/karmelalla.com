@@ -1,3 +1,6 @@
+---
+---
+
 @media screen and (max-width: 980px) {
 
   body {
@@ -56,6 +59,23 @@
     font-size: 130%;
   }
 
+  footer {
+    
+    .wrapper {
+      
+      .footer-heading {
+        font-size: 90%;
+      }
+      
+      .footer-col-wrapper {
+        font-size: 70%;
+
+        .footer-col-1 {
+          width: calc(30% - (30px / 2));
+        }
+      }
+    }
+  }
 }
 
 img {

@@ -8,6 +8,7 @@
 }
 
 $font-text: Palatino, "Palatino_Linotype", "Book Antiqua", serif;
+$link-color: #f60;
 
 @mixin border-shadow {
   box-shadow: 0 0 10px rgba(0, 78, 102, 0.6);
@@ -92,8 +93,6 @@ body {
 }
 
 header, footer {
-  font-style: italic;
-
   &.site-header, &.site-footer {
     border: 0;
   }
@@ -107,14 +106,16 @@ header, footer {
 }
 
 header {
+  font-style: italic;
+
   .wrapper {
-    background-image: url(/assets/images/golden_gate_v2.jpg);
+    background-image: url(/assets/images/golden-gate.jpg);
     height: 163px;
     border-radius: 5px 5px 0 0;
 
     .site-title, .page-link {
       padding: 0;
-      color: #f60;
+      color: $link-color;
     }
     .site-title {
       padding: 0 20px;
@@ -127,45 +128,6 @@ header {
   }
 }
 
-.pagination {
-  margin: 20px 0;
-  font-size: 20px;
-  font-style: italic;
-}
-
-footer {
-  clear: both;
-
-  &.site-footer {
-    padding: 0;
-  }
-  .wrapper {
-    background-image: url(/assets/images/tiburon_v2.jpg);
-    height: 163px;
-    .footer-col-wrapper {
-      margin-left: 0;
-    }
-    .footer-heading {
-      padding-top: 5px;
-      margin-bottom: 5px;
-    }
-    .footer-heading, .contact-list, .footer-col {
-      text-align: center;
-      color: #fff;
-      margin-bottom: 0;
-      a {
-        color: #fff;
-        text-decoration: underline;
-      }
-    }
-    .footer-col-wrapper {
-      .footer-col-3 {
-        float: right;
-      }
-    }
-  }
-}
-
 nav.menu {
   border-radius: 0 0 5px 5px;
   font-size: 19px;
@@ -174,7 +136,7 @@ nav.menu {
   justify-content: space-between;
 
   a {
-    color: #f60;
+    color: $link-color;
     margin: 0 auto;
   }
   a:hover {
@@ -297,6 +259,52 @@ nav.menu {
           height: 97%;
           margin: auto;
         }
+      }
+    }
+  }
+}
+
+.pagination {
+  margin: 20px 0;
+  font-size: 20px;
+  font-style: italic;
+}
+
+footer {
+  clear: both;
+
+  &.site-footer {
+    padding: 0;
+  }
+  .wrapper {
+    background-image: url(/assets/images/yosemite-sunset.jpg);
+    height: 163px;
+    .footer-col-wrapper {
+      margin-left: 0;
+    }
+    .footer-heading {
+      padding-top: 5px;
+      margin-bottom: 5px;
+      font-size: 130%;
+    }
+    .footer-heading, .contact-list, .footer-col {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 0;
+      a {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+    .footer-col-wrapper {
+      font-size: 110%;
+
+      .footer-col-1 {
+        width: calc(20% - (30px / 2));
+      }
+      .footer-col-3 {
+        float: right;
+        width: calc(45% - (30px / 2));
       }
     }
   }
