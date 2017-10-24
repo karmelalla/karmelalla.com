@@ -27,17 +27,11 @@ html {
 body {
   min-height: 100%;
   width: 980px;
-  margin: 0 auto;
+  margin: 5px auto 0 auto;
   font-size: 17px;
   font-family: $font-text;
   background-color: #e6f9ff;
   background: linear-gradient(#e6ffff, #e6f9ff, #8adae1);
-
-  // .site-wrapper {
-    // min-height: 100%;
-    // width: 980px;
-    // margin: 0 auto;
-  // }
 }
 
 .page-content {
@@ -209,7 +203,7 @@ nav.menu {
 }
 
 .footer-hack {
-  margin-bottom: 163px;
+  margin-bottom: 180px;
 }
 
 .cooking {
@@ -287,10 +281,9 @@ nav.menu {
 }
 
 footer {
-  // clear: both;
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 5px;
   left: 0;
   height: 163px;
   max-width: 980px;
