@@ -19,13 +19,19 @@ aside, footer, header, menu, nav {
   display: block;
 }
 
+html {
+  min-height: 100%;
+  position: relative;
+}
+
 body {
+  min-height: 100%;
+  width: 980px;
+  margin: 5px auto 0 auto;
   font-size: 17px;
   font-family: $font-text;
-  width: 980px;
-  margin: 8px auto;
-  // background-color:  #e6ffff;
   background-color: #e6f9ff;
+  background: linear-gradient(#e6ffff, #e6f9ff, #8adae1);
 }
 
 .page-content {
@@ -196,6 +202,10 @@ nav.menu {
   clear: both;
 }
 
+.footer-hack {
+  margin-bottom: 180px;
+}
+
 .cooking {
   .thumbnail {
     img {
@@ -271,7 +281,13 @@ nav.menu {
 }
 
 footer {
-  clear: both;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  left: 0;
+  height: 163px;
+  max-width: 980px;
+  margin: 0 auto;
 
   &.site-footer {
     padding: 0;

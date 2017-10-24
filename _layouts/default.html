@@ -4,7 +4,6 @@
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
 
     {% include menu.html %}
@@ -22,11 +21,13 @@
 
     {% include sidebar.html %}
 
+    <div class="clear footer-hack"></div>
+    
     {% include footer.html %}
 
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}
-
   </body>
+
 </html>

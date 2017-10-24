@@ -3,7 +3,7 @@
 
 @media screen and (max-width: 980px) {
 
-  body {
+  body, footer {
     width: 98%;
   }
 
@@ -40,22 +40,22 @@
   }
 
   footer {
-  
-  .wrapper {
-    
-    .footer-heading {
-      font-size: 110%;
-    }
-    
-    .footer-col-wrapper {
-      font-size: 80%;
-
-      .footer-col-1, .footer-col-3 {
-        width: calc(100% - (30px / 2));
+    .wrapper {
+      
+      .footer-heading {
+        font-size: 110%;
       }
+      
+      .footer-col-wrapper {
+        font-size: 80%;
+
+        .footer-col-1, .footer-col-3 {
+          width: calc(100% - (30px / 2));
+        }
+      }
+
     }
   }
-}
 
 }
 
