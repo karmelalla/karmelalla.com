@@ -4,29 +4,33 @@
   {% include head.html %}
 
   <body>
+    <div class="site-wrapper">
+      {% include header.html %}
 
-    {% include header.html %}
+      {% include menu.html %}
 
-    {% include menu.html %}
+      {% if page.url != '/subscribe/' %}
+        {% include subscribe.html %}
+      {% endif %}
 
-    {% if page.url != '/subscribe/' %}
-      {% include subscribe.html %}
-    {% endif %}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
 
 
-    {% include sidebar.html %}
+      {% include sidebar.html %}
 
+      <div class="clear"></div>
+
+    </div>
+    
     {% include footer.html %}
 
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}
-
   </body>
+
 </html>
