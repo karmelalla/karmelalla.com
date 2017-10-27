@@ -21,6 +21,7 @@ gem "minima"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-email', git: 'git@github.com:kisakov/jekyll-email.git'
+  # gem 'jekyll-email', path: '../jekyll-email'
   gem 'jekyll-image-resizer', git: 'git@github.com:kisakov/jekyll-image-resizer.git'
 end
 
