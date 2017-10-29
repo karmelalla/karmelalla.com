@@ -6,7 +6,7 @@ Create your new story:
 
     $ jekyll story "Yosemite"
 
-Create your new story cooking recipe:
+Create your new cooking recipe:
 
     $ jekyll cooking "Ice Cream"
 
