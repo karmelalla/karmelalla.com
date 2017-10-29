@@ -2,6 +2,16 @@
 
 ### Resize with jekyll gem:
 
+Create your new story:
+
+    $ jekyll story "Yosemite"
+
+Create your new story cooking recipe:
+
+    $ jekyll cooking "Ice Cream"
+
+### Resize images:
+
 go to the project folder and install gems
 ```
 $ cd [project_name]
@@ -29,7 +39,6 @@ image_quality: 90
 ```
 $ jekyll mail # send last post
 $ jekyll mail 2017-03-17-5years # send post by name
-$ jekyll mail --test # Open email for preview without sending
 $ jekyll mail -preview # Open email for preview without sending
-$ jekyll mail --recipients "recipient1@gmail.com, recipient2@gmail.com" # Send an email only to specific recipients
+$ jekyll mail -recipients "recipient1@gmail.com, recipient2@gmail.com" # Send an email only to specific recipients
 ```

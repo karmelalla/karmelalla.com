@@ -1,4 +1,11 @@
 GIT
+  remote: git@github.com:kisakov/jekyll-compose.git
+  revision: 28b08bb144f7749d2f93a41ecf36c347c9ce301e
+  specs:
+    jekyll-compose (0.6.0)
+      jekyll (>= 3.0.0)
+
+GIT
   remote: git@github.com:kisakov/jekyll-email.git
   revision: af914205c2986971f72eb9e06305771c28e9452b
   specs:
@@ -78,6 +85,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-compose!
   jekyll-email!
   jekyll-image-resizer!
   jekyll-paginate
