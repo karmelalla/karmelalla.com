@@ -1,8 +1,8 @@
 GIT
   remote: git@github.com:kisakov/jekyll-compose.git
-  revision: 28b08bb144f7749d2f93a41ecf36c347c9ce301e
+  revision: e817392ae36c21a11e40bb777322963ecc4fb65b
   specs:
-    jekyll-compose (0.6.0)
+    jekyll-compose (0.6.1)
       jekyll (>= 3.0.0)
 
 GIT
@@ -96,4 +96,4 @@ RUBY VERSION
    ruby 2.4.0p0
 
 BUNDLED WITH
-   1.14.3
+   1.15.4
