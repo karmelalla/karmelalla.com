@@ -1,6 +1,6 @@
 ## karmelalla readme:
 
-### Resize with jekyll gem:
+### Create new posts with jekyll:
 
 Create your new story:
 
