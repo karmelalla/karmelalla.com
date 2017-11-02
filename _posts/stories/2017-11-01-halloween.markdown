@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Halloween
+title:  Пугающая правда о Хэллоуине
 date: '2017-11-01 18:55:12 -0800'
 original-date: '2017-11-01'
 comments: true
