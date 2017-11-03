@@ -4,7 +4,8 @@ title:  Пугающая правда о Хэллоуине
 date: '2017-11-01 18:55:12 -0800'
 original-date: '2017-11-01'
 comments: true
-thumbnail: 20171031_210736.jpg
+hidden: true
+thumbnail: img_4056-thumbnail.jpg
 images:
   - 20171031_194520.jpg
   - 20171031_200400.jpg
