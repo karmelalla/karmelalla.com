@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  Пугающая правда о Хэллоуине
+title:  Пугающая правда о празднике Хэллоуин
 date: '2017-11-01 18:55:12 -0800'
 original-date: '2017-11-01'
 comments: true
+hidden: true
 thumbnail: img_4056-thumbnail.jpg
 images:
   - img_3979.jpg
