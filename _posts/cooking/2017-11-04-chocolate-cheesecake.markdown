@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chocolate-cheesecake
+title: Шоколадный чизкейк "Пальчики оближешь"
 date: '2017-11-04 22:03:58 -0700'
 original-date: '2017-11-04'
 categories: cooking
@@ -10,51 +10,51 @@ thumbnail: chocolate-cheesecake.jpg
 images:
 ---
 
-Кажется давно здесь не было тортиков. А у меня как раз подоспел убойный рецепт. В отличие от других сыроедческих тортов этого красавчика уже совсем не отличить по вкусу от привычных сладкоежке десертов.
+Кажется давно здесь не было тортиков. А я как раз опробовала один убойный рецепт. В отличие от других сыроедческих тортов, этого красавчика уже совсем не отличить по вкусу от привычных сладкоежке десертов.
 
 *Время приготовления: около 45 мин*
+
 *Сложность: простая*
-
-
-
 <!--separate--> 
-
-
 # **Ингредиенты:**
-<!-- {% include image src="" %}
-{% include image src="" %} -->
-Crust
 
-1 cup oats (or buckwheat if you want it GF)
-1 cup dates
-Cheesecake
+**Основа**
 
-{% include image src="" %}
+* 1 стакан овсяных хлопьев
+* 1 стакан фиников
 
-2 or more bananas
-1/4 cup melted coconut oil
-2 cups cashews
-1 1/2 cups dates
-1/4 cup liquid sweetener, like maple syrup, if desired
-Beans from one vanilla pod (or 1 teaspoon vanilla extract)
-Water, as needed
-1/4 cup cacao or carob powder
-Topping
+**Чизкейк**
 
-3 tablespoons raw chocolate
-3 tablespoons raw peanut butter (or you can use regular – it’s up to you)
+* 2-3 банана
+* 1/4 стакана расплавленного кокосового масла
+* 2 стакана кешью
+* 1,5 стакана фиников
+* мёд или сироп агавы по вкусу (ориентируйтесь на 1/4 стакана)
+* ваниль
+* 1/4 стакана какао
+* вода
+* шоколад и арахисовая паста для украшения
 
 # **Рецепт**
 
+1) Желательно с вечера или за несколько часов замочите очищенные от косточек финики в воде.
+Затем переработайте в блендере овсянку и финики. Можно добавить еще какие-то орехи по вкусу.
 
-Process the oats (or buckwheat) and dates until they stick together.
-Press into the bottom of a spring form pan and put in the fridge.
-Cheesecake
+2) Полученную массу плотно утрамбуйте на дно формы. На время поставьте в морозилку.
 
-Blend all ingredients – EXCEPT cacao or carob – until very smooth.
-Add as little water as possible to keep your cheesecake creamy.
-If you don’t want to add any water, use some liquid sweetener or another banana.
-Now take out half the batter and put in a bowl.
-Add the cacao or carob in the remaining batter that is still in your blender and blend until it’s incorporated.
-Now spread the vanilla layer and the chocolate layers on your crust, alternating a few times.
-Set in the freezer overnight and then drizzle with peanut butter and chocolate the next day. Enjoy!
+3) Все ингредиенты для чизкейка, кроме какао, положите в блендер и доведите до однородной массы. Постарайтесь добавлять как можно меньше воды. Если все же смесь получается слишком густой, можно добавить еще один банан.
+Половину полученной смеси выложите на основу. Уберите в холодильник.
+
+4) К оставшейся половине добавьте какао и хорошо перемешайте. Теперь и ее можно выложить в форму поверх основы и ванильного слоя.
+
+{% include image src="chocolate-cheesecake2.jpg" %}
+
+Оставьте торт на ночь в морозилке. Перед подачей украсьте брызгами шоколада и арахисового масла.
+Если же больше нравится идея с орешками, то их лучше выложить с вечера на еще не замерзший торт.
+Я готовила этот торт дважды: первый раз получился настоящий торт, а второй - пирожные. Украшения тоже были разные. Так что выбирайте, какой формат вам нравится больше и пробуйте!
+
+{% include image src="chocolate-cheesecake3.jpg" %}
+
+Приятного аппетита!
+
+
