@@ -6,20 +6,30 @@ original-date: '2017-11-04'
 categories: cooking
 hidden: true
 comments: true
-thumbnail:
+thumbnail: chocolate-cheesecake.jpg
 images:
 ---
 
+Кажется давно здесь не было тортиков. А у меня как раз подоспел убойный рецепт. В отличие от других сыроедческих тортов этого красавчика уже совсем не отличить по вкусу от привычных сладкоежке десертов.
+
+*Время приготовления: около 45 мин*
+*Сложность: простая*
+
+
+
 <!--separate--> 
 
-<!--{% include image src="" %}-->
-# **Ингредиенты:**
 
+# **Ингредиенты:**
+<!-- {% include image src="" %}
+{% include image src="" %} -->
 Crust
 
 1 cup oats (or buckwheat if you want it GF)
 1 cup dates
 Cheesecake
+
+{% include image src="" %}
 
 2 or more bananas
 1/4 cup melted coconut oil
