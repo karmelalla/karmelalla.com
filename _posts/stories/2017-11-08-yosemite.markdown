@@ -1,0 +1,31 @@
+---
+layout: post
+title: Йосемите, наш первый Национальный Парк
+date: '2017-11-08 16:04:53 -0800'
+original-date: '2017-09-21'
+comments: true
+thumbnail:
+images:
+---
+В Америке 59 Национальных парков. Восемь из них расположены в Калифорнии. В один из этих парков мы и отправились в сентябре.
+Йосемите - один из первых парков в Америке, получивших звание Национального! И, пожалуй, он самый известный в окрестностях Сан Франциско.
+
+<!--separate--> 
+
+
+ которого больше 3000 км2.
+
+
+<!--{% include image src="" %}-->
+
+
+Yosemite is internationally recognized for its granite cliffs, waterfalls, clear streams, giant sequoia groves, lakes, mountains, glaciers, and biological diversity.[7] Almost 95% of the park is designated wilderness.[8]
+On average, about 4 million people visit Yosemite each year,[3] and most spend the majority of their time in the 5.9 square miles (15 km2) of Yosemite Valley.[7] The park set a visitation record in 2016, surpassing 5 million visitors for the first time in its history.[9]
+Yosemite was central to the development of the national park idea. First, Galen Clark and others lobbied to protect Yosemite Valley from development, ultimately leading to President Abraham Lincoln's signing the Yosemite Grant in 1864. Later, John Muir led a successful movement to establish a larger national park encompassing not just the valley, but surrounding mountains and forests as well—paving the way for the U.S. National Park system.[10]
+Yosemite is one of the largest and least fragmented habitat blocks in the Sierra Nevada, and the park supports a diversity of plants and animals. The park has an elevation range from 2,127 to 13,114 feet (648 to 3,997 m) and contains five major vegetation zones: chaparral/oak woodland, lower montane forest, upper montane forest, subalpine zone, and alpine. Of California's 7,000 plant species, about 50% occur in the Sierra Nevada and more than 20% within Yosemite. There is suitable habitat for more than 160 rare plants in the park, with rare local geologic formations and unique soils characterizing the restricted ranges many of these plants occupy.[7]
+
+
+osemite Valley has been inhabited for nearly 3,000 years, though humans may have first visited the area as long as 8,000 to 10,000 years ago.[12
+
+
+The California Gold Rush in the mid-19th century dramatically increased travel by European-Americans in the area, causing competition for resources between the regional Paiute and Miwok and the miners and hangers on.
