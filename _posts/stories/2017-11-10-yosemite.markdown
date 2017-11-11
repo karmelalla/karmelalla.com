@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Йосемите, наш первый Национальный Парк
-date: '2017-11-08 16:04:53 -0800'
+date: '2017-11-10 16:04:53 -0800'
 original-date: '2017-09-21'
 comments: true
 thumbnail: img_3314.jpg
