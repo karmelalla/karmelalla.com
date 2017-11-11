@@ -4,6 +4,7 @@ title: Йосемите, наш первый Национальный Парк
 date: '2017-11-10 16:04:53 -0800'
 original-date: '2017-09-21'
 comments: true
+hidden: true
 thumbnail: img_3314.jpg
 images:
   - img_3221.jpg
@@ -19,13 +20,12 @@ images:
   - img_3980.jpg
   - img_3681.jpg
   - img_3397.jpg
+  - img_3940.jpg | El Capitan
   - img_3464.jpg | Обходной путь с Vernal Falls
   - img_3465.jpg
   - img_3924.jpg
-  - img_3927.jpg
   - img_3931.jpg
   - img_3947.jpg
-  - img_3940.jpg | El Capitan
   - img_3965.jpg
   - img_3987.jpg | Вот она какая, Долина Йосемите
   - img_3994.jpg | Секвойи
