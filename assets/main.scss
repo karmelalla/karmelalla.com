@@ -9,6 +9,7 @@
 
 $font-text: Palatino, "Palatino_Linotype", "Book Antiqua", serif;
 $link-color: #f60;
+$site-width: 1100px;
 
 @mixin border-shadow {
   box-shadow: 0 0 10px rgba(0, 78, 102, 0.6);
@@ -26,7 +27,7 @@ html {
 
 body {
   min-height: 100%;
-  width: 980px;
+  width: $site-width;
   margin: 5px auto 0 auto;
   font-size: 17px;
   font-family: $font-text;
@@ -35,7 +36,7 @@ body {
 }
 
 .page-content {
-  width: 685px;
+  width: 805px;
   padding: 0;
   padding-top: 5px;
   float: left;
@@ -115,7 +116,7 @@ header {
   font-style: italic;
 
   .wrapper {
-    background-image: url(/assets/images/golden-gate.jpg);
+    background-image: url(/assets/images/golden-gate-1100.jpg);
     height: 163px;
     border-radius: 5px 5px 0 0;
 
@@ -286,14 +287,14 @@ footer {
   bottom: 5px;
   left: 0;
   height: 163px;
-  max-width: 980px;
+  max-width: $site-width;
   margin: 0 auto;
 
   &.site-footer {
     padding: 0;
   }
   .wrapper {
-    background-image: url(/assets/images/yosemite-sunset.jpg);
+    background-image: url(/assets/images/yosemite-sunset-1100.jpg);
     height: 163px;
     .footer-col-wrapper {
       margin-left: 0;
