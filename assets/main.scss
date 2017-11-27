@@ -259,10 +259,7 @@ nav.menu {
 
     p {
       text-indent: 1.5em;
-
-      &.without-margin {
-        margin: 0;
-      }
+      margin: 0;
     }
 
     &.about-widget {
@@ -273,6 +270,7 @@ nav.menu {
         float: left;
         margin-right: 5px;
         margin-bottom: 5px;
+        border-radius: 50%;
       }
     }
 
