@@ -168,7 +168,7 @@ nav.menu {
   }
 }
 
-.subscribe-page {
+.subscribe-page, .subscribe-section {
   font-size: 19px;
 
   input {
@@ -190,6 +190,20 @@ nav.menu {
     font-size: 20px;
     margin: 0;
     font-style: normal;
+  }
+}
+
+.subscribe-section {
+  font-size: 18px;
+  margin-bottom: 10px;
+
+  input {
+    font-size: 15px;
+  }
+
+  #submit {
+    padding: 8px 32px;
+    font-size: 16px;
   }
 }
 
@@ -232,6 +246,13 @@ nav.menu {
   /* background: rgba(0,0,0,.5); */
 }
 
+img.about {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 50% !important;
+}
+
 #sidebar {
   width: 280px;
   float: right;
@@ -241,6 +262,18 @@ nav.menu {
   section {
     background-color: #fff;
     @include border-shadow;
+    margin-bottom: 8px;
+
+    p {
+      text-indent: 1.5em;
+      margin: 0;
+    }
+
+    &.about-widget {
+      padding: 5px;
+      font-size: 15px;
+
+    }
 
     &.instagram-widget {
       h4 {
@@ -250,7 +283,7 @@ nav.menu {
       }
 
       .instagram-wrapper {
-        position:relative;
+        position: relative;
 
         .ratio {
           display: block;
@@ -340,7 +373,14 @@ footer {
       font-size: 100%;
     }
   }
-  .subscribe, nav.menu, footer, #disqus_thread {
+
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .subscribe, nav.menu, footer, #disqus_thread, #sidebar {
     display: none;
   }
 }
