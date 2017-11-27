@@ -10,9 +10,16 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
- 
+
   {% include gallery.html %}
- 
+
+  <div class="subscribe-section">
+    <form action="https://getsimpleform.com/messages?form_api_token=25d273b74e476783ccbc1ae150032b7d" method="post">
+      Если Вам понравилась история, подпишитесь на рассылку, чтобы первым получать уведомления о новых статьях:
+      {% include subscribe-form.html %}
+    </form>
+  </div>
+
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}

@@ -1,6 +1,7 @@
 $(document).ready(function() {
   gallery();
   subscribe('.subscribe', false);
+  subscribe('.subscribe-section', false);
   subscribe('.subscribe-page', true);
 });
 
@@ -51,7 +52,7 @@ function doneMessage($name, $email, redirect) {
   },
   function(){
     swal.close();
-    
+
     if(redirect) {
       window.location = location.protocol + "//" + location.host;
     }
