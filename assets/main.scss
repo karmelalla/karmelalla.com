@@ -241,6 +241,26 @@ nav.menu {
   section {
     background-color: #fff;
     @include border-shadow;
+    margin-bottom: 8px;
+
+    p {
+      text-indent: 1.5em;
+
+      &.without-margin {
+        margin: 0;
+      }
+    }
+
+    &.about-widget {
+      padding: 5px;
+      font-size: 15px;
+
+      img {
+        float: left;
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
+    }
 
     &.instagram-widget {
       h4 {
@@ -250,7 +270,7 @@ nav.menu {
       }
 
       .instagram-wrapper {
-        position:relative;
+        position: relative;
 
         .ratio {
           display: block;
