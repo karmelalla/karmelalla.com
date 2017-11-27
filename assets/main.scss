@@ -168,7 +168,7 @@ nav.menu {
   }
 }
 
-.subscribe-page {
+.subscribe-page, .subscribe-section {
   font-size: 19px;
 
   input {
@@ -190,6 +190,20 @@ nav.menu {
     font-size: 20px;
     margin: 0;
     font-style: normal;
+  }
+}
+
+.subscribe-section {
+  font-size: 18px;
+  margin-bottom: 10px;
+
+  input {
+    font-size: 15px;
+  }
+
+  #submit {
+    padding: 8px 32px;
+    font-size: 16px;
   }
 }
 
