@@ -4,7 +4,6 @@ title: Фотоотчет о нашей поездке на природу в Д
 date: '2017-11-30 13:20:41 -0800'
 original-date: '2017-11-25'
 comments: true
-hidden: true
 thumbnail: img_4567.jpg
 images:
   - img_4529.jpg
