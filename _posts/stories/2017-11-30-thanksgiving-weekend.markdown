@@ -40,3 +40,5 @@ images:
 В этом посте не будет много слов. Я просто хочу показать вам фотографии, чтобы и вы могли насладиться видами.
 
 Приятного просмотра!
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/jTxSlmdMhYI?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
