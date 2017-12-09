@@ -4,7 +4,6 @@ title: Как я начала бегать, и почему мне это нра
 date: '2017-12-08 10:09:26 -0800'
 original-date: '2017-11-20'
 comments: true
-hidden: true
 thumbnail: white-nights-bridge.jpg
 images:
   - 11054307_10207390279538172_8390132322487186677_o.jpg | Бегаю на отпуске с родителями
