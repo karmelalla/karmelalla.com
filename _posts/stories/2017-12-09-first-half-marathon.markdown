@@ -6,6 +6,39 @@ original-date: '2017-12-08'
 comments: true
 thumbnail:
 images:
+  - 35503367882_d50a1837af_o.jpg
+  - bay-to-breakers.jpg
+  - first-sf-run.jpg
+  - img_4373.jpg
+  - img_4375.jpg
+  - img_4386.jpg
+  - img_4406.jpg
+  - img_4430.jpg
+  - park-run-1.jpg
+  - park-run-10.jpg
+  - park-run-11.jpg
+  - park-run-12.jpg
+  - park-run-2.jpg
+  - park-run-3.jpg
+  - park-run-4.jpg
+  - park-run-5.jpg
+  - park-run-6.jpg
+  - park-run-7.jpg
+  - park-run-8.jpg
+  - park-run-9.jpg
+  - parkrun-sf.jpg
+  - thumbnail-marathon-2.jpg
+  - thumbnail-marathon.jpg
+  - img_1139.jpg
+  - img_2824.jpg
+  - img_2832.jpg
+  - img_3168.jpg
+  - img_3959.jpg
+  - img_4368.jpg
+  - img_4403.jpg
+  - img_5251.jpg
+  - img_5252.jpg
+  - img_5380 3.jpg
 ---
 
 Если бы еще в 2014 году мне сказали, что я пробегу полумарафон, я бы точно не поверила. Однако, это и правда случилось. 19 ноября 2017 года мы с Кириллом пробежали полумарафон в Бёркли, студенческом городке, расположенном рядом с Сан Франциско.
