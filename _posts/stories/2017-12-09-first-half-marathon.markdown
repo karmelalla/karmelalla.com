@@ -4,7 +4,7 @@ title: Как пробежать полумарафон, и в чем отлич
 date: '2017-12-09 13:10:06 -0800'
 original-date: '2017-12-08'
 comments: true
-thumbnail: thumbnail-marathon-2.jpg
+thumbnail: thumbnail-marathon-3.jpg
 images:
   - park-run-1.jpg | Crissy Field Park Run
   - park-run-4.jpg | Crissy Field Park Run
@@ -104,7 +104,7 @@ images:
 
 Я ДОБЕЖАЛА! Я чувствовала себя лучше, чем после 10-и километров на "Белых Ночах". Я была очень счастлива. Моё время 2:14:18. На 15 минут лучше, чем планировала. И Кирилл улучшил свой результат. Его время 1:51:50!!!
 
-{% include image src="thumbnail-marathon-2.jpg" %}
+{% include image src="thumbnail-marathon-3.jpg" %}
 
 Это моя история пути к дистанции в 21 километр. И сейчас мне кажется, что полный марафон - это фантастика. Но кто знает...
 
