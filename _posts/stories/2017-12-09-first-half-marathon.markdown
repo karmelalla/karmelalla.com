@@ -4,7 +4,7 @@ title: Как пробежать полумарафон, и в чем отлич
 date: '2017-12-09 13:10:06 -0800'
 original-date: '2017-12-08'
 comments: true
-thumbnail: thumbnail-marathon-3.jpg
+thumbnail: thumbnail-marathon-4.jpg
 images:
   - park-run-1.jpg | Crissy Field Park Run
   - park-run-4.jpg | Crissy Field Park Run
