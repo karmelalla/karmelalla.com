@@ -4,14 +4,12 @@
   {% include head.html %}
 
   <body>
-    <section id="snow"></section>
-
     {% include header.html %}
 
     {% include menu.html %}
 
     {% if page.url != '/subscribe/' %}
-    {% include subscribe.html %}
+      {% include subscribe.html %}
     {% endif %}
 
     <main class="page-content" aria-label="Content">
@@ -27,31 +25,11 @@
     {% include footer.html %}
 
     {% if jekyll.environment == 'production' %}
-    {% include analytics.html %}
+      {% include analytics.html %}
     {% endif %}
 
-    <script src="/assets/snowflakes.min.js"></script>
-    <script>
-     $(document).ready(function() {
-       var sf = new Snowflakes({
-         container: document.getElementById('snow'),
-         count: 100, // 100 snowflakes. Default: 50
-         speed: 1, // The property affects the speed of falling. Default: 1
-         useRotate: true, // Default: true
-         useScale: true // Default: true
-       });
-     });
-    </script>
-     <style>
-     #snow {
-       z-index: -1;
-       left: 0;
-       top: 0;
-       width: 100%;
-       height: 100%;
-       position: fixed;
-     }
-    </style>
+    {% include snowflakes.html %}
+
   </body>
 
 </html>
