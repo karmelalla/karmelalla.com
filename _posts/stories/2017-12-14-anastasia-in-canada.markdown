@@ -71,6 +71,7 @@ images:
 
 {% include image src="11-1.jpg" title="Жёлтый школьный автобус"%}
 {% include image src="11.jpg" title="Панорама города - Vancouver Lookout"%}
+
 <!--separate--> 
 *Город*
 
