@@ -7,13 +7,13 @@ comments: true
 hidden: true
 thumbnail: 1.jpg
 images:
-  - 23.jpg
-  - 24.jpg
-  - 25.jpg
-  - 27.jpg
-  - 28.jpg
-  - 29.jpg
-  - 31.jpg
+  - {% include image src="23.jpg" title="Город Ucluelet на острове Ванкувер"%}
+  - {% include image src="24.jpg" title="Город Виктория на острове Ванкувер"%}
+  - {% include image src="25.jpg" title="Сады Бутчартов, остров Ванкувер"%}
+  - {% include image src="27.jpg" title="Енот в парке Stanley"%}
+  - {% include image src="28.jpg" title="Провинциальный парк Joffre Lakes"%}
+  - {% include image src="29.jpg" title="Провинциальный парк Joffre Lakes"%}
+  - {% include image src="31.jpg" title="Парк Lynn Canyon"%}
 ---
 Привет! Меня зовут Настя, мне 25 лет. Я никогда не вела дневников или блогов, и вообще уже не помню, когда последний раз писала длинный связный текст, да ещё и на русском языке. Но когда Алла предложила мне стать гостем её сайта и написать про жизнь в Канаде, я сразу согласилась! Всегда интересно попробовать что-то новое.
 
