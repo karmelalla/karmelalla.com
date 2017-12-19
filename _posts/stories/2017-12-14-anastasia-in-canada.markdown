@@ -9,9 +9,9 @@ thumbnail: thumbnail-nastya.jpg
 images:
   - 6.jpg | Вид на Ванкувер с воды
   - 11.jpg | Панорама города - Vancouver Lookout
-  - 12-1.jpg | Мост Lions Gate
-  - 14.jpg | Ванкувер. Центр города
   - 7.jpg | Мост Burrard
+  - 14.jpg | Ванкувер. Центр города
+  - 12-1.jpg | Мост Lions Gate
   - 5.jpg | Вид с вершины Sea to Sky Gondola
   - 19.jpg | Подъём на вершину Tunnel Bluffs
   - 23.jpg | Город Ucluelet, остров Ванкувер
