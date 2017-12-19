@@ -7,7 +7,7 @@ comments: true
 hidden: true
 thumbnail: 1.jpg
 images:
-  - 23.jpg
+  - 23.jpg | Лалала
   - 24.jpg
   - 25.jpg
   - 27.jpg
