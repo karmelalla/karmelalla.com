@@ -5,7 +5,7 @@ date: '2017-12-14 21:26:21 -0800'
 original-date: '2017-12-14'
 comments: true
 hidden: true
-thumbnail: 1.jpg
+thumbnail: thumbnail-nastya.jpg
 images:
   - 23.jpg | Лалала
   - 24.jpg
