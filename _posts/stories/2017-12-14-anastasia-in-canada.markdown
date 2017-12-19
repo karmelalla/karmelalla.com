@@ -7,25 +7,23 @@ comments: true
 hidden: true
 thumbnail: thumbnail-nastya.jpg
 images:
+  - 6.jpg | Вид на Ванкувер с воды
+  - 11.jpg | Панорама города - Vancouver Lookout
+  - 12-1.jpg | Мост Lions Gate
+  - 14.jpg | Ванкувер. Центр города
+  - 7.jpg | Мост Burrard
+  - 5.jpg | Вид с вершины Sea to Sky Gondola
+  - 19.jpg | Подъём на вершину Tunnel Bluffs
   - 23.jpg | Город Ucluelet, остров Ванкувер
   - 24.jpg | Город Виктория, остров Ванкувер
   - 25.jpg | Сады Бутчартов, остров Ванкувер
+  - 35.jpg | На прогулке в  парке Stanley
   - 27.jpg | Обитатель парка Stanley
   - 28.jpg | Провинциальный парк Joffre Lakes
   - 29.jpg | Провинциальный парк Joffre Lakes
-  - 31.jpg | Парк Lynn Canyon
-  - 32.jpg | На вершине Quarry Rock, Deep Cove
-  - 34.jpg | На вершине Quarry Rock, Deep Cove
-  - 35.jpg | На прогулке в  парке Stanley
   - 36.jpg | В заколдованном лесу, Тофино, остров Ванкувер
-  - 5.jpg | Вид с вершины Sea to Sky Gondola
-  - 7.jpg | Мост Burrard
-  - 11.jpg | Панорама города - Vancouver Lookout
-  - 12-1.jpg | Мост Lions Gate
-  - 13.jpg | Ванкувер. Центр города
-  - 14.jpg | Ванкувер. Центр города
-  - 19.jpg | Подъём на вершину Tunnel Bluffs
-  - 6.jpg | Вид на Ванкувер с воды
+  - 31.jpg | Парк Lynn Canyon
+  - 34.jpg | На вершине Quarry Rock, Deep Cove
 ---
 Привет! Меня зовут Настя, мне 25 лет. Я никогда не вела дневников или блогов, и вообще уже не помню, когда последний раз писала длинный связный текст, да ещё и на русском языке. Но когда Алла предложила мне стать гостем её сайта и написать про жизнь в Канаде, я сразу согласилась! Всегда интересно попробовать что-то новое.
 
