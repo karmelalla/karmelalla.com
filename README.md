@@ -19,10 +19,10 @@ Create your new cooking recipe:
 ### Resize images:
 
 ```
-$ jekyll photo 2017-01-15-first-weekend # 1st argument is path both resize and watermark
-$ jekyll image 2017-01-15-first-weekend # 1st argument is path both resize and watermark
-$ jekyll resize 2017-01-15-first-weekend # 1st argument is path
-$ jekyll resize 2017-01-15-first-weekend 200 90 # 1st argument is path, 2nd is image small height and 3rd it's quality
+$ jekyll photo 2017-01-15-first-weekend # 1st argument is path or image. Will resize and watermark
+$ jekyll image 0.jpg # 1st argument is path or image. Will resize and watermark
+$ jekyll resize 2017-01-15-first-weekend # 1st argument is path or image
+$ jekyll resize 1.jpg 90 300 # 1st argument is path or image, 2nd is quality 3rd is image small height
 $ jekyll watermark 2017-01-15-first-weekend
 ```
 
