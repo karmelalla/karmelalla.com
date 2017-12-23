@@ -22,7 +22,7 @@ Create your new cooking recipe:
 $ jekyll photo 2017-01-15-first-weekend # 1st argument is path or image. Will resize and watermark
 $ jekyll image 0.jpg # 1st argument is path or image. Will resize and watermark
 $ jekyll resize 2017-01-15-first-weekend # 1st argument is path or image
-$ jekyll resize 1.jpg 90 300 # 1st argument is path or image, 2nd is quality 3rd is image small height
+$ jekyll resize 1.jpg 90 300 # 1st argument is path or image, 2nd is quality 3rd is small image height
 $ jekyll watermark 2017-01-15-first-weekend
 ```
 
