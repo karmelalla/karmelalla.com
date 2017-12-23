@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Год, проведённый в Канаде. Рассказ гостьи сайта Насти Мороз.
-date: '2017-12-14 21:26:21 -0800'
+date: '2017-12-22 11:26:21 -0800'
 original-date: '2017-12-14'
 comments: true
 thumbnail: thumbnail-nastya.jpg
