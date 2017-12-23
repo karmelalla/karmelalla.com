@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Год, проведённый в Канаде. Рассказ гостьи сайта Насти Мороз
+title: Год, проведённый в Канаде. Рассказ гостьи сайта Насти Мороз.
 date: '2017-12-14 21:26:21 -0800'
 original-date: '2017-12-14'
 comments: true
-hidden: true
 thumbnail: thumbnail-nastya.jpg
 images:
   - 6.jpg | Вид на Ванкувер с воды
