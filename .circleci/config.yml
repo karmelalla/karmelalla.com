@@ -1,0 +1,37 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/circleci-jekyll-v2
+    docker:
+      - image: circleci/ruby:2.4
+        environment:
+          USER_NAME: karmelalla
+          USER_EMAIL: karmelalla@gmail.com
+    steps:
+      - checkout
+
+      - add_ssh_keys:
+          fingerprints:
+            - ""
+
+      - restore_cache:
+          keys:
+            - jekyll-v2-{{ checksum "Gemfile.lock" }}
+            - jekyll-v2-
+
+      - run:
+          name: Bundle Install
+          command: bundle check || bundle install
+
+      - save_cache:
+          key: jekyll-v2-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+
+      - run:
+          name: jekyll build
+          command: bundle exec jekyll build
+
+      - run:
+          name: deploy
+          command: ./bin/deploy.sh
