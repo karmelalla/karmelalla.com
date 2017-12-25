@@ -17,17 +17,21 @@ jobs:
           fingerprints:
             - ""
 
+      - run: sed -e '/RUBY/,$d' Gemfile.lock > Gemfile.lock.bak
+
       - restore_cache:
           keys:
-            - jekyll-v2-{{ checksum "Gemfile.lock" }}
+            - jekyll-v2-{{ checksum "Gemfile.lock.bak" }}
             - jekyll-v2-
 
       - run:
           name: Bundle Install
           command: bundle check || bundle install
 
+      - run: sed -e '/RUBY/,$d' Gemfile.lock > Gemfile.lock.bak
+
       - save_cache:
-          key: jekyll-v2-{{ checksum "Gemfile.lock" }}
+          key: jekyll-v2-{{ checksum "Gemfile.lock.bak" }}
           paths:
             - vendor/bundle
 
@@ -38,3 +42,12 @@ jobs:
       - run:
           name: deploy
           command: ./bin/deploy.sh
+
+      - run: gem install html-proofer
+
+      - run:
+          name: Check links and images
+          command: htmlproofer --disable-external --assume-extension --empty-alt-ignore .
+
+      - run: git checkout -
+
