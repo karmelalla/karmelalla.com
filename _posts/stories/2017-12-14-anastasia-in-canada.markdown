@@ -5,6 +5,7 @@ date: '2017-12-22 11:26:21 -0800'
 original-date: '2017-12-14'
 comments: true
 thumbnail: thumbnail-nastya.jpg
+tags: Canada
 images:
   - 6.jpg | Вид на Ванкувер с воды
   - 11.jpg | Панорама города - Vancouver Lookout
