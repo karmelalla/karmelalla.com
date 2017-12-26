@@ -5,6 +5,7 @@ date: '2017-12-08 10:09:26 -0800'
 original-date: '2017-11-20'
 comments: true
 thumbnail: white-nights-bridge-2.jpg
+tags: SanFrancisco Running
 images:
   - 11054307_10207390279538172_8390132322487186677_o.jpg | Бегаю на отпуске с родителями
   - img_4113.jpg | В 2016 году уже начала бегать и в плохую погоду. Полюстровский парк
