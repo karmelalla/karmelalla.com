@@ -9,14 +9,10 @@
   {% endif %}
   {{ post.excerpt }}
 
-  {% assign tags = post | tags %}
-  {% if tags != "" %}
-    <div class="tags">
-      <p>Теги: {{ tags }}</p>
-    </div>
-  {% endif %}
+  {% include tag_section.html %}
 
   <div class="read-more">
     <a class="post-link" href="{{ post.url | relative_url }}">читать далее...</a>
   </div>
+  <div class="clear"></div>
 </div>

@@ -1,0 +1,10 @@
+{% if post %}
+  {% assign page = post %}
+{% endif %}
+
+{% assign tags = page | tags %}
+{% if tags != "" %}
+  <div class="tags">
+    <i><p>Теги: {{ tags }}</p></i>
+  </div>
+{% endif %}

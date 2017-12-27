@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<h2>{{ page.tag }}</h2>
-
-<!-- {% include tag_cloud.html %} -->
+<div class="post tag-page">
+  <h1>Истории про #{{ page.tag }}</h1>
+</div>
 
 <div class="post-list">
   {% for post in page.posts %}
