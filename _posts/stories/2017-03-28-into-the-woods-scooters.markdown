@@ -6,7 +6,7 @@ categories: jekyll update
 comments: true
 permalink: /jekyll/update/2017/03/28/into-the-woods-scooters.html
 thumbnail: into-the-woods-tickets.jpg
-tags: IntoTheWoods Самокаты BakerBeach
+tags: Самокаты BakerBeach
 images:
   - 2017-03-21_17-41-14_392.jpeg
   - into-the-woods-tickets.jpg

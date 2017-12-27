@@ -6,7 +6,7 @@ categories: jekyll update
 comments: true
 permalink: /jekyll/update/2017/03/21/monterey-carmel.html
 thumbnail: IMG_9125.JPG
-tags: SantaCruz Океан Monterey Трасса#1 Carmel-by-the-sea
+tags: SantaCruz Океан Monterey Трасса#1 Carmel-by-the-sea Путешествия
 images:
   - IMG_9084.JPG
   - IMG_9095.JPG

@@ -6,7 +6,7 @@ comments: true
 categories: jekyll update
 permalink: /jekyll/update/2017/01/15/first-weekend.html
 thumbnail: foggy-pier.jpeg
-tags: Туристы МестаВСанФранциско ПервыеВпечатления BakerBeach SanFrancisco
+tags: Туристы МестаВСанФранциско ПервыеВпечатления BakerBeach
 images:
   - bakers-beach-us.jpeg
   - buena-vista.jpeg

@@ -6,7 +6,7 @@ categories: jekyll update
 comments: true
 permalink: /jekyll/update/2017/01/30/santa-cruz-weekend.html
 thumbnail: IMG-8501.JPG
-tags: ПоискКвартиры SantaCruz
+tags: ПоискКвартиры SantaCruz Путешествия
 images:
   - IMG-8422.JPG
   - IMG-8428.JPG

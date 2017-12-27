@@ -6,6 +6,7 @@ categories: jekyll update
 comments: true
 permalink: /jekyll/update/2017/03/31/friends.html
 thumbnail: 2017-03-11_14-56-40_993.jpg
+tags: Размышления
 ---
 
 Дорогой мой друг!
