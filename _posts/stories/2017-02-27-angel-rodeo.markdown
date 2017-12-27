@@ -6,7 +6,7 @@ categories: jekyll update
 comments: true
 permalink: /jekyll/update/2017/02/28/angel-rodeo.html
 thumbnail: IMG_8833.JPG
-tags: AngelIsland RodeoBeach LightHouse
+tags: МестаВСанФранциско Путешествия
 images:
   - 2017-02-21_17-48-09_188.jpeg
   - 2017-02-21_19-28-20_984.jpeg

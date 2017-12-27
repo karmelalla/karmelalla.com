@@ -6,7 +6,7 @@ categories: jekyll update
 comments: true
 permalink: /jekyll/update/2017/03/13/sausalito-rollers.html
 thumbnail: sausalito.jpg
-tags: Ролики Sausalito
+tags: Ролики МестаВСанФранциско
 images:
   - IMG_8979.JPG
   - IMG_8982.JPG

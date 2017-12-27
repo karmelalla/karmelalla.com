@@ -5,6 +5,7 @@ date: '2017-11-01 18:55:12 -0800'
 original-date: '2017-11-01'
 comments: true
 thumbnail: img_4056-thumbnail.jpg
+tags: ЖизньВСанФранциско АмериканскиеПраздники
 images:
   - img_3979.jpg
   - 20171031_194520.jpg

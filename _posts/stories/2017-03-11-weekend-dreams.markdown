@@ -6,7 +6,7 @@ categories: jekyll update
 comments: true
 permalink: /jekyll/update/2017/03/11/weekend-dreams.html
 thumbnail: IMG_8937.JPG
-tags: Размышления MuirWoods
+tags: Размышления Путешествия МестаВСанФранциско
 images:
   - FullSizeRender 5.jpg
   - IMG_8880.JPG

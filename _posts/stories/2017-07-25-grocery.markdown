@@ -5,6 +5,7 @@ date: 2017-07-25 00:25:24 -0800
 comments: true
 original-date: 2017-07-04
 thumbnail: img_1296.jpg
+tags: ЖизньВСанФранциско
 images:
   - img_1296.jpg
   - img_1327.jpg | С надписью Organic всегда дороже.

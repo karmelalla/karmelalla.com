@@ -5,6 +5,7 @@ date: 2017-10-03 00:25:24 -0800
 comments: true
 original-date: 2017-09-20
 thumbnail: thumbnail-olympia.jpg
+tags: Путешествия
 images:
   - img_3021.jpg
   - img_3015.jpg | По дороге на Олимпию

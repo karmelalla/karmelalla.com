@@ -6,7 +6,7 @@ categories: jekyll update
 comments: true
 permalink: /jekyll/update/2017/02/10/new-apt.html
 thumbnail: 2017-02-10_20-36-12_626.jpeg
-tags: ПервыеВпечатления Переезд SanFrancisco
+tags: ПервыеВпечатления Переезд ЖизньВСанФранциско
 images:
   - 2017-02-10_17-29-44_609.jpeg
   - 2017-02-10_17-44-31_861.jpeg
