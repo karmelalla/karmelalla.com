@@ -5,6 +5,7 @@ date: '2017-11-10 16:04:53 -0800'
 original-date: '2017-09-21'
 comments: true
 thumbnail: img_3314.jpg
+tags: Путешествия
 images:
   - img_3221.jpg
   - img_3225.jpg | El Capitan

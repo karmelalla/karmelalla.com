@@ -5,6 +5,7 @@ date: '2017-11-30 13:20:41 -0800'
 original-date: '2017-11-25'
 comments: true
 thumbnail: img_4567.jpg
+tags: Путешествия Океан АмериканскиеПраздники
 images:
   - img_4529.jpg
   - img_4200.jpg
