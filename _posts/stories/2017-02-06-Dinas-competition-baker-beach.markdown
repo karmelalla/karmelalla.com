@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Динина победа на соревнованиях и неповторимый Baker beach"
+title:  "Динина победа на соревнованиях и неповторимый Baker Beach"
 date:   2017-02-06 21:25:24 -0800
 categories: jekyll update
 comments: true
