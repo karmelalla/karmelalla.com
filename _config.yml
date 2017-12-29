@@ -46,6 +46,7 @@ mail_closing: "Пожалуйста, поддержите Настю! Остав
 
 # Image settings
 image_width: 2048
+thumbnail_width: 1024
 image_small_height: 200
 image_quality: 90
 watermark: 'assets/images/watermark_karmelalla.png'

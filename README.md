@@ -31,8 +31,10 @@ Also you can change width and quality in ```_config.yml``` in your project folde
 
 ```yml
 image_width: 2048
+thumbnail_width: 1024
 image_small_height: 200
 image_quality: 90
+watermark: 'assets/images/watermark_karmelalla.png'
 ```
 
 ### Send email:
