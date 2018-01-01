@@ -36,9 +36,9 @@ body {
 }
 
 .page-content {
-  width: 805px;
+  width: 810px;
   padding: 0;
-  padding-top: 5px;
+  padding-top: 1px;
   float: left;
 }
 
@@ -72,7 +72,6 @@ body {
       font-size: 180%;
     }
     .read-more {
-      margin-top: -15px;
       font-style: italic;
 
       a {
@@ -267,13 +266,13 @@ img.about {
 #sidebar {
   width: 280px;
   float: right;
-  padding: 5px 0;
+  padding: 1px 0;
   margin: 10px 0;
 
   section {
     background-color: #fff;
     @include border-shadow;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 
     p {
       text-indent: 1.5em;
@@ -287,12 +286,12 @@ img.about {
     }
 
     &.about-widget {
-      padding: 5px;
+      padding: 7px;
       font-size: 15px;
     }
 
     &.tag-widget {
-      padding: 0 5px 5px;
+      padding: 0 7px 7px;
 
       a {
         margin-right: 10px;
