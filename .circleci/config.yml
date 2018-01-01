@@ -1,0 +1,53 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/circleci-jekyll-v2
+    docker:
+      - image: circleci/ruby:2.4
+        environment:
+          USER_NAME: karmelalla
+          USER_EMAIL: karmelalla@gmail.com
+    branches:
+      only:
+        - master
+    steps:
+      - checkout
+
+      - add_ssh_keys:
+          fingerprints:
+            - ""
+
+      - run: sed -e '/RUBY/,$d' Gemfile.lock > Gemfile.lock.bak
+
+      - restore_cache:
+          keys:
+            - jekyll-v2-{{ checksum "Gemfile.lock.bak" }}
+            - jekyll-v2-
+
+      - run:
+          name: Bundle Install
+          command: bundle check || bundle install
+
+      - run: sed -e '/RUBY/,$d' Gemfile.lock > Gemfile.lock.bak
+
+      - save_cache:
+          key: jekyll-v2-{{ checksum "Gemfile.lock.bak" }}
+          paths:
+            - vendor/bundle
+
+      - run:
+          name: jekyll build
+          command: bundle exec jekyll build
+
+      - run:
+          name: deploy
+          command: ./bin/deploy.sh
+
+      - run: gem install html-proofer
+
+      - run:
+          name: Check links and images
+          command: htmlproofer --disable-external --assume-extension --empty-alt-ignore .
+
+      - run: git checkout -
+
