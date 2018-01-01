@@ -18,7 +18,7 @@ fi
 git checkout -b gh-pages
 
 # Build site.
-bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll buildbundle exec jekyll build
 
 # Delete and move files.
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name '.gitignore' ! -name '.' -exec rm -rf {} \;
