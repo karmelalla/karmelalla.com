@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="post tag-page">
+  <h1>Истории про #{{ page.tag }}</h1>
+</div>
+
+<div class="post-list">
+  {% for post in page.posts %}
+    {% include post.html %}
+  {% endfor %}
+</div>

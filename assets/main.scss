@@ -56,6 +56,9 @@ body {
 
     @include border-shadow;
 
+    .post-content {
+      margin-bottom: 25px;
+    }
     img {
       @include border-shadow;
     }
@@ -70,11 +73,13 @@ body {
     }
     .read-more {
       margin-top: -15px;
-      text-align: right;
       font-style: italic;
 
-     a {
-        font-size: 18px;
+      a {
+        width: 50%;
+        text-align: right;
+        float: right;
+        font-size: 20px;
       }
     }
     .go-to-post {
@@ -95,6 +100,12 @@ body {
     .gallery-small-image {
       margin-right: 10px;
       margin-bottom: 13px;
+    }
+    &.tag-page {
+      h1 {
+        font-size: 1.4em;
+        margin-bottom: 0;
+      }
     }
   }
 }
@@ -269,19 +280,50 @@ img.about {
       margin: 0;
     }
 
+    h4 {
+      text-align: center;
+      padding: 5px 0 0;
+      margin: 0;
+    }
+
     &.about-widget {
       padding: 5px;
       font-size: 15px;
+    }
 
+    &.tag-widget {
+      padding: 0 5px 5px;
+
+      a {
+        margin-right: 10px;
+      }
+
+      .set-1 {
+        font-size: 0.9em;
+      }
+
+      .set-2 {
+        font-size: 1.0em;
+      }
+
+      .set-3 {
+        font-size: 1.1em;
+      }
+
+      .set-4 {
+        font-size: 1.2em;
+      }
+
+      .set-5 {
+        font-size: 1.3em;
+      }
+
+      .set-6 {
+        font-size: 1.4em;
+      }
     }
 
     &.instagram-widget {
-      h4 {
-        text-align: center;
-        padding: 5px 0 0;
-        margin: 0;
-      }
-
       .instagram-wrapper {
         position: relative;
 
@@ -357,6 +399,10 @@ footer {
       }
     }
   }
+}
+
+.tags {
+  font-size: 18px;
 }
 
 .icon {

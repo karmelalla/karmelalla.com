@@ -51,3 +51,8 @@ thumbnail_width: 1024
 image_small_height: 200
 image_quality: 90
 watermark: 'assets/images/watermark_karmelalla.png'
+
+# tags
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
