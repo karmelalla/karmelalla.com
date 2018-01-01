@@ -28,6 +28,16 @@ instagram_username: karmelalla
 disqus:
   shortname: lostdream-ru
 
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-paginate
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
 # Email settings
 domain: "http://karmelalla.com"
 mail_subject: "На сайте karmelalla.com новая история:"
@@ -37,18 +47,10 @@ mail_closing: "Пожалуйста, поддержите Настю! Остав
 
 # Image settings
 image_width: 2048
+thumbnail_width: 1024
 image_small_height: 200
 image_quality: 90
 watermark: 'assets/images/watermark_karmelalla.png'
-
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-paginate
-exclude:
-  - Gemfile
-  - Gemfile.lock
 
 # tags
 tag_page_layout: tag_page

@@ -24,14 +24,17 @@ $ jekyll image 0.jpg # 1st argument is path or image. Will resize and watermark
 $ jekyll resize 2017-01-15-first-weekend # 1st argument is path or image
 $ jekyll resize 1.jpg 90 300 # 1st argument is path or image, 2nd is quality 3rd is small image height
 $ jekyll watermark 2017-01-15-first-weekend
+$ jekyll thumbnail 2.jpg # create thumbnail
 ```
 
 Also you can change width and quality in ```_config.yml``` in your project folder. By default it's:
 
 ```yml
 image_width: 2048
+thumbnail_width: 1024
 image_small_height: 200
 image_quality: 90
+watermark: 'assets/images/watermark_karmelalla.png'
 ```
 
 ### Send email:

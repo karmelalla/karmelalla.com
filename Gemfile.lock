@@ -18,9 +18,9 @@ GIT
 
 GIT
   remote: git@github.com:kisakov/jekyll-image-resizer.git
-  revision: f1d5e1b2a9e2da791c26ff9f80cfccb05689c0c0
+  revision: 2ce5547602fa467758c961e7474a925f21d203c4
   specs:
-    jekyll-image-resizer (0.4.0)
+    jekyll-image-resizer (0.5.0)
       jekyll (~> 3.3)
       mini_magick
 
