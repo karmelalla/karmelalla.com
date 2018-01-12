@@ -20,7 +20,7 @@ paginate: 7
 timezone: "America/Los_Angeles"
 permalink: /:categories/:title
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://karmelalla.com" # the base hostname & protocol for your site, e.g. http://example.com
 lang: "ru"
 excerpt_separator: "<!--separate-->"
 facebook_username: karmelalla
