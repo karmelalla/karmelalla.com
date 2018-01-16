@@ -10,7 +10,7 @@ permalink: /cooking/
   {% for post in site.posts %}
     {% if post.categories contains "cooking" %}
       <div class="post cooking">
-        <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | ru_date }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
