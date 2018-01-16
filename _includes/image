@@ -13,9 +13,7 @@
   {% assign class = "" %}
 {% endif %}
 
-{% capture image_url %}
-  {{image_folder}}{{small_image}}
-{% endcapture %}
+{% capture image_url %}{{image_folder}}{{small_image}}{% endcapture %}
 
 {% capture image_exists %}{% file_exists {{ image_url }} %}{% endcapture %}
 
