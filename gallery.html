@@ -6,7 +6,7 @@ permalink: /gallery/
 
 <div class="post-list">
   {% for post in site.posts %}
-    {% if post.images and post.hidden == nil or post.hidden == false %}
+    {% if post.all_images and post.hidden == nil or post.hidden == false %}
       <div class="post">
         <span class="post-meta">{{ post.date | ru_date }}</span>
 
@@ -14,7 +14,7 @@ permalink: /gallery/
           <a class="post-link" href="{{ post.url | relative_url }}" target="_blank">{{ post.title | escape }}</a>
         </h2>
 
-        {% include gallery.html %}
+        {% include gallery.html all_images=true %}
 
         <div class="read-more go-to-post">
           <a class="post-link" href="{{ post.url | relative_url }}" target="_blank">Перейти в статью</a>

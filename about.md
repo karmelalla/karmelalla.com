@@ -24,7 +24,7 @@ permalink: /about/
     {% assign stories_counter = stories_counter | plus: 1 %}
   {% endif %}
 
-  {% for image in post.images %}
+  {% for image in post.all_images %}
     {% assign images_counter = images_counter | plus: 1 %}
   {% endfor %}
 {% endfor %}

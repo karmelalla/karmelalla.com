@@ -1,7 +1,11 @@
-{% if post %}
-  {% assign images = post.images %}
+{% if include.all_images %}
+  {% assign images = post.all_images %}
 {% else %}
-  {% assign images = page.images %}
+  {% if post %}
+    {% assign images = post.images %}
+  {% else %}
+    {% assign images = page.images %}
+  {% endif %}
 {% endif %}
 
 {% for image in images %}
