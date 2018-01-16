@@ -8,7 +8,7 @@ permalink: /gallery/
   {% for post in site.posts %}
     {% if post.images and post.hidden == nil or post.hidden == false %}
       <div class="post">
-        <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | ru_date }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}" target="_blank">{{ post.title | escape }}</a>
