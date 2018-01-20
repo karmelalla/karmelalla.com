@@ -1,0 +1,41 @@
+---
+layout: default
+title: Поиск
+permalink: /search/
+---
+
+<!-- HTML elements for search -->
+<div id="search-container" class="post search-page">
+  <h1>Поиск: </h1>
+  <input type="text" id="search-input" placeholder="Поиск статей">
+</div>
+
+<div id="results-container" class="post-list">
+</div>
+
+
+<!-- script pointing to jekyll-search.js -->
+<script src="{{ site.baseurl }}/assets/simple-jekyll-search.min.js"></script>
+
+<!-- Configuration -->
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    noResultsText: 'По вашему запросу ничего не найдено.',
+    json: '/search.json',
+    searchResultTemplate: `
+      <div class="post">
+        <h2>
+          <a class="post-link" href="{url}">{title}</a>
+        </h2>
+        {description}
+
+        <div class="read-more">
+          <a class="post-link" href="{url}">читать далее...</a>
+        </div>
+        <div class="clear"></div>
+      </div>
+    `
+  })
+</script>
