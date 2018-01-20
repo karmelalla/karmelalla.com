@@ -102,8 +102,23 @@ body {
     }
     &.tag-page {
       h1 {
-        font-size: 1.4em;
+        font-size: 1.2em;
         margin-bottom: 0;
+      }
+    }
+
+    &.search-page {
+      h1 {
+        font-size: 1.2em;
+        margin-bottom: 0;
+        display: inline;
+      }
+
+      input {
+        font-size: 17px;
+        margin: 10px 0;
+        border-radius: 5px;
+        font-style: italic;
       }
     }
   }
