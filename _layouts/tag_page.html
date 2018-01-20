@@ -7,6 +7,8 @@ layout: default
 
 <div class="post-list">
   {% for post in page.posts %}
-    {% include post.html %}
+    {% unless post.hidden %}
+      {% include post.html %}
+    {% endunless %}
   {% endfor %}
 </div>

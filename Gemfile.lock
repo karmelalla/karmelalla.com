@@ -24,6 +24,13 @@ GIT
       jekyll (~> 3.3)
       mini_magick
 
+GIT
+  remote: git@github.com:kisakov/jekyll-tagging.git
+  revision: d26b72d235e685cda3d255646ddd04da00cc740b
+  specs:
+    jekyll-tagging (1.1.0)
+      nuggets
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -60,8 +67,6 @@ GEM
       sass (~> 3.4)
     jekyll-sitemap (1.1.1)
       jekyll (~> 3.3)
-    jekyll-tagging (1.1.0)
-      nuggets
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.16.2)
@@ -107,7 +112,7 @@ DEPENDENCIES
   jekyll-image-resizer!
   jekyll-paginate
   jekyll-sitemap
-  jekyll-tagging
+  jekyll-tagging!
   minima
   tzinfo-data
 
