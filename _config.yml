@@ -39,7 +39,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - bin
-  - CNAME
   - README.md
 
 # Email settings
