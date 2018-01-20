@@ -16,7 +16,6 @@
 author: Alla Isakova
 title: Fairy tales of San Francisco &hearts;
 email: karmelalla@gmail.com
-paginate: 7
 timezone: "America/Los_Angeles"
 permalink: /:categories/:title
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -32,7 +31,7 @@ disqus:
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
 exclude:
   - vendor
@@ -55,7 +54,17 @@ image_small_height: 200
 image_quality: 90
 watermark: 'assets/images/watermark_karmelalla.png'
 
-# tags
+# Tags
 tag_page_layout: tag_page
 tag_page_dir: tag
 tag_permalink_style: pretty
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 7
+  permalink: '/page:num/'
+  title: ':title - страница :num из :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true

@@ -2,10 +2,12 @@
 layout: home
 title: Фото
 permalink: /gallery/
+pagination:
+  enabled: true
 ---
 
 <div class="post-list">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     {% if post.all_images and post.hidden == nil or post.hidden == false %}
       <div class="post">
         <span class="post-meta">{{ post.date | ru_date }}</span>
@@ -25,3 +27,5 @@ permalink: /gallery/
     {% endif %}
   {% endfor %}
 </div>
+
+{% include pagination.html %}
