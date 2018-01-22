@@ -28,8 +28,9 @@
       {% include analytics.html %}
     {% endif %}
 
-    {% include snowflakes.html %}
-
+    {% if jekyll.environment == 'production' %}
+      {% include snowflakes.html %}
+    {% endif %}
   </body>
 
 </html>

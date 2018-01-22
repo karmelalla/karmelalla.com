@@ -36,9 +36,9 @@ body {
 }
 
 .page-content {
-  width: 805px;
+  width: 810px;
   padding: 0;
-  padding-top: 5px;
+  padding-top: 1px;
   float: left;
 }
 
@@ -56,6 +56,9 @@ body {
 
     @include border-shadow;
 
+    .post-content {
+      margin-bottom: 25px;
+    }
     img {
       @include border-shadow;
     }
@@ -69,12 +72,13 @@ body {
       font-size: 180%;
     }
     .read-more {
-      margin-top: -15px;
-      text-align: right;
       font-style: italic;
 
-     a {
-        font-size: 18px;
+      a {
+        width: 50%;
+        text-align: right;
+        float: right;
+        font-size: 20px;
       }
     }
     .go-to-post {
@@ -95,6 +99,27 @@ body {
     .gallery-small-image {
       margin-right: 10px;
       margin-bottom: 13px;
+    }
+    &.tag-page {
+      h1 {
+        font-size: 1.2em;
+        margin-bottom: 0;
+      }
+    }
+
+    &.search-page {
+      h1 {
+        font-size: 1.2em;
+        margin-bottom: 0;
+        display: inline;
+      }
+
+      input {
+        font-size: 17px;
+        margin: 10px 0;
+        border-radius: 5px;
+        font-style: italic;
+      }
     }
   }
 }
@@ -256,32 +281,63 @@ img.about {
 #sidebar {
   width: 280px;
   float: right;
-  padding: 5px 0;
+  padding: 1px 0;
   margin: 10px 0;
 
   section {
     background-color: #fff;
     @include border-shadow;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 
     p {
       text-indent: 1.5em;
       margin: 0;
     }
 
-    &.about-widget {
-      padding: 5px;
-      font-size: 15px;
+    h4 {
+      text-align: center;
+      padding: 5px 0 0;
+      margin: 0;
+    }
 
+    &.about-widget {
+      padding: 7px;
+      font-size: 15px;
+    }
+
+    &.tag-widget {
+      padding: 0 7px 7px;
+
+      a {
+        margin-right: 10px;
+      }
+
+      .set-1 {
+        font-size: 0.9em;
+      }
+
+      .set-2 {
+        font-size: 1.0em;
+      }
+
+      .set-3 {
+        font-size: 1.1em;
+      }
+
+      .set-4 {
+        font-size: 1.2em;
+      }
+
+      .set-5 {
+        font-size: 1.3em;
+      }
+
+      .set-6 {
+        font-size: 1.4em;
+      }
     }
 
     &.instagram-widget {
-      h4 {
-        text-align: center;
-        padding: 5px 0 0;
-        margin: 0;
-      }
-
       .instagram-wrapper {
         position: relative;
 
@@ -357,6 +413,10 @@ footer {
       }
     }
   }
+}
+
+.tags {
+  font-size: 18px;
 }
 
 .icon {

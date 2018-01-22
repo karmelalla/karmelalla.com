@@ -1,7 +1,8 @@
 <nav class="subscribe menu">
   {% assign stories_text_decoration = "text-decoration: underline" %}
   {% for my_page in site.pages %}
-    {% if my_page.title and page.url contains my_page.url and my_page.url != "/" %}
+  {% assign page_url = my_page.url | replace: '/index.html', '/' %}
+  {% if my_page.title and page.url contains page_url and page_url != "/" and my_page.autogen == nil %}
       {% assign stories_text_decoration = "" %}
     {% endif %}
   {% endfor %}
@@ -9,14 +10,15 @@
 
   {% assign pages = site.pages | reverse %}
   {% for my_page in pages %}
-    {% if my_page.title and (my_page.url) != "/subscribe/" %}
-      {% if page.url contains my_page.url %}
+    {% assign page_url = my_page.url | replace: '/index.html', '/' %}
+    {% if my_page.title and my_page.hidden != true and my_page.autogen == nil %}
+      {% if page.url contains page_url %}
         {% assign text_decoration = "text-decoration: underline" %}
       {% else %}
         {% assign text_decoration = "" %}
       {% endif %}
 
-      <a class="page-link" href="{{ my_page.url | relative_url }}" style="{{text_decoration}}">
+      <a class="page-link" href="{{ page_url | relative_url }}" style="{{text_decoration}}">
         {{ my_page.title | escape }}
       </a>
     {% endif %}

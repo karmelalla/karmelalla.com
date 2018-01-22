@@ -5,7 +5,7 @@
 <script>
   $(document).ready(function() {
     var windowWidth = window.innerWidth;
-    if (windowWidth > 1100) {
+    if (windowWidth > 1200) {
       var sf = new Snowflakes({
         container: document.getElementById('snow'),
         count: 30, // 30 snowflakes. Default: 50
@@ -27,7 +27,7 @@
     z-index: -1;
   }
 
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     #snow {
       display: none;
     }
