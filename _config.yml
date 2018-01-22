@@ -26,6 +26,7 @@ facebook_username: karmelalla
 instagram_username: karmelalla
 disqus:
   shortname: lostdream-ru
+livereload: true
 
 # Build settings
 markdown: kramdown
