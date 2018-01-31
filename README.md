@@ -43,5 +43,5 @@ watermark: 'assets/images/watermark_karmelalla.png'
 $ jekyll mail # send last story
 $ jekyll mail 2017-03-17-5years # send post by name
 $ jekyll mail -preview # Open email for preview without sending
-$ jekyll mail -recipients "recipient1@gmail.com, recipient2@gmail.com" # Send an email only to specific recipients
+$ jekyll mail --recipients "recipient1@gmail.com, recipient2@gmail.com" # Send an email only to specific recipients
 ```

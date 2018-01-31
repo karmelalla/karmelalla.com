@@ -7,9 +7,9 @@ GIT
 
 GIT
   remote: git@github.com:kisakov/jekyll-email.git
-  revision: 118cdf25859882b2c23dc6a22380c17af4c16c12
+  revision: 4c9437dc784c9bfb7dece73ce153efb7c9ae8093
   specs:
-    jekyll-email (0.6.1)
+    jekyll-email (0.6.3)
       dotenv
       highline
       jekyll (~> 3.3)
