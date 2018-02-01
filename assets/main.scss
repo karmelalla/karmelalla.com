@@ -2,12 +2,7 @@
 ---
 @import "minima";
 
-@font-face {
-  font-family: Palatino_Linotype;
-  src: url(/assets/palatino_linotype.ttf);
-}
-
-$font-text: Palatino, "Palatino_Linotype", "Book Antiqua", serif;
+$font-text: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
 $link-color: #f60;
 $site-width: 1100px;
 

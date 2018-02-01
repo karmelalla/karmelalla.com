@@ -69,3 +69,10 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+
+# Menu links
+menu_links:
+  - Рецепты
+  - Фото
+  - Поиск
+  - О сайте
