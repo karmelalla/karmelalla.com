@@ -8,8 +8,10 @@
   {% endfor %}
   <a class="page-link" href="/" style="{{stories_text_decoration}}">Истории</a>
 
-  {% assign pages = site.pages | reverse %}
-  {% for my_page in pages %}
+  {% assign default_titles = site.pages | map: "title" | reverse %}
+  {% assign page_titles = site.menu_links | default: default_titles %}
+  {% for title in page_titles %}
+    {% assign my_page = site.pages | where: "title", title | first %}
     {% assign page_url = my_page.url | replace: '/index.html', '/' %}
     {% if my_page.title and my_page.hidden != true and my_page.autogen == nil %}
       {% if page.url contains page_url %}
