@@ -2,15 +2,24 @@
   {% assign page = post %}
 {% endif %}
 
+{% capture _image %}{{ include.src }} | {{ include.title }}{% endcapture %}
+{% include_image _image %}
+
 {% assign image_folder = page.path | replace_first: '_', '/assets/images/' | replace: '.markdown', '/' | replace: '.md', '/' | replace: 'drafts', 'posts' %}
 {% if include.small %}
   {% assign small_image = include.src | replace: '.', '-small.' %}
-  {% assign style = "margin: 10px;" %}
+  {% assign class = "gallery-small-image" %}
 {% else %}
   {% assign small_image = include.src %}
-  {% assign style = "" %}
+  {% assign class = "" %}
 {% endif %}
 
-<a href="{{image_folder}}{{include.src}}" class="fancybox" rel="gallery">
-  <img src="{{image_folder}}{{small_image}}" style="{{style}}">
-</a>
+{% capture image_url %}{{image_folder}}{{small_image}}{% endcapture %}
+
+{% capture image_exists %}{% file_exists {{ image_url }} %}{% endcapture %}
+
+{% if image_exists == "true" %}
+  <a href="{{image_folder}}{{include.src}}" class="fancybox" rel="gallery" title="{{include.title}}">
+    <img src="{{image_url}}" class="{{class}}">
+  </a>
+{% endif %}

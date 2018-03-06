@@ -1,0 +1,18 @@
+<div class="post">
+  <span class="post-meta">{{ post.date | ru_date }}</span>
+
+  <h2>
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+  </h2>
+  {% if post.thumbnail %}
+    {% include thumbnail src=post.thumbnail %}
+  {% endif %}
+  {{ post.excerpt }}
+
+  {% include tag_section.html %}
+
+  <div class="read-more">
+    <a class="post-link" href="{{ post.url | relative_url }}">читать далее...</a>
+  </div>
+  <div class="clear"></div>
+</div>

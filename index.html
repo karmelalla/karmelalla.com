@@ -1,44 +1,17 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+title: Истории
+hidden: true
+pagination:
+  enabled: true
 ---
 
 <div class="post-list">
   {% for post in paginator.posts %}
-    <div class="post">
-      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-
-      <h2>
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      </h2>
-      {% if post.thumbnail %}
-        {% include thumbnail src=post.thumbnail %}
-      {% endif %}
-      {{ post.excerpt }}
-      
-      <div class="read-more">
-        <a class="post-link" href="{{ post.url | relative_url }}">читать далее...</a>
-      </div>
-
-     <!--  <div class="top-left-img"></div>
-      <div class="bottom-right-img"></div> -->
-    </div>
+    {% unless post.categories contains "cooking" %}
+      {% include post.html %}
+    {% endunless %}
   {% endfor %}
 </div>
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">назад</a>
-  {% endif %}
-  <span class="page_number ">
-    страница: {{ paginator.page }} из  <a href="{{ site.paginate_path | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a>
-  </span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">вперед</a>
-  {% endif %}
-</div>
-
-
+{% include pagination.html %}

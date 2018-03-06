@@ -1,0 +1,3 @@
+<div id="tag-cloud">
+  {{ site | tag_cloud }}
+</div>

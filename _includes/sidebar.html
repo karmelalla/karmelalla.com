@@ -1,0 +1,28 @@
+<aside id="sidebar">
+  {% if page.url != "/about/" %}
+    <section class="about-widget">
+      <img src="/assets/images/avatar.jpg" class="about">
+      <p>Всем привет!</p>
+      <p>Меня зовут Алла. В январе 2017 года мы с мужем переехали из Санкт-Петербурга в Сан-Франциско. Раньше я никогда не планировала вести блог, но переезд изменил моё отношение. Новый опыт, множество интересных путешествий и впечатлений. Очень захотелось всем этим поделиться. Да и самим не забывать.</p>
+      <p>Будем рады комментариям, идеям и советам. Читайте с удовольствием!</p>
+    </section>
+  {% endif %}
+
+  <section class="tag-widget">
+    <h4>Теги</h4>
+    {% include tag_cloud.html %}
+  </section>
+
+  <section class="instagram-widget">
+    <a href="https://instagram.com/karmelalla" target="_blank">
+      <h4><img src="/assets/images/instagram.png" class="icon">Instagram (@karmelalla)</h4>
+    </a>
+    <div class="instagram-wrapper">
+      <img class="ratio" src="https://placehold.it/1x1/ffffff"/>
+      <iframe src="https://lightwidget.com/widgets/e406d2d089835e6b992ece7f8418f050.html" scrolling="no" class="lightwidget-widget"></iframe>
+      <a href="https://instagram.com/karmelalla" target="_blank">
+        <div class="instagram-link"></div>
+      </a>
+    </div>
+  </section>
+</aside>

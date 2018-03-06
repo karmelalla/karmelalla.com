@@ -1,0 +1,28 @@
+<nav class="subscribe menu">
+  {% assign stories_text_decoration = "text-decoration: underline" %}
+  {% for my_page in site.pages %}
+  {% assign page_url = my_page.url | replace: '/index.html', '/' %}
+  {% if my_page.title and page.url contains page_url and page_url != "/" and my_page.autogen == nil %}
+      {% assign stories_text_decoration = "" %}
+    {% endif %}
+  {% endfor %}
+  <a class="page-link" href="/" style="{{stories_text_decoration}}">Истории</a>
+
+  {% assign default_titles = site.pages | map: "title" | reverse %}
+  {% assign page_titles = site.menu_links | default: default_titles %}
+  {% for title in page_titles %}
+    {% assign my_page = site.pages | where: "title", title | first %}
+    {% assign page_url = my_page.url | replace: '/index.html', '/' %}
+    {% if my_page.title and my_page.hidden != true and my_page.autogen == nil %}
+      {% if page.url contains page_url %}
+        {% assign text_decoration = "text-decoration: underline" %}
+      {% else %}
+        {% assign text_decoration = "" %}
+      {% endif %}
+
+      <a class="page-link" href="{{ page_url | relative_url }}" style="{{text_decoration}}">
+        {{ my_page.title | escape }}
+      </a>
+    {% endif %}
+  {% endfor %}
+</nav>

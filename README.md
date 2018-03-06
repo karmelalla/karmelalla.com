@@ -1,33 +1,47 @@
 ## karmelalla readme:
 
-### Resize with jekyll gem:
-
 go to the project folder and install gems
 ```
 $ cd [project_name]
 $ bundle install
 ```
 
+### Create new posts with jekyll:
+
+Create your new story:
+
+    $ jekyll story "Yosemite"
+
+Create your new cooking recipe:
+
+    $ jekyll cooking "Ice Cream"
+
+### Resize images:
+
 ```
-$ jekyll resize 2017-01-15-first-weekend # 1st argument is path
-$ jekyll resize 2017-01-15-first-weekend 300 90 # 1st argument is path and 2nd is image width 3rd is quality
-$ jekyll watermark # if no argument - from latest folder or add name or a key word of a folder
+$ jekyll photo 2017-01-15-first-weekend # 1st argument is path or image. Will resize and watermark
+$ jekyll image 0.jpg # 1st argument is path or image. Will resize and watermark
+$ jekyll resize 2017-01-15-first-weekend # 1st argument is path or image
+$ jekyll resize 1.jpg 90 300 # 1st argument is path or image, 2nd is quality 3rd is small image height
+$ jekyll watermark 2017-01-15-first-weekend
+$ jekyll thumbnail 2.jpg # create thumbnail
 ```
 
 Also you can change width and quality in ```_config.yml``` in your project folder. By default it's:
 
 ```yml
 image_width: 2048
+thumbnail_width: 1024
 image_small_height: 200
 image_quality: 90
+watermark: 'assets/images/watermark_karmelalla.png'
 ```
 
 ### Send email:
 
 ```
-$ jekyll mail # send last post
+$ jekyll mail # send last story
 $ jekyll mail 2017-03-17-5years # send post by name
-$ jekyll mail --test # Open email for preview without sending
 $ jekyll mail -preview # Open email for preview without sending
-$ jekyll mail --recipients "karmelalla@gmail.com, isakov90@gmail.com" # Send an email only to specific recipients
+$ jekyll mail --recipients "recipient1@gmail.com, recipient2@gmail.com" # Send an email only to specific recipients
 ```
