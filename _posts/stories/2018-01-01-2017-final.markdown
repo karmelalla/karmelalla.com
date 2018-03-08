@@ -44,7 +44,7 @@ images:
 4. Я <a href="/first-half-marathon" target="_blank">впервые пробежала полумарафон</a> . 21 км за 2 часа 14 минут
 5. Преодолели тысячи миль на машинах и самолетах, и десятки километров пешеходных маршрутов в:
 * <a href="/2017/04/12/los-angeles-p1.html" target="_blank">Лос Анжелес</a>
-* Сан Диего
+* Сан-Диего
 * <a href="/olympia-grand-canyon" target="_blank">Лас Вегас</a>
 * <a href="/olympia-grand-canyon" target="_blank">Гранд Каньон</a>
 * <a href="/2017/07/02/lake-tahoe.html" target="_blank">Озеро Тахо</a>
