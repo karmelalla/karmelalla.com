@@ -1,16 +1,14 @@
 ---
 layout: post
 title: 1000 миль, 6 пляжей, 4 заката, 1 парк аттракционов, много солнца и неподражаемый Сан-Диего
-date: 2018-03-06
+date: 2018-03-10
 comments: true
 original-date: 2017-05-25
-hidden: true
 thumbnail: thumbnail-store-us.jpg
 tags: Океан Путешествия Трасса#1
 images:
   - 2017-05-26_18-58-35_972.jpeg
   - img_0561.jpg
-  - img_0581.jpg
   - img_0588.jpg
   - img_0605.jpg | Уютный городок La Jolla
   - img_0629.jpg | Уютный городок La Jolla
