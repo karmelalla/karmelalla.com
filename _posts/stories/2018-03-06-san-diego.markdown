@@ -4,7 +4,7 @@ title: 1000 миль, 6 пляжей, 4 заката, 1 парк аттракц�
 date: 2018-03-10
 comments: true
 original-date: 2017-05-25
-thumbnail: thumbnail-store-us.jpg
+thumbnail: store-us.jpg
 tags: Океан Путешествия Трасса#1
 images:
   - 2017-05-26_18-58-35_972.jpeg
