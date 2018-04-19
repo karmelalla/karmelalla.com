@@ -6,7 +6,6 @@ original-date: '2018-03-8'
 comments: true
 tags: ЛосАнжелес Путешествия
 thumbnail: thumbnail-arrowhead.jpg
-hidden: true
 images: 
   - santa_monica.jpg
   - img_6743.jpg
