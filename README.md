@@ -5,6 +5,7 @@ go to the project folder and install gems
 $ cd [project_name]
 $ bundle install
 ```
+open http://localhost:4000
 
 ### Create new posts with jekyll:
 
