@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2018 год, итоги.
-date: '2019-02-17 20:17:07 -0800'
+date: '2019-02-18 20:17:07 -0800'
 original-date: '2019-02-14'
 comments: true
 tags: SanFrancisco ЖизньВСанФранциско Путешествия
