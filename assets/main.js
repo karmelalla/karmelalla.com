@@ -6,14 +6,34 @@ $(document).ready(function() {
 });
 
 function gallery() {
-  $('.fancybox').fancybox({
-      padding: 0,
-      openEffect: 'elastic',
-      helpers: {
-        title: {
-          type: 'inside'
-        }
-      }
+  $('[data-fancybox="gallery"]').fancybox({
+    loop: true,
+    hideScrollbar: false,
+    preventCaptionOverlap: true,
+    buttons: [
+      // "zoom",
+      //"share",
+      "slideShow",
+      "fullScreen",
+      //"download",
+      // "thumbs",
+      "close"
+    ],
+    lang: "ru",
+    i18n: {
+      ru: {
+        CLOSE: "Закрыть",
+        NEXT: "Вперед",
+        PREV: "Назад",
+        ERROR: "Запрашивамое содержимое не может быть загружено. <br/> Пожалуйста, попробуйте позже.",
+        PLAY_START: "Начать слайд-шоу",
+        PLAY_STOP: "Пауза",
+        FULL_SCREEN: "Полный экран",
+        THUMBS: "Thumbnails",
+        DOWNLOAD: "Download",
+        SHARE: "Share",
+        ZOOM: "Zoom"
+      }}
   });
 }
 

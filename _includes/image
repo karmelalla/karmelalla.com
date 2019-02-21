@@ -19,7 +19,7 @@
 {% capture image_exists %}{% file_exists {{ image_url }} %}{% endcapture %}
 
 {% if image_exists == "true" %}
-  <a href="{{image_folder}}{{include.src}}" class="fancybox" rel="gallery" title="{{include.title}}">
-    <img src="{{image_url}}" class="{{class}}">
+  <a href="{{image_folder}}{{include.src}}" data-fancybox="gallery" data-caption="{{include.title}}">
+    <img src="{{image_url}}" class="{{class}}" alt="{{include.title}}">
   </a>
 {% endif %}

@@ -57,12 +57,7 @@ body {
     img {
       @include border-shadow;
     }
-    a:not(.post-link, .fancybox) {
-      text-decoration: underline;
-    }
-    a.fancybox:hover {
-      text-decoration: none;
-    }
+
     .post-title {
       font-size: 180%;
     }
@@ -255,15 +250,8 @@ nav.menu {
   }
 }
 
-.fancybox-title {
-  font-size: 100% !important;
-  font-family: $font-text !important;
-}
-
-.fancybox-title.fancybox-title-inside-wrap {
-  text-align: center;
-  padding: 10px 0;
-  /* background: rgba(0,0,0,.5); */
+.fancybox-caption {
+  font-size: 16px !important;
 }
 
 img.about {
