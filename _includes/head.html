@@ -30,13 +30,7 @@
 
   <script type="text/javascript" src="{{ "/assets/main.js" | relative_url }}{{ "now" | date: "%Y%m%d%H%M%S" | prepend: "?" }}"></script>
 
-  {% include snowflakes_styles.html %}
-
   {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
-  {% endif %}
-
-  {% if jekyll.environment == 'production' %}
-    <script data-ad-client="ca-pub-5711023291204632" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   {% endif %}
 </head>
