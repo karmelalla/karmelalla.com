@@ -30,8 +30,6 @@
 
   <script type="text/javascript" src="{{ "/assets/main.js" | relative_url }}{{ "now" | date: "%Y%m%d%H%M%S" | prepend: "?" }}"></script>
 
-  {% include snowflakes_styles.html %}
-
   {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}
