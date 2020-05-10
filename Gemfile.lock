@@ -119,7 +119,6 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-tagging!
   minima (~> 2.4.1)
-  tzinfo-data
 
 RUBY VERSION
    ruby 2.7.1p83
