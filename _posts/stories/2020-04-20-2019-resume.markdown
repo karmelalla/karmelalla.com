@@ -5,7 +5,7 @@ date: '2020-04-20 12:25:56 -0700'
 original-date: '2020-04-20'
 comments: true
 tags: SanFrancisco Hawaii SanDiego SantaCruz МестаВСанФранциско Океан Самокаты
-thumbnail: 
+thumbnail: thumbnail-2019.jpg
 images:
   - 2019-01-01_14-28-49.jpg | 01 января 2019 - проснулись рано и пошли гулять к мосту “Золотые ворота”
   - 2019-01-01_16-33-17.jpg | 01 января 2019
