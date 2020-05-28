@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/circleci-jekyll-v2
     docker:
-      - image: circleci/ruby:2.4
+      - image: circleci/ruby:2.7.1
         environment:
           USER_NAME: karmelalla
           USER_EMAIL: karmelalla@gmail.com
@@ -50,4 +50,3 @@ jobs:
           command: htmlproofer --disable-external --assume-extension --empty-alt-ignore .
 
       - run: git checkout -
-

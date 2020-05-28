@@ -19,9 +19,6 @@ group :jekyll_plugins do
   gem 'jekyll-image-resizer', git: 'git@github.com:kisakov/jekyll-image-resizer.git'
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 gem 'jekyll-paginate-v2'
 gem 'jekyll-tagging', git: 'git@github.com:kisakov/jekyll-tagging.git'
 # gem 'jekyll-tagging', path: '../jekyll-tagging'
