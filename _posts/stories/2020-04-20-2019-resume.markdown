@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Год 2019, картинки.
-date: '2020-04-20 12:25:56 -0700'
+date: '2020-05-27 12:25:56 -0700'
 original-date: '2020-04-20'
 comments: true
 tags: SanFrancisco Hawaii SanDiego SantaCruz МестаВСанФранциско Океан Самокаты
