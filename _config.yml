@@ -45,9 +45,9 @@ exclude:
 # Email settings
 domain: "http://karmelalla.com"
 mail_subject: "На сайте karmelalla.com новая история:"
-mail_intro: "Привет!<br><br>Давно я не рассказывала о том, как течёт наша жизнь за океаном. Поэтому решила резюмировать всё, что было в прошлом году в одной статье. <br>Будет много фотографий и впечатлений. <br>Заходи!<i>"
+mail_intro: "Привет!<br><br>Наверное ты уже давно не заходил на сайт karmelalla.com. И вероятно соскучился.<br>Я совершенно точно соскучилась и решила в одном посте показать все, что произошло со мной в прошлом году.<br>Заходи за фотографиями и приятными впечатлениями.<i>"
 mail_read_more: "читать далее..."
-mail_closing: "</i>Переходи по ссылке и пиши комментарии!<br><br>С любовью,<br>Алла"
+mail_closing: "</i><p><a href='http://karmelalla.com/2019-resume'><img src='https://karmelalla.com/assets/images/posts/stories/2020-04-20-2019-resume/thumbnail-2019.jpg'></a></p>Переходи по ссылке и оставляй комментарии!<br><br>С любовью,<br>Алла"
 
 # Image settings
 image_width: 2048
