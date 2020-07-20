@@ -4,9 +4,6 @@ jobs:
     working_directory: ~/circleci-jekyll-v2
     docker:
       - image: circleci/ruby:2.7.1
-        environment:
-          USER_NAME: karmelalla
-          USER_EMAIL: karmelalla@gmail.com
     branches:
       only:
         - master
