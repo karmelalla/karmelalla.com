@@ -4,9 +4,11 @@ jobs:
     working_directory: ~/circleci-jekyll-v2
     docker:
       - image: circleci/ruby:2.7.1
+      
     branches:
       only:
         - master
+        
     steps:
       - checkout
 
