@@ -1,5 +1,3 @@
----
----
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: https://karmelalla.com/sitemap.xml
 Allow: /
