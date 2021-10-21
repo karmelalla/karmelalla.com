@@ -23,7 +23,7 @@ url: "https://karmelalla.com" # the base hostname & protocol for your site, e.g.
 lang: "ru"
 excerpt_separator: "<!--separate-->"
 facebook_username: karmelalla
-instagram_username: karmelalla
+# instagram_username: karmelalla
 disqus:
   shortname: lostdream-ru
 livereload: true
